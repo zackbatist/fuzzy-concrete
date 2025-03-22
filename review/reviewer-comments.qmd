@@ -1,0 +1,279 @@
+
+## Editor
+
+The three main requests for revisions that are below, and to me appear straight forward and I hope that you consider them pretty easy, as well.
+
+First the reviewers have some requested related to presentation of the methods and definitions that set up our understanding of the approach to the study.
+
+They noted that this sole case study shared the learning experiences of students, not a professional/experienced crew. Help us consider the implications of this for the way you are thinking about this approach.
+
+We'd prefer conclusions that provide some critical instructions based on the learning in the paper, not provide a summary (so look forward, not look back with the knowledge the article has shared).
+
+The figures are a good fit for the article.
+
+My comment -- would you consider putting your supplemental materials in an accessible digital archive instead. That has more data durability. You'd then use that citation for the supplements. In the end, accessing supplemental materials is a link in the article, so too is the digital archive, but the archive is more stable.
+
+## Reviewers
+**The research presented is about how we do archaeology: how we learn about the past, convey our findings in the present, or manage resources for the future. The manuscript is clearly about issues of practice.**
+
+Reviewer #1: Yes
+
+Reviewer #2: Yes
+
+Reviewer #3: Yes
+
+**Please provide comments about the manuscript's focus on practice.**
+
+Reviewer #1: The manuscript has a clear focus on archaeological field practices and practitioners with various roles on a training/research excavation. The main focus is the process of physically handling the archaeological material during excavation and the transformation of these experiences to archaeological data. The empirical material of this study comprises of observations in the field, interviews with the practitioners and studies of the resulting documentation. It has a very clear focus on archaeological practice.
+
+Reviewer #2: The manuscript offers a detailed focus on archaeological practice by using a participant observation of an archaeological field project to describe how the processes of excavation are translated into the data produced.
+
+Reviewer #3: This article takes a refreshingly honest and reflective approach to the practice of fieldwork.
+
+**The manuscript has a clearly defined problem orientation. The introduction identifies a problem or issue in practice. The manuscript goes on to resolve this issue.**
+
+Reviewer #1: Yes
+
+Reviewer #2: No
+
+Reviewer #3: Yes
+
+
+**The manuscript is a significant, new, and original contribution to archaeological practice. If not, the manuscript present a new application of an existing method, technology, or idea.**
+
+Reviewer #1: Yes
+
+Reviewer #2: No
+
+Reviewer #3: Yes
+
+
+**Please provide comments on the strength of the contribution.**
+
+Reviewer #1:
+This study is based on a part of the author's dissertation.
+It is based on material from a research and training excavation and – as the author points out – the results may not be taken as generally applicable, especially not concerning commercial archaeology.
+This is a week point, as some of the conclusions are perhaps more pertaining to general learning strategies of inexperienced students, rather than field archaeologists' strategies of making sense of what they excavate.
+However, there are more experienced field archaeologists included, and the study still points to interesting mechanisms of power relations in field archaeology and how these impact archaeological interpretation processes.
+
+> This was a research project involving archaeologists with varying degrees of experience and coming from diverse professional backgrounds, including those with extensive experience in the commercial sector.
+> However, as I pointed out in the methods section (specific page), the actual focus of the study is on the tension between X and Y; the specific situations that I was able to document are merely vehicles through which I articulate these tensions.
+> There is already a strong precedent for this kind of work in archaeology, and I have edited the background section to emphasize the works of Charles Goodwin, Joan Gero, Thomas Yarrow, Matt Edgeworth and others as justifications for my approach.
+> 
+> Moreover, contexts of teaching and learning are a great way to understand the norms of the profession, and I have added some additional lines of text to make this point.
+> I also relate my observations to complementary work performed in alternative contexts, where researchers have observed similar tensions, and I updated the language to make these comparisons more explicit.
+
+The study comes across as a bit anecdotal.
+Perhaps the number of interviewees in this study is not large enough to draw general conclusions, however, the author states that there are more interviews backing his statements.
+We are referred to another publication to see those.
+I would like to see a summary of how many interviews were conducted etc, i.e. some numbers of the various empirical materials the conclusions are based on.
+A short table would suffice.
+Moreover, the fact that the study is based on just one project/site is also a weakness, acknowledged by the author.
+Several projects with varying organizational traits and management teams would have given the study a more solid base.
+A repeated disclaimer regarding the generality of the conclusions in the discussion would be an elegant way of meeting any future critique regarding this.
+
+> This paper is a "slice" of a broader dissertation.
+> I have selected the anecdotes presented here due to their relevance and capacity to illustrate a specific phenomenon with a defined scope, and in accordance with material and logistical constraints (complying with length requirements, etc).
+> I added a supplement that descibes the project from which these observations and interviews were drawn, including brief descriptions of the people mentioned throughout the paper (though my ethics protocol limits how much I am able to expose).
+> This supplement also includes reference to the data not included here.
+> I should note that some of these materials are quite redundant in relation to other work, and it may be better to simply make reference to other works where this material appears rather than replicate this text; I will defer to the to editor's judgement on how to proceed with this.
+
+The strength of the study lies in the choice of addressing a problem that is seldom illuminated, i.e. critically engaging in how archaeological knowledge is created during fieldwork.
+Most methodological studies in archaeology are focused on certain methods or applications in a more instrumental way, but this study is bringing more elusive aspects into light.
+
+Reviewer #2:
+The author provides a new and original contribution, but the results do not rise to the level of significance at this point.
+The author notes that this individual case study shouldn't be extracted to archaeology more broadly, and specifically cites CRM work.
+However, its results are based on student experiences and may therefore only apply to projects where the excavators are all students.
+
+> The project from which these observations and interviews are based comprised archaeologists with varying degrees of experience and coming from diverse professional backgrounds, including those with extensive experience in the commercial sector.
+> It was not a field school.
+> Moreover, the focus of the paper is on the technical and organizational structures that scaffolded scaffold research projects, which all members of the project had to engage with.
+> It just so happens that a student's experience provided a strong potential to illuminate these tensions.
+> I have made changes to the description of the case to make this rationale more explicit.
+
+Indeed, several of the authors points would not be applicable in cases where local excavators with years of experience are involved (e.g., supervisors reminding excavators to drink water/apply sunscreen).
+
+> In all other projects I have participated in, regardless of whether they were driven by a pedagogical orientation, it was common for fieldworkers to remind each other to take care of themselves under harsh physical conditions.
+> Respectfully, I do not see the examples you provided as being limited to the experiences of novice fieldworkers.
+
+Reviewer #3:
+The approach is useful.
+I would welcome a larger work with more case studies, as culture and communication can vary enormously from one project to the next.
+Nevertheless, the single case study is still a worthwhile contribution and the author provides a helpful reminder of how to approach this kind of case study toward the beginning of the manuscript.
+
+> I have made more detailed reference to the broader project from which this paper derives in the suppmlementary materials.
+
+**The manuscript is readable to a wide range of archaeological practitioners in academia, government, and private practice.**
+
+Reviewer #1: Yes
+
+Reviewer #2: Yes
+
+Reviewer #3: Yes
+
+**Please provide comments on the readability to a wide audience.**
+
+Reviewer #1:
+The manuscript is very well written and is readable to a wide audience within archaeology, especially those interested in archaeological interpretation processes during fieldwork.
+The introduction and background situate the study in the field of theorizing archaeological practice and give the reader an understanding of the study and its objectives.
+The collection of data is thoroughly described (but lacking numbers – see above), however the theoretical basis of the analysis is just mentioned, with reference to another publication of the author.
+The concepts "grounded theory" and "coding and memoing" could have been introduced with short definitions. Not everyone will be familiar with these concepts.
+
+The supplementary materials (transcripts of interviews) provide important background to the analysis, even though some of the content is repeated both in text and figures.
+In fact, reading the supplementary material made me understand the situation better.
+
+Reviewer #2:
+The manuscript is well-written with very few spelling/grammatical errors.
+The author should, however, adjust spelling to American English per AAP guidelines.
+
+> I have revised the language to conform to American English style.
+
+Reviewer #3:
+Some of the sociological terminology may be unfamiliar to readers but there were only a few places that I had to go over a few times.
+
+> I am unable to act on this feedback without specific references to the problematic terms.
+
+**The manuscript has clear "take-aways" for a wide range of practicing archaeologists. Readers can easily apply the findings to their own work.**
+
+Reviewer #1: Yes
+
+Reviewer #2: No
+
+Reviewer #3: No
+
+
+**Please provide comments on "take-aways".**
+
+Reviewer #1: This study results in conclusions regarding the organization of a certain kind of excavation – a research/training excavation conducted by a university in a (to the participants) foreign land. The author finds that the strive for static, stable, "objective" data is dominating the systems and strategies used by the participants, while the situated and embodied aspects are downplayed. According to him, the excavators regard themselves as mere (but potentially very skilled) producers and providers of data to fit into the greater system of the project. This resembles a reversion back to a decades old view, disregarding the situatedness and subjective aspects of archaeological interpretation during fieldwork. Interestingly the fieldworkers seem aware of this their own creative role, but the system in place encourages the older view.
+This is an important "take away" for all archaeological projects. However, is this a general "take-away" or a problem of this project specifically? Should we all ask ourselves, do we enable and encourage the agency of the individual excavator within the organization of our project, including the structure of the recording system, or are we molding the data to fit the project, without taking the fieldworkers agency into account? And how is this molding of the data recorded, making room for paradata etc withing the recording system? This leads to much bigger discussions on the possibility of reuse of data etc, just touched upon by this paper. I would have liked to see more discussion of the consequences of the study, if we are to believe there is some generality in the findings.
+
+Reviewer #2: The author does offer a discussion and conclusion, but these do not offer clear takeaways. One possible takeaway at the end of the conclusion is listed below:
+"It is unclear how, or even if, this can can be resolved – but it may perhaps be eased by fostering a
+commensal and social attitude toward data-sharing, instead of the formal and transactional
+paradigm that underpins most open data infrastructures."
+
+More concrete takeaways and recommendations could be included to make the article more applicable to a broader set of practicing archaeologists.
+
+Reviewer #3: The article seems intended to describe current practice, rather than to offer recommendations. The final sentence does suggest a general direction for improving dynamics in the field, but I wouldn't call it "clear" or "easily applicable". As this is still a relatively new way of approaching fieldwork, I don't have a big problem with this.
+
+
+**The manuscript is scientifically sound with clear logic, accepted techniques, correct application of methods, and data-substantiated conclusions.**
+
+Reviewer #1: Yes
+
+Reviewer #2: No
+
+Reviewer #3: Yes
+
+
+**Please provide comments on logic, techniques, methods, and conclusions.**
+
+Reviewer #1: See below in additional comments.
+
+Reviewer #2: One concern is how the researcher balances their role as a participant observer which is not fully addressed in the article. As a participant on the project prior to and during data collection, the author runs the risk of confirmation bias and selective perception. One way the author can address this is through more detailed descriptions of methods including how they came up with the research questions they are studying, how they deemed when to record an observation, whether they used structured/semi-structured or open ended interview questions, and how they developed/applied codes.Additionally, the author could use
+
+Reviewer #3: I have no training on conducting interviews so I cannot comment on the methods of conducting or documenting interviews.
+
+
+**The tables, graphs, and illustrations are well presented, appropriate, necessary, not redundant with text, and in color. Graphics have the "eye appeal" required for a color magazine format.**
+
+Reviewer #1: Yes
+
+Reviewer #2: Yes
+
+Reviewer #3: Yes
+
+
+**Please provide comments on the graphical elements.**
+
+Reviewer #1: The figures combining transcripts of interviews and photos from the situation discussed are illustrative of the examples discussed. There is some repetition of the conversations, as they are written in some figures, in the text and as supplements. Figure 2 works best as there are annotations explaining the conversions and just a couple of photos showing the situation. Figure 1 could be done in the same way.
+
+Reviewer #2: I appreciate that the author embedded transcribed text and photographs with colored text to aid readers in understanding the conversations observed.
+
+It is unclear why figure 3 is not simply text in the article. Also, underlined parts of figure 3 are not defined in the caption. Is there a significance to the underlining?
+
+Reviewer #3: (No Response)
+
+
+**If statistics are used in this article, are they used correctly?**
+
+Reviewer #1: None
+
+Reviewer #2: No
+
+Reviewer #3: None
+
+
+**All of the relevant literature, both published and "gray", has been cited.**
+
+Reviewer #1: Yes
+
+Reviewer #2: No
+
+Reviewer #3: Yes
+
+
+**Please provide comments on the cited literature.**
+
+Reviewer #1: The author is well informed of the field and is citing relevant literature.
+
+Reviewer #2: The results could be strengthened if the author embedded them into broader research. Currently, the article is very insular in citations with many self-references, but fewer references integrating this work into broader academic discourse. What further implications can the author make beyond this individual excavation?
+Relatedly, the background and discussion would benefit from more literature review of publications on archaeological data reuse, data management, and recording. A list of possible publications to consider are below and I encourage the author to identify whether more publications can be incorporated into the discussion.
+Austin, Anne, Ixchel M. Faniel, Brittany Brannon, and Sarah Whitcher Kansa. 2024. "Improving the Usability of Archaeological Data through Written Guidelines." Advances in Archaeological Practice 12 (2): 63–74.
+Buccellati, Giorgio. 2017. A Critique of Archaeological Reason: Structural, Digital, and Philosophical Aspects of the Excavated Record. Cambridge: Cambridge University Press.
+Faniel, Ixchel, Anne Austin, Sarah Whitcher Kansa, Eric Kansa, Jennifer Jacobs, and Phoebe France. 2020. "Identifying Opportunities for Collective Curation During Archaeological Excavations." International Journal of Digital Curation 15 (1): 13.
+Faniel, Ixchel M., Anne Austin, Eric Kansa, Sarah Whitcher Kansa, Phoebe France, Jennifer Jacobs, Ran Boytner, and Elizabeth Yakel. 2018. "Beyond the Archive: Bridging Data Creation and Reuse in Archaeology." Advances in Archaeological Practice 6 (2): 105–16.
+Lucas, Gavin. 2001. "Destruction and the Rhetoric of Excavation." Norwegian Archaeological Review 34 (1): 35–46.
+———. 2002. Critical Approaches to Fieldwork : Contemporary and Historical Archaeological Practice. Routledge.
+Pavel, Cătălin. 2010. Describing and Interpreting the Past. Vol. 7. Bucarest: Editura Universităţii din Bucureti.
+Watson, Sadie. 2019. "Whither Archaeologists? Continuing Challenges to Field Practice." Antiquity, 1643–52.
+
+Reviewer #3: (No Response)
+
+
+**What is your overall recommendation for publishing this manuscript in Advances in Archaeological Practice?**
+
+Reviewer #1:
+*Accept
+
+Reviewer #2:
+*Revise
+
+Reviewer #3:
+*Accept
+
+
+**Do you have additional comments?**
+
+Reviewer #1: I could not fit the answer to the questions about logic, methods and conclusions in the box. Here is that answer:
+
+The first section of the analysis, "Learning to see.." is a description of a learning process, of a process of gaining experience and learning from more experienced excavators. I am not sure it is relevant to the "reduction of situated experiences" etc. Jane is learning or "internalizing a framework", not just of the project but of field archaeology (stratigraphy, etc). Explain more clearly how this is relevant to the aim of the paper.
+"Shedding the body" needs more clarification. The author interprets the excavators as opting out of thinking while excavating. Is it only the inexperienced students that try to think about something else while excavating (to pass the time)? Perhaps because they don't really know what they are doing? At least some of the more experienced commented on how they would like to have information to make sense of things etc by talking to colleagues etc.  I think this section needs to be connected to level of experience. It is rather worrying that field workers take to this strategy of not thinking and believing they are not to interpret what they excavate. I would say excavation cannot be done (properly) in such a passive approach. Indicative of archaeological fieldwork is the constant need for decisions and re-evaluating these and taking new decisions as the material under investigation changes and becomes different than anticipated. This is what the students could learn. It would
+be interesting to know some things about the pedagogical strategies of the project. What are the pedagogical goals for the students, and how are they achieved? In connection with this, why are the project management responsible for the data management system not a part of the study? Could they have been interviewed? Perhaps some of the reasoning being the system can be found in project documents, and added to the study?  
+"Leaving traces…" is a description of how some situated experiences and changed decisions are still visible in the record and in the report. I think it generally positive that these things are described making the interpretation process transparent. However, as pointed out by the author, only some people's agency is visible this way. Again, what are the strategies of the project regarding this? Who's voices are heard etc.
+What are the consequences of these findings? How would the author like to solve the problematic issues he found? It could be further developed in the section of discussion and conclusion.
+
+Reviewer #2: Mroe detailed in-line comments are provided in the attached PDF.
+
+Reviewer #3: I'd like to see more discussion of the project's recording and documentation practices, as well as specifically how those practices informed (and/or failed to inform) "data construction" on the case study project.
+
+Information about the status, employment, etc of the trench supervisors would be beneficial (grad students? Undergrads? Volunteers?). Their backgrounds undoubtedly influenced how they saw their roles on the project, how they understood the situated nature of field recording, etc.
+
+Was the author serving as the project's database manager concurrently to conducting these human studies? How might the author's position as current/former manager of the database have influenced the responses they got about data collection? Seems like it could be difficult to maintain total objectivity, and their position may have influenced the ways team members interacted with the author during interviews. An acknowledgment and/or discussion of this is necessary, but for me the answer would not impact acceptance or rejection of the manuscript. (additional comment: on p. 4, para 2, as database manager the author is not just a "scholar of (etc)" but is also a member/creator/maintainer "of the media and infrastructures"; might the author's current/past involvement with the project also inform his conclusions?)
+
+p. 2, para 4: can the author clarify the nature of the "strong relationship" that Mickel and Yarrow observed "between the diminished interpretative agency among archaeological labourers ... and their inability to contribute tangible and meaningful documentary records about the things they recover."?
+
+P. 4, para 4: Syntax of the sentence "For instance, I situated..." breaks down in the middle.
+
+P. 5, para 2: How were the "select participants" selected and how might that impact the feedback?
+
+P. 5, para 2: I'm getting tired of the phrase "Some of the primary foci".
+
+P. 5, para 3: Missing from the list of documents and media is a field manual or other documents that explicitly lay out norms and expectations (there's a mention of a manual on p. 6). Were there any such documents? What did they contain? What kind of coursework, other training, and discussion was there before and during the project about how archaeological projects work, how archaeologists interpret remains, etc.? It might be helpful to include samples of the main recording forms, even though they aren't the primary focus.
+
+P. 5, para 3: "especially archived information": What makes information "archived" here, as opposed to other kinds of "recorded" information?
+
+P. 6, para 1: "draw" is missing a subject.
+
+P. 10, para 5: At least with Theo, it sounds from the transcripts like he's bringing his perspective from commercial archaeology to the project. I can't tell with Ben. Toward the beginning of the manuscript the author mentioned that they have less experience with commercial archaeology and that this paper may only be applicable to research projects, but this is an interesting example of project hierarchies and culture crossing between the commercial and research realms. Is Theo's comment in excerpt 18 ("I'm not a supervisor in commercial archaeology, I don't write up sites, I just dig holes.") more reflective of this research project or of the commercial archaeology projects he's worked on? To what extent can the types of projects be separated if they share participants? Are there any students or first-timers who commented on a similar separation of roles?

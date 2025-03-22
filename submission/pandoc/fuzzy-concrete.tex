@@ -1,0 +1,115 @@
+% pandoc -s pandoc/fuzzy-concrete.tex -o pandoc/AAP-2024.docx --bibliography=/Users/zackbatist/Library/CloudStorage/Dropbox/zotero/zack.bib --csl=/Users/zackbatist/Library/CloudStorage/Dropbox/obsidian/papers/fuzzy-concrete/society-for-american-archaeology.csl --citeproc -t docx+native_numbering
+
+\documentclass[12pt]{article}
+\emergencystretch=1em
+\usepackage[margin=1in]{geometry}
+\usepackage{parskip}
+\setlength{\parindent}{15pt}
+\usepackage[]{lipsum}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\graphicspath{{../figures/}}
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\usepackage{float}
+\usepackage{rotating}
+\usepackage{soul}
+\usepackage{xcolor}
+
+\usepackage{endnotes}
+\let\footnote=\endnote
+
+\newcommand{\ctext}[3][RGB]{%
+  \begingroup
+  \definecolor{hlcolor}{#1}{#2}\sethlcolor{hlcolor}%
+  \hl{#3}%
+  \endgroup
+}
+
+\usepackage{enumitem}
+\newlist{arefs}{enumerate}{1}
+\setlist[arefs]{label=\textbf{A\arabic*},ref={A\arabic*}}
+\newlist{brefs}{enumerate}{1}
+\setlist[brefs]{label=\textbf{B\arabic*},ref={B\arabic*}}
+\newlist{crefs}{enumerate}{1}
+\setlist[crefs]{label=\textbf{C\arabic*},ref={C\arabic*}}
+
+% \usepackage[style = society-for-american-archaeology]{citation-style-language}
+% \addbibresource{/Users/zackbatist/Library/CloudStorage/Dropbox/zotero/zack.json}
+
+\usepackage[authordate, backend=biber, doi=only, isbn=false, eprint=false, date=year, noibid]{biblatex-chicago}
+\addbibresource{/Users/zackbatist/Library/CloudStorage/Dropbox/zotero/zack.bib}
+
+% %% reformat DOIs %%
+% \DeclareFieldFormat{doi}{
+%   \mkbibacro{DOI}\addcolon\space
+%   \ifhyperref
+%     {\href{https://doi.org/#1}{\nolinkurl{#1}}}
+%     {\nolinkurl{#1}}
+% }
+
+% %% suppress dates pertaining to issue dates %%
+% \renewbibmacro*{clear+datefield}[1]{
+%   \clearfield{#1year}
+%   \clearfield{#1month}
+%   \clearfield{#1season}
+%   \clearfield{#1endyear}
+%   \clearfield{#1endmonth}
+%   \clearfield{#1endseason}
+% }
+
+% %% bold author names %%
+% \DeclareNameWrapperFormat{sortname}{\mkbibbold{#1}}
+% \DeclareNameWrapperAlias{author}{sortname}
+% \DeclareNameWrapperAlias{editor}{sortname}
+% \DeclareNameWrapperAlias{translator}{sortname}
+
+% %% account for entry type not specified in the biblatex-chicago style %%
+% \DeclareBibliographyAlias{software}{online}  
+
+% %% replace comma with colon as delimiter between year and page %%
+% \renewcommand*{\postnotedelim}{\addcolon\space}
+% \DeclareFieldFormat{postnote}{#1}
+% \DeclareFieldFormat{multipostnote}{#1}
+
+% %% suppress accessed date %%
+% \AtEveryBibitem{
+%     \clearfield{urlyear}
+%     \clearfield{urlmonth}
+%     \clearfield{urlday}
+% }
+
+\usepackage[colorlinks=true, hyperfootnotes=true]{hyperref}
+\hypersetup{
+  linkcolor=black,
+  citecolor=blue,
+  urlcolor=blue
+}
+
+\begin{document}
+\title{Situated and objective representations in archaeological fieldwork}
+\author{Zachary Batist}
+\date{\today}
+\maketitle
+
+\begin{abstract}
+\end{abstract}
+
+\providecommand{\keywords}[1]{\textbf{{Keywords:}} #1}
+\keywords{XXX; YYY; ZZZ}
+
+\section*{Introduction}
+The series of challenges pertaining to the organization, sharing and reuse of archaeological data, which are often collectively referred to as the discipline's ``curation crisis'' or ``data deluge'', have highlighted the wide array of practices that underlie data's construction, management, dissemination and reuse \parencites[]{bevan2012a}[]{huggett2022}[]{huggett2022a}.
+Numerous studies have complicated the common imagination of data -- which considers them as concise, corpuscular, discrete and inherently truthful records -- by demonstrating how, in practice, they are actually messy, incomplete and non-reductive \parencites[cf.][]{huggett2022a}[]{voss2012}[]{dallas2015}[]{batist2024a}.
+In fact, archaeologists create data while anticipating their utility as records that inform certain kinds of analysis, while those who apply data in analytical contexts simultaneously reconcile their own use-cases with the conditions under which the data were originally created \parencite[190-191]{dallas2015}.
+
+This is reflected in the ways in which archaeologists reuse data.
+\textcites[]{faniel2013}[]{atici2013} documented how those who reuse data seek out additional contextual information about the circumstances of a dataset's creation by communicating directly with the dataset's originators, thereby establishing a discursive collaborative tie.
+Alternatively, many data analysts who operate at a distance from the contexts in which data originate prefer to trust in the models that give the data concrete structure, thereby offloading the acts of reconciliation to those who produced the data \parencites[]{huggett2022}.
+In other words, reusing data involves establishing trust, which can be garnered through mutual understanding of the challenges that had to be overcome to get observations to fit within discrete data structures, or through reliance on mechanisms of control to ensure that data are collected and maintained in a consistent manner.
+
+This paper demonstrates some of the strategies employed to establish trust in data.
+Through analysis of one illustrative example of archaeological documentation in fieldwork, I show how data-capture is not merely a sensory experience whereby nature is recorded on a 1:1 basis, but is in fact structured by models and power relations that legitimize data and make them useful.
+
+
+
+\end{document}

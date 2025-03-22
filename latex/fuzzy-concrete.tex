@@ -1,0 +1,130 @@
+% pandoc -s pandoc/fuzzy-concrete.tex -o pandoc/AAP-2024.docx --bibliography=/Users/zackbatist/Library/CloudStorage/Dropbox/zotero/zack.bib --csl=/Users/zackbatist/Library/CloudStorage/Dropbox/obsidian/papers/fuzzy-concrete/society-for-american-archaeology.csl --citeproc -t docx+native_numbering
+
+\documentclass[12pt]{article}
+\emergencystretch=1em
+\usepackage[margin=1in]{geometry}
+\usepackage{parskip}
+\setlength{\parindent}{15pt}
+\usepackage[]{lipsum}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\graphicspath{{../figures/}}
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\usepackage{float}
+\usepackage{rotating}
+\usepackage{soul}
+\usepackage{xcolor}
+
+\usepackage{endnotes}
+\let\footnote=\endnote
+
+\newcommand{\ctext}[3][RGB]{%
+  \begingroup
+  \definecolor{hlcolor}{#1}{#2}\sethlcolor{hlcolor}%
+  \hl{#3}%
+  \endgroup
+}
+
+\usepackage{enumitem}
+\newlist{arefs}{enumerate}{1}
+\setlist[arefs]{label=\textbf{\arabic*},ref={\arabic*}}
+
+
+% \usepackage[style = society-for-american-archaeology]{citation-style-language}
+% \addbibresource{/Users/zackbatist/Library/CloudStorage/Dropbox/zotero/zack.json}
+
+\usepackage[authordate, backend=biber, doi=only, isbn=false, eprint=false, date=year, noibid]{biblatex-chicago}
+\addbibresource{/Users/zackbatist/Library/CloudStorage/Dropbox/zotero/zack.bib}
+
+%% reformat DOIs %%
+\DeclareFieldFormat{doi}{
+  \mkbibacro{DOI}\addcolon\space
+  \ifhyperref
+    {\href{https://doi.org/#1}{\nolinkurl{#1}}}
+    {\nolinkurl{#1}}
+}
+
+%% suppress dates pertaining to issue dates %%
+\renewbibmacro*{clear+datefield}[1]{
+  \clearfield{#1year}
+  \clearfield{#1month}
+  \clearfield{#1season}
+  \clearfield{#1endyear}
+  \clearfield{#1endmonth}
+  \clearfield{#1endseason}
+}
+
+%% bold author names %%
+\DeclareNameWrapperFormat{sortname}{\mkbibbold{#1}}
+\DeclareNameWrapperAlias{author}{sortname}
+\DeclareNameWrapperAlias{editor}{sortname}
+\DeclareNameWrapperAlias{translator}{sortname}
+
+%% account for entry type not specified in the biblatex-chicago style %%
+\DeclareBibliographyAlias{software}{online}  
+
+%% replace comma with colon as delimiter between year and page %%
+\renewcommand*{\postnotedelim}{\addcolon\space}
+\DeclareFieldFormat{postnote}{#1}
+\DeclareFieldFormat{multipostnote}{#1}
+
+%% suppress accessed date %%
+\AtEveryBibitem{
+    \clearfield{urlyear}
+    \clearfield{urlmonth}
+    \clearfield{urlday}
+}
+
+\usepackage[colorlinks=true, hyperfootnotes=true]{hyperref}
+\hypersetup{
+  linkcolor=black,
+  citecolor=blue,
+  urlcolor=blue
+}
+
+\begin{document}
+\title{Balancing situated and objective representations in archaeological fieldwork}
+% \author{Zachary Batist}
+\date{\today}
+\maketitle
+
+\begin{abstract}
+  \input{../sections/10_abstract.tex}
+\end{abstract}
+
+\providecommand{\keywords}[1]{\textbf{{Keywords:}} #1}
+\keywords{data work; documentation; collaborative experiences}
+
+\section*{Introduction}
+\input{../sections/01_introduction.tex}
+
+\section*{Background}
+\input{../sections/02_background.tex}
+
+\section*{Methods, Data and Approach}
+\input{../sections/03_methods_data_approach.tex}
+
+\section*{Findings}
+\input{../sections/04_findings.tex}
+
+\section*{Discussion and Conclusion}
+\input{../sections/05_conclusions.tex}
+
+
+
+\newpage
+\section*{Author Statements}
+\input{../sections/11_statements.tex}
+
+% \theendnotes
+
+\newpage
+\printbibliography
+
+\newpage
+\section*{Supplementary Materials}
+\input{../sections/12_supplement.tex}
+
+
+
+\end{document}
