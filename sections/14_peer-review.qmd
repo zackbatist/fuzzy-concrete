@@ -1,4 +1,4 @@
-
+# Peer Review
 ## Editor
 The three main requests for revisions that are below, and to me appear straight forward and I hope that you consider them pretty easy, as well.
 
@@ -19,41 +19,47 @@ In the end, accessing supplemental materials is a link in the article, so too is
 ## Reviewers
 **The research presented is about how we do archaeology: how we learn about the past, convey our findings in the present, or manage resources for the future. The manuscript is clearly about issues of practice.**
 
-Reviewer #1: Yes
+**Reviewer #1:** Yes
 
-Reviewer #2: Yes
+**Reviewer #2:** Yes
 
-Reviewer #3: Yes
+**Reviewer #3:** Yes
+
+---
 
 **Please provide comments about the manuscript's focus on practice.**
 
-Reviewer #1: The manuscript has a clear focus on archaeological field practices and practitioners with various roles on a training/research excavation. The main focus is the process of physically handling the archaeological material during excavation and the transformation of these experiences to archaeological data. The empirical material of this study comprises of observations in the field, interviews with the practitioners and studies of the resulting documentation. It has a very clear focus on archaeological practice.
+**Reviewer #1:** The manuscript has a clear focus on archaeological field practices and practitioners with various roles on a training/research excavation. The main focus is the process of physically handling the archaeological material during excavation and the transformation of these experiences to archaeological data. The empirical material of this study comprises of observations in the field, interviews with the practitioners and studies of the resulting documentation. It has a very clear focus on archaeological practice.
 
-Reviewer #2: The manuscript offers a detailed focus on archaeological practice by using a participant observation of an archaeological field project to describe how the processes of excavation are translated into the data produced.
+**Reviewer #2:** The manuscript offers a detailed focus on archaeological practice by using a participant observation of an archaeological field project to describe how the processes of excavation are translated into the data produced.
 
-Reviewer #3: This article takes a refreshingly honest and reflective approach to the practice of fieldwork.
+**Reviewer #3:** This article takes a refreshingly honest and reflective approach to the practice of fieldwork.
+
+---
 
 **The manuscript has a clearly defined problem orientation. The introduction identifies a problem or issue in practice. The manuscript goes on to resolve this issue.**
 
-Reviewer #1: Yes
+**Reviewer #1:** Yes
 
-Reviewer #2: No
+**Reviewer #2:** No
 
-Reviewer #3: Yes
+**Reviewer #3:** Yes
 
+---
 
 **The manuscript is a significant, new, and original contribution to archaeological practice. If not, the manuscript present a new application of an existing method, technology, or idea.**
 
-Reviewer #1: Yes
+**Reviewer #1:** Yes
 
-Reviewer #2: No
+**Reviewer #2:** No
 
-Reviewer #3: Yes
+**Reviewer #3:** Yes
 
+---
 
 **Please provide comments on the strength of the contribution.**
 
-Reviewer #1:
+**Reviewer #1:**
 This study is based on a part of the author's dissertation.
 It is based on material from a research and training excavation and – as the author points out – the results may not be taken as generally applicable, especially not concerning commercial archaeology.
 This is a weak point, as some of the conclusions are perhaps more pertaining to general learning strategies of inexperienced students, rather than field archaeologists' strategies of making sense of what they excavate.
@@ -85,7 +91,7 @@ A repeated disclaimer regarding the generality of the conclusions in the discuss
 The strength of the study lies in the choice of addressing a problem that is seldom illuminated, i.e. critically engaging in how archaeological knowledge is created during fieldwork.
 Most methodological studies in archaeology are focused on certain methods or applications in a more instrumental way, but this study is bringing more elusive aspects into light.
 
-Reviewer #2:
+**Reviewer #2:**
 The author provides a new and original contribution, but the results do not rise to the level of significance at this point.
 The author notes that this individual case study shouldn't be extracted to archaeology more broadly, and specifically cites CRM work.
 However, its results are based on student experiences and may therefore only apply to projects where the excavators are all students.
@@ -93,24 +99,28 @@ Indeed, several of the authors points would not be applicable in cases where loc
 
 > See my response to similar concerns raised by Reviewer #1.
 
-Reviewer #3:
+**Reviewer #3:**
 The approach is useful.
 I would welcome a larger work with more case studies, as culture and communication can vary enormously from one project to the next.
 Nevertheless, the single case study is still a worthwhile contribution and the author provides a helpful reminder of how to approach this kind of case study toward the beginning of the manuscript.
 
 > I have made more detailed reference to the broader project from which this paper derives in section XX.
 
+---
+
 **The manuscript is readable to a wide range of archaeological practitioners in academia, government, and private practice.**
 
-Reviewer #1: Yes
+**Reviewer #1:** Yes
 
-Reviewer #2: Yes
+**Reviewer #2:** Yes
 
-Reviewer #3: Yes
+**Reviewer #3:** Yes
+
+---
 
 **Please provide comments on the readability to a wide audience.**
 
-Reviewer #1:
+**Reviewer #1:**
 The manuscript is very well written and is readable to a wide audience within archaeology, especially those interested in archaeological interpretation processes during fieldwork.
 The introduction and background situate the study in the field of theorizing archaeological practice and give the reader an understanding of the study and its objectives.
 The collection of data is thoroughly described (but lacking numbers – see above), however the theoretical basis of the analysis is just mentioned, with reference to another publication of the author.
@@ -119,56 +129,61 @@ The concepts "grounded theory" and "coding and memoing" could have been introduc
 The supplementary materials (transcripts of interviews) provide important background to the analysis, even though some of the content is repeated both in text and figures.
 In fact, reading the supplementary material made me understand the situation better.
 
-Reviewer #2:
+**Reviewer #2:**
 The manuscript is well-written with very few spelling/grammatical errors.
 The author should, however, adjust spelling to American English per AAP guidelines.
 
 > I have revised the language to conform to American English style.
 
-Reviewer #3:
+**Reviewer #3:**
 Some of the sociological terminology may be unfamiliar to readers but there were only a few places that I had to go over a few times.
 
 > I will gladly revise the text to clarify the unfamiliar terminology.
 > However I am unable to do this without specific references to the problematic terms.
 
+---
+
 **The manuscript has clear "take-aways" for a wide range of practicing archaeologists. Readers can easily apply the findings to their own work.**
 
-Reviewer #1: Yes
+**Reviewer #1:** Yes
 
-Reviewer #2: No
+**Reviewer #2:** No
 
-Reviewer #3: No
+**Reviewer #3:** No
 
+---
 
 **Please provide comments on "take-aways".**
 
-Reviewer #1: This study results in conclusions regarding the organization of a certain kind of excavation – a research/training excavation conducted by a university in a (to the participants) foreign land. The author finds that the strive for static, stable, "objective" data is dominating the systems and strategies used by the participants, while the situated and embodied aspects are downplayed. According to him, the excavators regard themselves as mere (but potentially very skilled) producers and providers of data to fit into the greater system of the project. This resembles a reversion back to a decades old view, disregarding the situatedness and subjective aspects of archaeological interpretation during fieldwork. Interestingly the fieldworkers seem aware of this their own creative role, but the system in place encourages the older view.
+**Reviewer #1:** This study results in conclusions regarding the organization of a certain kind of excavation – a research/training excavation conducted by a university in a (to the participants) foreign land. The author finds that the strive for static, stable, "objective" data is dominating the systems and strategies used by the participants, while the situated and embodied aspects are downplayed. According to him, the excavators regard themselves as mere (but potentially very skilled) producers and providers of data to fit into the greater system of the project. This resembles a reversion back to a decades old view, disregarding the situatedness and subjective aspects of archaeological interpretation during fieldwork. Interestingly the fieldworkers seem aware of this their own creative role, but the system in place encourages the older view.
 This is an important "take away" for all archaeological projects. However, is this a general "take-away" or a problem of this project specifically? Should we all ask ourselves, do we enable and encourage the agency of the individual excavator within the organization of our project, including the structure of the recording system, or are we molding the data to fit the project, without taking the fieldworkers agency into account? And how is this molding of the data recorded, making room for paradata etc withing the recording system? This leads to much bigger discussions on the possibility of reuse of data etc, just touched upon by this paper. I would have liked to see more discussion of the consequences of the study, if we are to believe there is some generality in the findings.
 
-Reviewer #2: The author does offer a discussion and conclusion, but these do not offer clear takeaways. One possible takeaway at the end of the conclusion is listed below:
+**Reviewer #2:** The author does offer a discussion and conclusion, but these do not offer clear takeaways. One possible takeaway at the end of the conclusion is listed below:
 "It is unclear how, or even if, this can can be resolved – but it may perhaps be eased by fostering a
 commensal and social attitude toward data-sharing, instead of the formal and transactional
 paradigm that underpins most open data infrastructures."
 
 More concrete takeaways and recommendations could be included to make the article more applicable to a broader set of practicing archaeologists.
 
-Reviewer #3: The article seems intended to describe current practice, rather than to offer recommendations. The final sentence does suggest a general direction for improving dynamics in the field, but I wouldn't call it "clear" or "easily applicable". As this is still a relatively new way of approaching fieldwork, I don't have a big problem with this.
+**Reviewer #3:** The article seems intended to describe current practice, rather than to offer recommendations. The final sentence does suggest a general direction for improving dynamics in the field, but I wouldn't call it "clear" or "easily applicable". As this is still a relatively new way of approaching fieldwork, I don't have a big problem with this.
 
+---
 
 **The manuscript is scientifically sound with clear logic, accepted techniques, correct application of methods, and data-substantiated conclusions.**
 
-Reviewer #1: Yes
+**Reviewer #1:** Yes
 
-Reviewer #2: No
+**Reviewer #2:** No
 
-Reviewer #3: Yes
+**Reviewer #3:** Yes
 
+---
 
 **Please provide comments on logic, techniques, methods, and conclusions.**
 
-Reviewer #1: See below in additional comments.
+**Reviewer #1:** See below in additional comments.
 
-Reviewer #2:
+**Reviewer #2:**
 One concern is how the researcher balances their role as a participant observer which is not fully addressed in the article.
 As a participant on the project prior to and during data collection, the author runs the risk of confirmation bias and selective perception.
 One way the author can address this is through more detailed descriptions of methods including how they came up with the research questions they are studying, how they deemed when to record an observation, whether they used structured/semi-structured or open ended interview questions, and how they developed/applied codes.
@@ -180,21 +195,23 @@ Additionally, the author could use
 
 > This comment was cut off mid-sentence.
 
-Reviewer #3: I have no training on conducting interviews so I cannot comment on the methods of conducting or documenting interviews.
+**Reviewer #3:** I have no training on conducting interviews so I cannot comment on the methods of conducting or documenting interviews.
 
+---
 
 **The tables, graphs, and illustrations are well presented, appropriate, necessary, not redundant with text, and in color. Graphics have the "eye appeal" required for a color magazine format.**
 
-Reviewer #1: Yes
+**Reviewer #1:** Yes
 
-Reviewer #2: Yes
+**Reviewer #2:** Yes
 
-Reviewer #3: Yes
+**Reviewer #3:** Yes
 
+---
 
 **Please provide comments on the graphical elements.**
 
-Reviewer #1:
+**Reviewer #1:**
 The figures combining transcripts of interviews and photos from the situation discussed are illustrative of the examples discussed.
 There is some repetition of the conversations, as they are written in some figures, in the text and as supplements.
 Figure 2 works best as there are annotations explaining the conversions and just a couple of photos showing the situation.
@@ -202,7 +219,7 @@ Figure 1 could be done in the same way.
 
 > I revised Figure 1 to include annotations similar to those that appear in Figure 2.
 
-Reviewer #2:
+**Reviewer #2:**
 I appreciate that the author embedded transcribed text and photographs with colored text to aid readers in understanding the conversations observed.
 It is unclear why figure 3 is not simply text in the article.
 
@@ -214,33 +231,36 @@ Is there a significance to the underlining?
 
 > I made more explicit reference to the underlined text.
 
-Reviewer #3: (No Response)
+**Reviewer #3:** (No Response)
 
+---
 
 **If statistics are used in this article, are they used correctly?**
 
-Reviewer #1: None
+**Reviewer #1:** None
 
-Reviewer #2: No
+**Reviewer #2:** No
 
-Reviewer #3: None
+**Reviewer #3:** None
 
+---
 
 **All of the relevant literature, both published and "gray", has been cited.**
 
-Reviewer #1: Yes
+**Reviewer #1:** Yes
 
-Reviewer #2: No
+**Reviewer #2:** No
 
-Reviewer #3: Yes
+**Reviewer #3:** Yes
 
+---
 
 **Please provide comments on the cited literature.**
 
-Reviewer #1:
+**Reviewer #1:**
 The author is well informed of the field and is citing relevant literature.
 
-Reviewer #2:
+**Reviewer #2:**
 The results could be strengthened if the author embedded them into broader research.
 Currently, the article is very insular in citations with many self-references, but fewer references integrating this work into broader academic discourse.
 What further implications can the author make beyond this individual excavation?
@@ -252,35 +272,41 @@ Relatedly, the background and discussion would benefit from more literature revi
 A list of possible publications to consider are below and I encourage the author to identify whether more publications can be incorporated into the discussion.
 
 Austin, Anne, Ixchel M. Faniel, Brittany Brannon, and Sarah Whitcher Kansa. 2024. "Improving the Usability of Archaeological Data through Written Guidelines." Advances in Archaeological Practice 12 (2): 63–74.
+
 Buccellati, Giorgio. 2017. A Critique of Archaeological Reason: Structural, Digital, and Philosophical Aspects of the Excavated Record. Cambridge: Cambridge University Press.
+
 Faniel, Ixchel, Anne Austin, Sarah Whitcher Kansa, Eric Kansa, Jennifer Jacobs, and Phoebe France. 2020. "Identifying Opportunities for Collective Curation During Archaeological Excavations." International Journal of Digital Curation 15 (1): 13.
+
 Faniel, Ixchel M., Anne Austin, Eric Kansa, Sarah Whitcher Kansa, Phoebe France, Jennifer Jacobs, Ran Boytner, and Elizabeth Yakel. 2018. "Beyond the Archive: Bridging Data Creation and Reuse in Archaeology." Advances in Archaeological Practice 6 (2): 105–16.
+
 Lucas, Gavin. 2001. "Destruction and the Rhetoric of Excavation." Norwegian Archaeological Review 34 (1): 35–46.
+
 ———. 2002. Critical Approaches to Fieldwork : Contemporary and Historical Archaeological Practice. Routledge.
+
 Pavel, Cătălin. 2010. Describing and Interpreting the Past. Vol. 7. Bucarest: Editura Universităţii din Bucureti.
+
 Watson, Sadie. 2019. "Whither Archaeologists? Continuing Challenges to Field Practice." Antiquity, 1643–52.
 
 > Thank you for this list of additional sources.
 > I revised the discussion and conclusion with your feedback in mind (including earlier comments on articulating broader impact), and many of these references were quite relevant.
 
-Reviewer #3: (No Response)
+**Reviewer #3:** (No Response)
 
+---
 
 **What is your overall recommendation for publishing this manuscript in Advances in Archaeological Practice?**
 
-Reviewer #1:
-*Accept
+**Reviewer #1:** Accept
 
-Reviewer #2:
-*Revise
+**Reviewer #2:** Revise
 
-Reviewer #3:
-*Accept
+**Reviewer #3:** Accept
 
+---
 
 **Do you have additional comments?**
 
-Reviewer #1: I could not fit the answer to the questions about logic, methods and conclusions in the box.
+**Reviewer #1:** I could not fit the answer to the questions about logic, methods and conclusions in the box.
 Here is that answer:
 
 The first section of the analysis, "Learning to see.." is a description of a learning process, of a process of gaining experience and learning from more experienced excavators.
@@ -313,10 +339,10 @@ What are the consequences of these findings?
 How would the author like to solve the problematic issues he found?
 It could be further developed in the section of discussion and conclusion.
 
-Reviewer #2:
+**Reviewer #2:**
 More detailed in-line comments are provided in the attached PDF.
 
-Reviewer #3:
+**Reviewer #3:**
 I'd like to see more discussion of the project's recording and documentation practices, as well as specifically how those practices informed (and/or failed to inform) "data construction" on the case study project.
 
 Information about the status, employment, etc of the trench supervisors would be beneficial (grad students? Undergrads? Volunteers?).
