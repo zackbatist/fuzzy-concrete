@@ -364,15 +364,37 @@ p. 2, para 4: can the author clarify the nature of the "strong relationship" tha
 
 P. 4, para 4: Syntax of the sentence "For instance, I situated..." breaks down in the middle.
 
+> Revised.
+
 P. 5, para 2: How were the "select participants" selected and how might that impact the feedback?
 
 P. 5, para 2: I'm getting tired of the phrase "Some of the primary foci".
 
-P. 5, para 3: Missing from the list of documents and media is a field manual or other documents that explicitly lay out norms and expectations (there's a mention of a manual on p. 6). Were there any such documents? What did they contain? What kind of coursework, other training, and discussion was there before and during the project about how archaeological projects work, how archaeologists interpret remains, etc.? It might be helpful to include samples of the main recording forms, even though they aren't the primary focus.
+P. 5, para 3:
+Missing from the list of documents and media is a field manual or other documents that explicitly lay out norms and expectations (there's a mention of a manual on p. 6).
+Were there any such documents?
+What did they contain?
+What kind of coursework, other training, and discussion was there before and during the project about how archaeological projects work, how archaeologists interpret remains, etc.?
+It might be helpful to include samples of the main recording forms, even though they aren't the primary focus.
+
+> Revised to the list to include field manuals.
+> The field manual largely defined the scope of terms to be used to describe various materials, e.g. soil classifications, and some of these schema were actually included on the recording sheets.
+> I added a reference to another paper I had recently published that describes the recording sheets and recording procedures in greater depth.
+> ...
+> The project was not a field school, there was no defined curriculum.
+> Much of the actual learning was hands-on, with some experienced personnel giving brief and improvized demonstrations to people who were recruited to perform specific tasks.
+> I added a reference to this in the text.
+> ...
+> Most (but not all) students had a background in archaeology, but I am unable to ascertain which specific courses they took at the time of this study.
+> However, I did include a brief description of their degree of experience in the new section outlining participants' backgrounds.
 
 P. 5, para 3: "especially archived information": What makes information "archived" here, as opposed to other kinds of "recorded" information?
 
+> Removed this emphasis on archived information.
+
 P. 6, para 1: "draw" is missing a subject.
+
+> Revised.
 
 P. 10, para 5:
 At least with Theo, it sounds from the transcripts like he's bringing his perspective from commercial archaeology to the project.

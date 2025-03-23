@@ -5,7 +5,7 @@ I illustrate how the constitution of the archaeological record, and the internal
 ## Learning to see like an archaeologist
 As illustrated in @fig-context-change, Jane explained to me how she identified and differentiated a new context that she was beginning to expose in her trench, using a series of gestures paired with speech to help convey what she meant to say.^[A1](#sec-A1)^
 Jane kicked the boulders as she referred to them, literally pointed out relations to previous experiences that she deemed relevant, and described certain aspects of the soil by miming the ways that she would interact with them.
-She referred to common nomenclature outlined in the project's excavation manual, and drew from her experiences working in other trenches that others may have shared.
+She referred to common nomenclature outlined in the project's field manual and referenced by more experienced personnel, and drew from her experiences working in other trenches that others may have shared.
 More generally, she described the context change only in terms of her interactions with it, and as framed by her particular role in the project.
 
 ![Discussion of a potential context change using gestures and speech.](figures/context-change.png){#fig-context-change}
