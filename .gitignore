@@ -68,4 +68,5 @@ _site/
 
 private/
 _extensions/
-qc
+fuzzy-concrete_files/
+fuzzy-concrete.html

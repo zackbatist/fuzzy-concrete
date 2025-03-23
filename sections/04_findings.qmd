@@ -1,0 +1,85 @@
+# Findings
+I focus on a string of episodes where Jane, a promising trench assistant working at an archaeological project, learned to identify, differentiate, and document parts of a stratigraphic sequence.
+I illustrate how the constitution of the archaeological record, and the internalization of archaeological knowledge, occurred as part of project frameworks and collaborative relations that were structured by projects' divisions of labour.
+
+## Learning to see like an archaeologist
+As illustrated in @fig-context-change, Jane explained to me how she identified and differentiated a new context that she was beginning to expose in her trench, using a series of gestures paired with speech to help convey what she meant to say.^[\[A1\]](#A1){reference-type="ref" reference="A1"}^
+Jane kicked the boulders as she referred to them, literally pointed out relations to previous experiences that she deemed relevant, and described certain aspects of the soil by miming the ways that she would interact with them.
+She referred to common nomenclature outlined in the project's excavation manual, and drew from her experiences working in other trenches that others may have shared.
+More generally, she described the context change only in terms of her interactions with it, and as framed by her particular role in the project.
+
+![Discussion of a potential context change using gestures and speech.](figures/context-change.png){#fig-context-change}
+
+Afterward, and as illustrated in @fig-context-change-discussion, Jane consulted with Basil, who supervised work in this trench, and who is also the project director, regarding her interpretation of the soil in it.^[\[A2\]](#A2){reference-type="ref" reference="A2"}^
+Jane explained what she saw, in terms of her encounters with the entities she identified, while punctuating her observations with physical gestures that underscored certainty that the entities she was observing actually exist.
+Basil came to take a closer look and translated Jane's situated experiences into more nominal and normalized terms, that distance the observer from the observed entities.
+Basil then identified a series of actions that Jane must implement, and summarized the situation by joining what was observed with what was to be done about it, in effect rendering a conclusive and well-reasoned decision.
+All the while, Jane confirmed her understanding of Basil's corrections and of his specific instructions.
+
+![Explanation of a potential context change using gestures and speech.](figures/context-change-discussion.png){#fig-context-change-discussion}
+
+When Jane explained her interpretation of the soil to her supervisor, he then responded with tentative agreement, paired with his own gestures and intonations that subtly communicated his agreement or disagreement.
+The conversation between Jane and Basil therefore served as a means of calibrating their experiences, using an independent framework as a common reference point.
+In effect, Basil attempted to align Jane's emerging perspective with professional nomenclature used to describe the sediment's character.
+
+As Jane stated in a subsequent interview [@fig-training-eye], she initially found it difficult to "train her eye to see what they're seeing", and "they" seems to refer to more senior and specialized archaeologists, including her supervisor the director, and Alfred, one of the field directors.^[\[A3\]](#A3){reference-type="ref" reference="A3"}^
+By talking through their observations in an explicit manner and in the presence of the entities of mutual concern, while also referencing concrete characteristics of the soil, Basil trained Jane to see things in a way that corresponds to a formal model of how to differentiate soil, and contexts as an natural extension of that ability.
+This made him more confident in Jane's ability to recognize and report her experiences, upon which Basil depends; as he recalled in a separate interview, Basil came to trust Jane "to either make her own decisions or be responsible enough to ask other people to help her make decisions for those moments when I'm not there."^[\[A4\]](#A4){reference-type="ref" reference="A4"}^
+This was because Jane became capable of deciding for herself when and how to distinguish between sediments, having internalized a conceptual framework that affords professional legitimacy to her observational techniques.
+
+![Jane describes how she learned to recognize differences in the soil.](figures/training-eye.png){#fig-training-eye}
+
+## Shedding the body
+I should note that Jane did not actually object to the reduction of her situated experience in favour of more generic forms of representing the stratigraphy.
+In fact, this conformed with a pattern of behaviour --- which was enacted by all the fieldworkers I spoke with --- whereby they tried not to think too much while excavating, opting instead to operate in the moment, responding only to what was directly in front of them.^[\[A5\]](#A5){reference-type="ref" reference="A5"},\ [\[A6\]](#A6){reference-type="ref" reference="A6"}^
+This conformed with the expectation that the things an excavator uncovers will gradually reveal themselves, and that she should passively follow what is occurring in the earth before her.
+
+To help accomplish this, fieldworkers modified the environments in which they worked.
+For instance, some fieldworkers focused better while listening to music or while blocking out social distractions.^[\[A7\]](#A7){reference-type="ref" reference="A7"},\ [\[A8\]](#A8){reference-type="ref" reference="A8"}^
+Ben, who worked as an assistant in a separate trench, said that listening to music helped him avoid being too self-aware^[\[A7\]](#A7){reference-type="ref" reference="A7"}^ while Jane concurred by expressing that she listened to music to help her "get lost in digging."^[\[A8\]](#A8){reference-type="ref" reference="A8"}^
+Even when music was not used, or when it is forbidden on site, there remains a warrant for fieldworkers to remain focused as they work.^[\[A9\]](#A9){reference-type="ref" reference="A9"}^
+For instance, Basil recalled what he characterized as "old fashioned" archaeological fieldwork practices, which dictate that "the only sound you should hear is trowel on stone."^[\[A8\]](#A8){reference-type="ref" reference="A8"}^
+
+Having all the necessary tools at hand was another way to facilitate uninterrupted focus during fieldwork.^[\[A10\]](#A10){reference-type="ref" reference="A10"}^
+This helped eliminate peripheral sensory distractions when getting up or reaching for tools placed further away.
+In effect, fieldworkers were made to become disembodied sensing devices attuned to one thing and one thing only: the soil immediately in front of them.
+This notion was further underscored by my unrecorded but common observations of supervisors having to force assistants to take breaks, drink water, apply sunscreen, and remind them that they have bodies worth cherishing and protecting.
+
+In some cases, fieldworkers found certain kinds of information useful as they excavated.
+For instance, knowing about similar stratigraphy in nearby trenches enabled excavators to work at a quicker pace, since it this provided a general understanding of the order and depth of the stratigraphy under them.^[\[A11\]](#A11){reference-type="ref" reference="A11"},\ [\[A12\]](#A12){reference-type="ref" reference="A12"}^
+Moreover, when finds specialists reported back to fieldworkers about the contents of their ongoing trenches, their preliminary findings sometimes influenced the care with which they excavated and recorded the trench.^[\[A13\]](#A13){reference-type="ref" reference="A13"},\ [\[A14\]](#A14){reference-type="ref" reference="A14"}^
+While Theo (a trench supervisor who eventually became a field director) indicated that knowing about the properties of lithic artefacts that lithics specialists deemed important helped him undertake his work in a manner that better suited the project's overall aims, he presented this notion in very broad terms, and refrained from indicating specific practical impacts when prompted. ^[\[A13\]](#A13){reference-type="ref" reference="A13"}^
+Moreover, Ben dismissed the input provided by palaeobotanical experts as useless to him because he was unable to "see" the archaeobotanical traces as he worked.^[\[A15\]](#A15){reference-type="ref" reference="A15"}^
+This may merely reflect practical concerns, specifically regarding the microscopic nature of properties that render archaeobotanical remains significant, but it would not be absurd to find ways to help fieldworkers make sense of such insights in the field.
+For instance, fieldworkers may carry a magnifying loupe and reference guide, and be trained to understand how to use them, similar to how Jane learned to characterize soil samples in the field.
+However, this would require a more comprehensive partnership between specialists and fieldworkers, and broadening the extreme focus that fieldworkers have honed for themselves.
+
+In general then, I observed aspects of fieldwork practice that both complement and contradict efforts to enhance reflexivity in fieldwork.
+The professed desire not to overthink while excavating pushes back against impulses to provide more information to fieldworkers during the moment of excavation [cf. @berggren2012; @berggren2015].
+According to Theo and Ben, fieldworkers operate in a strictly separate role than those who interpret and write about finds, and this boundary feels natural to them.^[\[A16\]](#A16){reference-type="ref" reference="A16"},\ [\[A17\]](#A17){reference-type="ref" reference="A17"},\ [\[A18\]](#A18){reference-type="ref" reference="A18"}^
+Rather than ingest loads of additional information, which involves learning how to make sense of it all and find it meaningful in a practical sense,^[\[A19\]](#A19){reference-type="ref" reference="A19"}^ the fieldworkers I spoke with went in the opposite direction; they value their extremely focused experiences with the material, which presents them with a unique and proprietary way of knowing that dissipates as they are, as Edgeworth [-@edgeworth2003 109] put it, forced to "\[detach themselves\] from the task-in-hand to consider the material field from a distance".
+This means of engagement feels more natural to them, as if unmuddied by reflexive thought, and the fieldworkers I spoke with perceived this as a strength.
+
+At the same time, the fieldworkers I spoke with were very aware that all observation is subjective and that all records carry biases imposed by the practical circumstances of their creation; they were deeply involved in navigating these practical circumstances and in devising ways to control their environments to foster the _illusion_ of objectivity.
+All of what I described was in service of a broader systemic framework, which is informed by a (flawed) conception of the nature of archaeological data and of what constitutes proper or legitimate archaeological reasoning [@batist-alienation].
+
+## Leaving traces in the subsequent record
+Turning back to the specific example, Basil's prediction that the context would not change came to fruition.
+However, the tentative decision to proceed as if a change in context was imminent left residual traces on recording sheets, in the database, and in the final trench report (see @fig-context-description-transcribed and @fig-context-sketch).
+
+![Transcribed section of a recording sheet describing the context addressed in the observed episode.](figures/context-description-transcribed.png){#fig-context-description-transcribed}
+
+![Sketch of the base of a trench, portraying the context addressed in the observed episode, boxed in red.](figures/context-sketch.png){#fig-context-sketch}
+
+![Section of a trench report describing the context addressed in the observed episode, and situating it as part of a lithostratigraphic unit.](figures/context-report.png){#fig-context-report}
+
+Moreover, the tentativity and ambiguity that Jane and Basil experienced while excavating this trench was one of its notable properties, as elicited in the final trench report (see @fig-context-report).
+Additionally, the report described how the contexts were eventually lumped together into a more concretely defined "lithostratigraphic unit," which was formally delimited using nominal and standardized terminology.
+In this way, the report switched back and forth between ambiguous and concrete representations, which conveyed experiential and distant perspectives, respectively.
+This resembles the tone switching that occurred in the conversation between Jane and Basil, whereby Basil, as supervisor responsible for creating formal documentation, re-presented Jane's experiences using more formal terms.
+As such, this reflects an implicit recognition that there is immense value in being able to share more nuanced perspectives on the things that make up the archaeological record (as per [@batist2024a]).
+
+It is notable that situated experiences were recorded in the report-writing phase, and only by those acting in authoritative roles. This parallels how field journals --- which are also records of situated experiences --- are exclusively maintained by supervising personnel [@batist2024a].
+These observations reflect the different kinds of agency held by different actors in the project.
+Fieldworkers were encouraged to shape their behaviour so that the information they obtained was born as formal entities from the start, whereas those responsible for presenting the record as part of a broader scope of work were responsible for re-situating the data as products of data-collection processes that they designed and dictated.
+Recognizing the situatedness of data while they were being collected would have warranted recognition of their limitations, and was thought to enable undisciplined data collection behaviour.^[\[A20\]](#A20){reference-type="ref" reference="A20"}^
