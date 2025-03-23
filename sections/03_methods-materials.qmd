@@ -1,7 +1,7 @@
 # Methods and Materials
 This paper draws from observations of and interviews with archaeologists at work, as well as the documents that they produced.
 Specifically, I articulate how archaeologists enacted various activities and how their actions were situated as part of broader systems of knowledge production.
-My involvement with this project constituted a longitudinal investigation of archaeological practice that contributed to my doctoral dissertation [@batist2023a].
+My involvement with this project constituted a longitudinal investigation of archaeological practice that contributed to my doctoral dissertation [see @batist2023a].
 
 ## Case
 I base my findings on a singular case --- that of a research project comprising excavation of a prehistoric site in Southern Europe.

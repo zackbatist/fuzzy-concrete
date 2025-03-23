@@ -5,7 +5,7 @@ Edgeworth closely examined the physical acts of excavation, the mindsets of the 
 His work drew attention to the social and professional interactions taking place at an archaeological excavation, and which occur as archaeologists articulate an object as a meaningful or discrete entity and make it official.
 Crucially, Edgeworth highlighted how archaeological records are produced through improvised, semi-structured and discursive action, afforded by practical concern and limited by the prior experiences held by those doing the work.
 
-Similarly, @goodwin1994 and @goodwin2010 observed how the formation of concrete records in fieldwork settings relates to the establishment of professional frameworks, which lend authoritative legitimacy to the meanings that archaeologists eventually settled upon.
+Similarly, Goodwin [-@goodwin1994; -@goodwin2010] observed how the formation of concrete records in fieldwork settings relates to the establishment of professional frameworks, which lend authoritative legitimacy to the meanings that archaeologists eventually settled upon.
 This touched on similar observations made by @gero1996, who noted how certain ways of delimiting features --- which corresponded with gendered experiences --- were deemed more legitimate than others.
 @mickel2021 and @yarrow2008 also showed a strong relationship between the diminished interpretative agency among archaeological labourers (including local labourers and undergraduate students) and their inability to contribute tangible and meaningful documentary records about the things they recover.
 
