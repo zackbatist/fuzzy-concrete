@@ -4,27 +4,38 @@ Specifically, I articulate how archaeologists enacted various activities and how
 My involvement with this project constituted a longitudinal investigation of archaeological practice that contributed to my doctoral dissertation [see @batist2023a].
 
 ## Case
-I base my findings on a singular case --- that of a research project comprising excavation of a prehistoric site in Southern Europe.
-It is directed by a foreign professor affiliated with a North American university but who has extensive experience working in the region.
-He coordinates various specialists whom the director recruited for their expertise in the interpretation of finds, a number of trench supervisors who lead excavation and coordinate data collection, and excavators who are usually less experienced students who operate under the guidance of their assigned trench supervisors.
-
-I actively contributed to the project for several years, primarily serving as a database manager.
-I documented how participants engaged with this project's information system from 2017 to 2019, which involved recording and interviewing archaeologists as they worked during the summer field seasons and holding additional interviews between fieldwork sessions.
+This paper draws from observations of and interviews with members of an archaeological project, focusing specifically on the pragmatic and multifaceted ways in which participants engage with the project's information system.
+This involved recording and interviewing archaeologists as they worked during the summer field seasons from 2017 to 2019 and holding additional interviews between fieldwork sessions.
 The project's director also provided access to all documents and records for the purpose of this research.
 
-This project served as a useful case study that illustrated the pragmatic and multifaceted ways in which participants reasoned and worked their way through the rather mundane activities that archaeologists commonly undertake in similar research contexts.
-In case-study research, cases represent discrete instances of a phenomenon relating to researcher's interest [@ragin1992].
+The project upon which this case is based is a research project comprising excavation of a prehistoric site in Southern Europe.
+It is directed by a foreign professor affiliated with a North American university, but who has extensive experience working in the region.
+The director coordinates various specialists whom he recruited for their expertise in the interpretation of finds, a number of trench supervisors who lead excavation and data collection activities, and excavators who operate under the guidance of their assigned trench supervisors.
+
+It is a research project involving archaeologists with varying degrees of experience and coming from diverse professional backgrounds, including those with extensive experience in the commercial sector (see Supplement A for brief summaries of individuals' background).
+It is not a field school, but it does rely to a large extent on labour provided by undergraduate and graduate students, and as such engages in on-the-job training.
+The informal and situated learning experiences I was able to observe represent instances of legitimate peripheral participation, whereby newcomers are introduced to the norms and expectations that govern the archaeological community of practice.
+These scenarios provide especially clear opportunities to ascertain the value ascribed to observed practices and information outcomes conveyed by teachers and adopted by learners through active and productive tutelage.
+There is a strong precedent for this approach to the study of archaeological practice [cf. @everill2007; @goodwin1994; @goodwin2010; @morgan2018], including in contexts of continual, life-long learning among experienced archaeologists [cf. @edgeworth1991; @gero1994; @graham2019].
+
+This project served as one of three cases I investigated for my doctoral dissertation, which documents how archaeological information systems scaffold the collaborative and epistemic commitments that govern professional research practices [@batist2023].
+The observations and elicitations I present in this paper illustrate a specific phenomenon with a more refined scope than what is accounted for in that more comprehensive work and in other research outcomes deriving from it [cf. @batist-alienation; @batist2024a; @batist2021].
+As such, this paper draws from a relatively small portion of the entire set of observations and interviews, which largely pertain to fieldwork recording practices, processing and analysis of finds, records management, interdisciplinary collaboration, decisions regarding writing and publication of findings, and discussions of how data and findings are presented, evaluated and revised among broader research communities.
+
+I actively contributed to the project for several years, primarily serving as a database manager.
+This afforded me with greater awareness of its organizational and institutional history, including a deeper familiarity with all the people involved, and provided me with a privileged outlook on how team members structure information, how they typically use data, and what circumstantial events or motivating factors frame such concerns.
+My continual and participatory engagement with this project allowed me to develop an understanding of the intricate social relations as they developed over time, and enabled me to examine certain methods that are drawn out over the course of several field seasons.
+
+I must emphasize that in case-study research, cases represent discrete instances of a phenomenon relating to a researcher's interest [@ragin1992].
 Cases are therefore not the subjects of inquiry, but the vehicles through which phenomena of interest are manifested in an observable way.
 I recognize that all archaeological projects are informed by their own histories, memberships, sets of tools, methods, and social or political circumstances, which inform distinct traditions of practice, and that it is not possible to generalize across the whole discipline through a single case study.
-However, I am able to articulate some significant factors that contribute to decisions and behaviours that archaeologists commonly make and enact, and to make certain underappreciated social and collaborative commitments that underlie common tools and practices more visible.
-I am therefore able to draw attention to certain patterns of practice that relate to contemporary discourse on the nature of archaeological data and ongoing development of information infrastructures.
+In other words, my findings are informed by the informants whose actions and attitudes I sought to articulate, and by my own perspective as a scholar of the culture and practice of archaeology and of the media and infrastructures that support it.
+The implication is that commercial archaeology, which comprises the vast majority of archaeological work in North America and Europe, is out of the study's scope, owing to the fact that the case represents a research project and that I have very limited experience with and knowledge about commercial archaeology.
+However, see @chadwick1998, @thorpe2012 and @zorzin2015 for similar research pertaining to commercial archaeology which produced complementary findings as those presented here.
 
-As such, my conclusions are informed by the informants whose actions and attitudes I sought to articulate, and by my own perspective as a scholar of the culture and practice of archaeology and of the media and infrastructures that support it.
-One implication is that commercial archaeology, which comprises the vast majority of archaeological work in North America and Europe, is out of the study's scope, owing to the fact that the case represents a research project and that I have very limited experience with and knowledge about commercial archaeology.
-However, see @chadwick1998, @thorpe2012 and @zorzin2015 for similar research pertaining to commercial archaeology.
+That being said, this single case study does articulate some significant factors that contribute to decisions and behaviours that archaeologists commonly make and enact, makes certain underappreciated social and collaborative commitments that underlie common tools and practices more visible, and draws attention to certain patterns of practice that relate to contemporary discourse on the nature of archaeological data and ongoing development of information infrastructures.
 
 ## Data
-
 My dataset comprises recorded observations, embedded interviews, retrospective interviews, archaeological documentation, and ethnographic and reflexive fieldnotes.
 
 Observational data comprised records of participants' behaviours as they performed various archaeological activities and take the form of video, audio and textual files.
@@ -55,7 +66,6 @@ I refer to all participants, affiliated organizations, and mentioned individuals
 I also edited visual media to obscure participants' faces and other information that might reveal their identities, and took care to edit or avoid using direct quotations that were cited in other published work that follows a more permissive protocol regarding the dissemination of participants' identifying information.
 
 ## Analysis
-
 I analyzed recorded observations and interviews, and interrogated the roles and affordances of various tools and documents, using qualitative data analysis methods.
 More specifically, I draw from the "constellation of methods" that @charmaz2014 [: 14-15] associated with grounded theory, namely coding and memoing.
 See @batist2024a [: 9-10] for a more comprehensive overview of the analytical methods employed for the project from which this paper emerges.
