@@ -27,11 +27,11 @@ By talking through their observations in an explicit manner and in the presence 
 This made him more confident in Jane's ability to recognize and report her experiences, upon which Basil depends; as he recalled in a separate interview, Basil came to trust Jane "to either make her own decisions or be responsible enough to ask other people to help her make decisions for those moments when I'm not there."^[A4](#sec-A4)^
 This was because Jane became capable of deciding for herself when and how to distinguish between sediments, having internalized a conceptual framework that affords professional legitimacy to her observational techniques.
 
-![Jane describes how she learned to recognize differences in the soil.](figures/training-eye.png){#fig-training-eye}
+![Jane describes how she learned to recognize differences in the soil. Underlined text refer to especially significant eliciations elucidated above.](figures/training-eye.png){#fig-training-eye}
 
 ## Shedding the body
 I should note that Jane did not actually object to the reduction of her situated experience in favour of more generic forms of representing the stratigraphy.
-In fact, this conformed with a pattern of behaviour --- which was enacted by all the fieldworkers I spoke with --- whereby they tried not to think too much while excavating, opting instead to operate in the moment, responding only to what was directly in front of them.^[A5](#sec-A5),[A6](#sec-A6)^
+In fact, this conformed with a pattern of behaviour --- which was enacted by all the fieldworkers I spoke with --- whereby they tried not to think too much while excavating, opting instead to operate in the moment, face the task at hand, and deal with what is immediately in front of them, literally and figuratively.^[A5](#sec-A5),[A6](#sec-A6)^
 This conformed with the expectation that the things an excavator uncovers will gradually reveal themselves, and that she should passively follow what is occurring in the earth before her.
 
 To help accomplish this, fieldworkers modified the environments in which they worked.
@@ -51,7 +51,7 @@ Moreover, when finds specialists reported back to fieldworkers about the content
 While Theo (a trench supervisor who eventually became a field director) indicated that knowing about the properties of lithic artefacts that lithics specialists deemed important helped him undertake his work in a manner that better suited the project's overall aims, he presented this notion in very broad terms, and refrained from indicating specific practical impacts when prompted. ^[A13](#sec-A13)^
 Moreover, Ben dismissed the input provided by palaeobotanical experts as useless to him because he was unable to "see" the archaeobotanical traces as he worked.^[A15](#sec-A15)^
 This may merely reflect practical concerns, specifically regarding the microscopic nature of properties that render archaeobotanical remains significant, but it would not be absurd to find ways to help fieldworkers make sense of such insights in the field.
-For instance, fieldworkers may carry a magnifying loupe and reference guide, and be trained to understand how to use them, similar to how Jane learned to characterize soil samples in the field.
+For instance, if there was a warrant for such activity, fieldworkers may hypothetically carry a magnifying loupe and reference guide, and be trained to understand how to use them, similar to how Jane learned to characterize soil samples in the field.
 However, this would require a more comprehensive partnership between specialists and fieldworkers, and broadening the extreme focus that fieldworkers have honed for themselves.
 
 In general then, I observed aspects of fieldwork practice that both complement and contradict efforts to enhance reflexivity in fieldwork.
@@ -82,4 +82,4 @@ As such, this reflects an implicit recognition that there is immense value in be
 It is notable that situated experiences were recorded in the report-writing phase, and only by those acting in authoritative roles. This parallels how field journals --- which are also records of situated experiences --- are exclusively maintained by supervising personnel [@batist2024a].
 These observations reflect the different kinds of agency held by different actors in the project.
 Fieldworkers were encouraged to shape their behaviour so that the information they obtained was born as formal entities from the start, whereas those responsible for presenting the record as part of a broader scope of work were responsible for re-situating the data as products of data-collection processes that they designed and dictated.
-Recognizing the situatedness of data while they were being collected would have warranted recognition of their limitations, and was thought to enable undisciplined data collection behaviour.^[A20](#sec-A20)^
+Recognizing the situatedness of data while they were being collected would have warranted recognition of their limitations, which fieldworkers believed would enable undisciplined data collection behaviour.^[A20](#sec-A20)^

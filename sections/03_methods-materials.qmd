@@ -5,7 +5,8 @@ My involvement with this project constituted a longitudinal investigation of arc
 
 ## Case
 I base my findings on a singular case --- that of a research project comprising excavation of a prehistoric site in Southern Europe.
-It is directed by a foreign professor affiliated with a North American university, who coordinates various specialists whom the director recruited for their expertise in the interpretation of finds, a number of trench supervisors who lead excavation and coordinate data collection, and excavators who are usually less experienced students who operate under the guidance of their assigned trench supervisors.
+It is directed by a foreign professor affiliated with a North American university but who has extensive experience working in the region.
+He coordinates various specialists whom the director recruited for their expertise in the interpretation of finds, a number of trench supervisors who lead excavation and coordinate data collection, and excavators who are usually less experienced students who operate under the guidance of their assigned trench supervisors.
 
 I actively contributed to the project for several years, primarily serving as a database manager.
 I documented how participants engaged with this project's information system from 2017 to 2019, which involved recording and interviewing archaeologists as they worked during the summer field seasons and holding additional interviews between fieldwork sessions.
@@ -59,4 +60,4 @@ I analyzed recorded observations and interviews, and interrogated the roles and 
 More specifically, I draw from the "constellation of methods" that @charmaz2014 [: 14-15] associated with grounded theory, namely coding and memoing.
 See @batist2024a [: 9-10] for a more comprehensive overview of the analytical methods employed for the project from which this paper emerges.
 
-I refer to specific observations or interview segments throughout the rest of this text using references that resemble sequential endnotes, which are indexed in the Supplementary Materials.
+I refer to specific observations or interview segments throughout the rest of this text using endnotes, which are indexed in the Supplementary Materials.
