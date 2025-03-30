@@ -68,6 +68,9 @@ I also edited visual media to obscure participants' faces and other information 
 ## Analysis
 I analyzed recorded observations and interviews, and interrogated the roles and affordances of various tools and documents, using qualitative data analysis methods.
 More specifically, I draw from the "constellation of methods" that @charmaz2014 [: 14-15] associated with grounded theory, namely coding and memoing.
+Coding involves defining what data are about in terms (or codes) that are relevant to the theoretical frameworks that inform my research, and identifying instances of these concepts (codings) as they appear throughout the text [@charmaz2014: 43].
+Memoing entails more open-ended exploration and reflection upon latent ideas in order to crystallize them into new avenues to pursue, and constitutes a relatively flexible way of engaging with data and serves as fertile ground for honing new ideas [@charmaz2014: 72].
+By creating memos that relate and elaborate series of encoded observations and that situate observed experiences in relation to broader theoretical frameworks, I was able to form more robust and thematic arguments about the phenomena of interest while remaining firmly grounded in the empirical data.
 See @batist2024a [: 9-10] for a more comprehensive overview of the analytical methods employed for the project from which this paper emerges.
 
 I refer to specific observations or interview segments throughout the rest of this text using endnotes, which are indexed in the Supplementary Materials.
