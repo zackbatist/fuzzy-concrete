@@ -415,7 +415,8 @@ Dear Dr. Herr,
 
 Thank you for faciliating this editorial process and for providing me with such constructive feedback.
 I am making several revisions in response to the reviewers' comments, summarized below.
-Please note that I have consoliated my responses to some feedback provided by more than one reviewer for the sake of brevity.
+
+With regards points made by more than one reviewer, I directed my responses to your summaries of their overlapping feedback.
 
 ---
 
@@ -457,16 +458,15 @@ A short table would suffice.
 Moreover, the fact that the study is based on just one project/site is also a weakness, acknowledged by the author.
 Several projects with varying organizational traits and management teams would have given the study a more solid base.
 
-
-I have made more detailed reference to the broader project from which this paper derives in section XX.
-I decided to exclude a table accounting for all the data collected throughout the dissertation since my goal is to focus the readers' attantion on the refined scope of thos paper rather than extend it outward.
+I added more detailed reference to the broader project from which this paper derives in the Materials and Methods section.
+I added more detailed information about the number of interviews and hours of observation conducted for this case to the Data subsection.
 
 ---
 
 The manuscript is well-written with very few spelling/grammatical errors.
 The author should, however, adjust spelling to American English per AAP guidelines.
 
-I have revised the language to conform to American English style.
+==I have revised the language to conform to American English style.==
 
 ---
 
@@ -480,8 +480,7 @@ One concern is how the researcher balances their role as a participant observer 
 As a participant on the project prior to and during data collection, the author runs the risk of confirmation bias and selective perception.
 One way the author can address this is through more detailed descriptions of methods including how they came up with the research questions they are studying, how they deemed when to record an observation, whether they used structured/semi-structured or open ended interview questions, and how they developed/applied codes.
 
-As a small-n, qualitative and highly situated study, I never presumed that my findings could be presented as objective, unbiased or statistically representative, and it would be improper for readers to assume that that was my intention.
-I revised the XX section to more effectictively communicate my role as a participant and as a researcher.
+I revised the Cas subsection to more effectictively communicate my role as a participant and as a researcher, and to clarify expectations regarding generalizability and representativeness.
 
 ---
 
@@ -507,13 +506,13 @@ Revised.
 
 P. 5, para 2: How were the "select participants" selected and how might that impact the feedback?
 
-x
+Added a line to clarify this.
 
 ---
 
 P. 5, para 2: I'm getting tired of the phrase "Some of the primary foci".
 
-x
+Revised.
 
 ---
 
@@ -524,7 +523,13 @@ What did they contain?
 What kind of coursework, other training, and discussion was there before and during the project about how archaeological projects work, how archaeologists interpret remains, etc.?
 It might be helpful to include samples of the main recording forms, even though they aren't the primary focus.
 
-x
+Revised to the list to include field manuals.
+I also revised the reference to field manuals on page 6 to refer to "standard recording schema" instead, since this more clearly and accurately describes how she engaged with the manual, which existed largely to define the scope of terms to be used to describe various materials, e.g. soil classifications, and some of these schema were actually repeated on the recording sheets.
+I added references to other papers which rely on more in-depth analysis of these documents, and which include annotated images of recording sheets, field journals, drawing procedures, etc.
+
+The project was not a field school, there was no defined curriculum.
+Much of the actual learning was hands-on, with some experienced personnel giving brief and improvized demonstrations to people who were recruited to perform specific tasks.
+I added a reference to this in Case subsection.
 
 ---
 
@@ -555,7 +560,7 @@ x
 Figure 2 works best as there are annotations explaining the conversions and just a couple of photos showing the situation.
 Figure 1 could be done in the same way.
 
-I revised Figure 1 to include annotations similar to those that appear in Figure 2.
+x
 
 ---
 
@@ -563,13 +568,14 @@ It is unclear why figure 3 is not simply text in the article.
 
 This text was rendered as a figure to make it easier to reference as a significant exchange.
 It has the added benefit of making it easier to conform to the journal's word limit.
+I will defer to the editor's decision on whether to keep this as a figure or make it into a block quote instead.
 
 ---
 
 Underlined parts of figure 3 are not defined in the caption.
 Is there a significance to the underlining?
 
-I made more explicit reference to the underlined text.
+I made more explicit reference to the underlined text, which clarified its significance.
 
 ---
 
