@@ -71,6 +71,9 @@ I will defer to the editor's judgement on this matter and add additional methodo
 > This resembles a reversion back to a decades old view, disregarding the situatedness and subjective aspects of archaeological interpretation during fieldwork.
 > Interestingly the fieldworkers seem aware of this their own creative role, but the system in place encourages the older view.
 
+I agree with this interpretation, save for the mention of a "reversion" to a decades-old view, which mischaracterizes what I actually wrote.
+I see how this could be mis-interpreted, and I clarified the discussion in response.
+
 > This is an important "take away" for all archaeological projects.
 > However, is this a general "take-away" or a problem of this project specifically?
 > Should we all ask ourselves, do we enable and encourage the agency of the individual excavator within the organization of our project, including the structure of the recording system, or are we molding the data to fit the project, without taking the fieldworkers agency into account?
@@ -78,7 +81,7 @@ I will defer to the editor's judgement on this matter and add additional methodo
 > This leads to much bigger discussions on the possibility of reuse of data etc, just touched upon by this paper.
 > I would have liked to see more discussion of the consequences of the study, if we are to believe there is some generality in the findings.
 
-I added greater depth to the discussion and conclusions, which include more explicit take-aways.
+I added greater depth to the discussion and conclusions, which include more explicit take-aways that draw from this important feedback.
 
 TBD
 
@@ -232,7 +235,7 @@ I require clearer instructions before proceeding.
 > Watson, Sadie. 2019. "Whither Archaeologists? Continuing Challenges to Field Practice." Antiquity, 1643–52.
 
 Thank you for this list of additional sources.
-I revised the discussion and conclusion with your feedback in mind (including earlier comments on articulating broader impact), I made reference to these works as part of those revisions.
+I revised the background and discussion sections with your feedback in mind (including earlier comments on articulating broader impact), and I made reference to these works as part of those revisions.
 
 TBD
 

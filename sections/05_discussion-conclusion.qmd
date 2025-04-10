@@ -3,10 +3,13 @@ My findings demonstrate how the production of stable and concrete archaeological
 The paper shows how these values are instilled through the social and material experiences in which fieldwork is embedded, which inform students about how their labour, and the outcomes of their labour, contribute to collective efforts.
 
 More specifically, I observed a tendency toward enforcing formally-defined records in support of analytical tasks down the line.
+<!-- Including in contexts of reuse / frame reuse as something that happens both within and beyond a project's scope / make it about distance / Reference Faniel/Kansa here. -->
 Fieldwork is therefore presented as a means to an end, and fieldworkers are accordingly rendered as instruments that can be wielded to support future analytic endeavours.
+
 This reveals how the management of archaeological data and of archaeological labour are inherently intertwined.
 Consequently, the mechanisms through which archaeological projects establish control over those whose labour produces data bear broader epistemic implications regarding the nature and use of evidence in our reasoning about the past.
 
+<!-- Make more explicit reference to this being a systemic issue. Make reference to @buccelatti2017, various works by Gavin Lucas, work by Colleen Morgan, Bill Caraher and Shawn Graham (which re-prioritize consideration of decisions and actions, including failure). -->
 To be clear, the instrumentalization of archaeological labour is not necessarily a bad thing.
 Information commons, such as the pool of knowledge accumulated throughout an archaeological project, do not necessarily have to be egalitarian, and are always governed by norms and expectations concerning who may contribute to and extract from communal resources, and in what ways these interactions should occur.
 The fieldworkers I spoke with (including those whose elicitations do not appear in this paper; see @batist2023a, which is the broader dissertation from which this paper is derived) generally valued their contributions as sensory devices.
@@ -14,6 +17,8 @@ This is linked to the idea that fieldworkers are capable of seeing things as the
 As such, fieldworkers actively contributed to honing the illusion of their objectivity, which enhanced their value as members of the project and as domain specialists with their own unique mental skills.
 At the same time, it was also clear that fieldworkers knew, on an intuitive level, that any claim of objectivity is overstated [@batist2024a: 12].
 However, their positions as responsive rather than creative actors [cf. @batist-alienation] ensured that they are not responsible for resolving this tension.
+
+<!-- Make reference to data re-use, including @dallas2015 / @batist2024b approach that prioritizes reconcilation/anticipation and membership within a community of practice. -->
 
 The tension between the desire to achieve a state of objective sensor, and the inherently situated nature of observing and recording things, persists.
 All observation is embodied, and all records carry biases imposed by the practical circumstances of their creation.
