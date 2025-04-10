@@ -29,6 +29,12 @@ This was because Jane became capable of deciding for herself when and how to dis
 
 ![Jane describes how she learned to recognize differences in the soil. Underlined text refer to especially significant eliciations elucidated above.](figures/training-eye.png){#fig-training-eye}
 
+Jane's internalization of the broader conceptual framework accomplished a few important things:
+(a) it aligned her own vision as part of a collectively-held way of perceiving the world, which is led by authoritative actors who exhibit greater creative control;
+(b) it rendered her own unique experiences as generic contributions to the project's information commons, which has the effect of reducing her individual agency while also drawing her into a class of related agents serving similar data collection functions, e.g. student labourers; and
+(c) it re-framed her embodied and sensory experience as a matter of information modelling, which occurs outside material space and circumstantial moments in time.
+By clarifying relatively ambiguous perceptions through a carefully calibrated prism, the project may obtain sharper and more well-defined outlines of the things they target for observation, while correcting for and making it easier to dismiss the particular embodied experiences that are collectively focused through the aggregative lens.
+
 ## Shedding the body
 I should note that Jane did not actually object to the reduction of her situated experience in favour of more generic forms of representing the stratigraphy.
 In fact, this conformed with a pattern of behaviour --- which was enacted by all the fieldworkers I spoke with --- whereby they tried not to think too much while excavating, opting instead to operate in the moment, face the task at hand, and deal with what is immediately in front of them, literally and figuratively.^[A5](#sec-A5),[A6](#sec-A6)^
@@ -62,6 +68,16 @@ This means of engagement feels more natural to them, as if unmuddied by reflexiv
 
 At the same time, the fieldworkers I spoke with were very aware that all observation is subjective and that all records carry biases imposed by the practical circumstances of their creation; they were deeply involved in navigating these practical circumstances and in devising ways to control their environments to foster the _illusion_ of objectivity.
 All of what I described was in service of a broader systemic framework, which is informed by a (flawed) conception of the nature of archaeological data and of what constitutes proper or legitimate archaeological reasoning [@batist-alienation].
+
+In other words, fieldworkers' efforts to shed their embodied experiences is a strategy for coping with an "epistemic anxiety", whereby archaeologists must grapple with a tension between the drive to produce confident records and their intuitive understanding that their own observations are inherently situated.
+This is supported by systems that effectively re-assign creative agency from fieldworkers to data managers.
+For instance, I previously noted that data managers, who are tasked with translating messy observations into concrete data structures, generally lack adequate understanding of the contexts in which data were initially recorded, and their coping strategies involve enforcing standards, workflows and rulesets among fieldworkers to obtain greater control over the data being sent to them, while emphasizing a need to channel information toward functional outcomes that are depdendent on formal/concrete/confident/highly-structured data [cf. @batist2024a].
+
+It should also be emphasized that this is a systemic issues, and does not reflect individual archaeolgists' skills and abilities.
+Moreover, there was remarkable consistency across archaeologists I spoke with on this matter, regardless of their degree of experience, and everyone I spoke with is both intuitively and explicitly aware of these concerns.
+
+In fact, I believe that this is a central tenet of being an archaologist, since having at least one (and ideally more) season of fieldwork experience is a de facto requirement for identifying as such.
+Experiencing the production of archaeological data first hand effectively embeds this anxiety deep into the archaeological psyche, and helps distinguish archaeologists with genuine understanding and respect for the _process_ from poseurs who take data at face value and who are driven primarily by _outcomes_.^[footnote about computer scientists who claim to "solve" archaeology through data]
 
 ## Leaving traces in the subsequent record
 Turning back to the specific example, Basil's prediction that the context would not change came to fruition.

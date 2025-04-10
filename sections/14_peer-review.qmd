@@ -312,6 +312,8 @@ I am not sure it is relevant to the "reduction of situated experiences" etc.
 Jane is learning or "internalizing a framework", not just of the project but of field archaeology (stratigraphy, etc).
 Explain more clearly how this is relevant to the aim of the paper.
 
+I added a conclusive paragraph which more explicitly summarizes the implications of the subsection and relates it to the next.
+
 "Shedding the body" needs more clarification.
 The author interprets the excavators as opting out of thinking while excavating.
 Is it only the inexperienced students that try to think about something else while excavating (to pass the time)?
@@ -327,6 +329,22 @@ What are the pedagogical goals for the students, and how are they achieved?
 In connection with this, why are the project management responsible for the data management system not a part of the study?
 Could they have been interviewed?
 Perhaps some of the reasoning being the system can be found in project documents, and added to the study?
+
+As I stated elsewhere in my response to the reviewers' comments, the distinction between more and less experienced fieldworkers is not really that clear-cut.
+To reiterate, this is not a fieldschool, and archaeologists from various professional backgrounds participate.
+It is therefore not really possible draw a clear distinction between the practices of novice and experience fieldworkers.
+This is especially true given that I found remarkable consistency across the board in this section, and I have included references pertaining to archaeologists with more and less experience.
+I therefore, respectfully, disagree with this partcular piece of feedback and I decided not to draw greater attention to the distinction between the experiences of novices and more experienced fieldworkers.
+However, in my revisions I do draw greater attention to how consistently this persective is held.
+
+Moreover, regardless of whether they were doing "proper" fieldwork, I believe that I accurately represented the behaviours enacted on site.
+I accounted for how this relates to common concerns for enhancing reflexivity (which you very rightfully raised), and cited consistent observations by @edgeworth2003.
+I share this concern, hence my characterization of the conception of archaeological knowledge production as flawed.
+At the same time, I relate this to the manner in which fieldworkers are made to think of their work as contributions to a broader information commons.
+In other words, I attribute this to a systemic factor, rather than being due to a lack of skill or care.
+I made this point more explicit in my revisions.
+
+I did interview data management personnel, which contributed to anotber paper published from the dissertation that is based on, and I added some explicit references to related observations made there [@batist2024].
 
 "Leaving traces…" is a description of how some situated experiences and changed decisions are still visible in the record and in the report.
 I think it generally positive that these things are described making the interpretation process transparent.
