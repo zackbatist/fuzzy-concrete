@@ -18,3 +18,10 @@ However, their positions as responsive rather than creative actors [cf. @batist-
 The tension between the desire to achieve a state of objective sensor, and the inherently situated nature of observing and recording things, persists.
 All observation is embodied, and all records carry biases imposed by the practical circumstances of their creation.
 It is unclear how, or even if, this can can be resolved --- but it may perhaps be eased by fostering a commensal and social attitude toward data-sharing, instead of the formal and transactional paradigm that underpins most open data infrastructures.
+
+
+
+---
+
+In fact, I believe that this is a central tenet of being an archaologist, since having at least one (and ideally more) season of fieldwork experience is a de facto requirement for identifying as such.
+Experiencing the production of archaeological data first hand effectively embeds this anxiety deep into the archaeological psyche, and helps distinguish archaeologists with genuine understanding and respect for the _process_ from poseurs who take data at face value and who are driven primarily by _outcomes_.^[footnote about computer scientists who claim to "solve" archaeology through data]

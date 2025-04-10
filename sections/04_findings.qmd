@@ -69,18 +69,17 @@ This means of engagement feels more natural to them, as if unmuddied by reflexiv
 At the same time, the fieldworkers I spoke with were very aware that all observation is subjective and that all records carry biases imposed by the practical circumstances of their creation; they were deeply involved in navigating these practical circumstances and in devising ways to control their environments to foster the _illusion_ of objectivity.
 All of what I described was in service of a broader systemic framework, which is informed by a (flawed) conception of the nature of archaeological data and of what constitutes proper or legitimate archaeological reasoning [@batist-alienation].
 
-In other words, fieldworkers' efforts to shed their embodied experiences is a strategy for coping with an "epistemic anxiety", whereby archaeologists must grapple with a tension between the drive to produce confident records and their intuitive understanding that their own observations are inherently situated.
-This is supported by systems that effectively re-assign creative agency from fieldworkers to data managers.
-For instance, I previously noted that data managers, who are tasked with translating messy observations into concrete data structures, generally lack adequate understanding of the contexts in which data were initially recorded, and their coping strategies involve enforcing standards, workflows and rulesets among fieldworkers to obtain greater control over the data being sent to them, while emphasizing a need to channel information toward functional outcomes that are depdendent on formal/concrete/confident/highly-structured data [cf. @batist2024a].
+In other words, fieldworkers' efforts to shed their embodied experiences was a strategy for coping with an "epistemic anxiety", whereby archaeologists must grapple with a tension between the drive to produce confident records and their intuitive understanding that their own observations are inherently situated [@huggett2022a: 274-278; @lucas2019: 55-57; @wylie2017; @batist2024a].
+This is supported by systems that effectively re-assign creative agency from fieldworkers to data managers [@batist2024a; @batist-alienation].
+For instance, I previously noted that database managers, who were tasked with translating messy observations into concrete data structures, generally lacked adequate understanding of the contexts in which data were initially recorded; to overcome this challenge, they attempted to enforce standards, workflows and rulesets among fieldworkers so that they could obtain greater control over the data [@batist2024a].
 
-It should also be emphasized that this is a systemic issues, and does not reflect individual archaeolgists' skills and abilities.
-Moreover, there was remarkable consistency across archaeologists I spoke with on this matter, regardless of their degree of experience, and everyone I spoke with is both intuitively and explicitly aware of these concerns.
-
-In fact, I believe that this is a central tenet of being an archaologist, since having at least one (and ideally more) season of fieldwork experience is a de facto requirement for identifying as such.
-Experiencing the production of archaeological data first hand effectively embeds this anxiety deep into the archaeological psyche, and helps distinguish archaeologists with genuine understanding and respect for the _process_ from poseurs who take data at face value and who are driven primarily by _outcomes_.^[footnote about computer scientists who claim to "solve" archaeology through data]
+It should also be emphasized that this is a systemic issue, and does not reflect individual archaeolgists' skills and abilities.
+This is evident by the remarkable consistency across responses by and observations of all the archaeologists I engaged with on this matter, regardless of their degree of experience; they were all both intuitively and explicitly aware of these concerns but were unable to grapple with them or enact change through their own individual actions.
+Nor are these observations intended to demonize or pass negative judgement on the projects' leaders and database managers, who are similarly constrained by systemic pressures to generate forms of knowledge that are valued by the scientific enterprise.
+This, in turn, involves balancing a tension between sharing concrete records about archaeological observations while accounting for the situated decisions and actions that contributed their creation.
 
 ## Leaving traces in the subsequent record
-Turning back to the specific example, Basil's prediction that the context would not change came to fruition.
+Turning back to the specific observations of archaeological fieldwork, Basil's prediction that the context would not change came to fruition.
 However, the tentative decision to proceed as if a change in context was imminent left residual traces on recording sheets, in the database, and in the final trench report (see @fig-context-description-transcribed and @fig-context-sketch).
 
 ![Transcribed section of a recording sheet describing the context addressed in the observed episode.](figures/context-description-transcribed.png){#fig-context-description-transcribed}
@@ -89,13 +88,18 @@ However, the tentative decision to proceed as if a change in context was imminen
 
 ![Section of a trench report describing the context addressed in the observed episode, and situating it as part of a lithostratigraphic unit.](figures/context-report.png){#fig-context-report}
 
-Moreover, the tentativity and ambiguity that Jane and Basil experienced while excavating this trench was one of its notable properties, as elicited in the final trench report (see @fig-context-report).
+In particular, the tentativity and ambiguity that Jane and Basil experienced while excavating this trench was one of its notable properties, as elicited in the final trench report (see @fig-context-report).
 Additionally, the report described how the contexts were eventually lumped together into a more concretely defined "lithostratigraphic unit," which was formally delimited using nominal and standardized terminology.
 In this way, the report switched back and forth between ambiguous and concrete representations, which conveyed experiential and distant perspectives, respectively.
 This resembles the tone switching that occurred in the conversation between Jane and Basil, whereby Basil, as supervisor responsible for creating formal documentation, re-presented Jane's experiences using more formal terms.
-As such, this reflects an implicit recognition that there is immense value in being able to share more nuanced perspectives on the things that make up the archaeological record [as per @batist2024a].
+As such, this reflects an implicit recognition that there is immense value in being able to share more nuanced perspectives on the things that make up the archaeological record.
+At the same time, and in contrast with truly situated records like those maintained in field journals [cf. @batist2024a], since the language documenting such tentativity in the report remained largely impersonal and observations were de-situated and disembodied.
 
 It is notable that situated experiences were recorded in the report-writing phase, and only by those acting in authoritative roles. This parallels how field journals --- which are also records of situated experiences --- are exclusively maintained by supervising personnel [@batist2024a].
 These observations reflect the different kinds of agency held by different actors in the project.
 Fieldworkers were encouraged to shape their behaviour so that the information they obtained was born as formal entities from the start, whereas those responsible for presenting the record as part of a broader scope of work were responsible for re-situating the data as products of data-collection processes that they designed and dictated.
 Recognizing the situatedness of data while they were being collected would have warranted recognition of their limitations, which fieldworkers believed would enable undisciplined data collection behaviour.^[A20](#sec-A20)^
+
+In other words, the constitution of archaeological records involved temporarily suspending disbelief regarding the stability of archaeological observations among fieldworkers, and then re-integration of storied accounts about the record's origins by supervisors who were granted greater creative agency.
+However, this was conditioned through the use of language that rendered prior work as generic and non-situated processes, thereby obscuring the agency of those whose work the report was based on.
+Although not specifically targeted for this study, similar tendencies may also be casually observed while recontextualizing prior work as part of broader narratives at various scales --- in summaries about a trench, an area, a site, and even an entire region.
