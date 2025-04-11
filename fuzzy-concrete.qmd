@@ -68,6 +68,5 @@ This is a preprint of a paper under peer-review at [Advances in Archaeological P
 {{< include sections/05_discussion-conclusion.qmd >}}
 {{< include sections/10_references.qmd >}}
 {{< include sections/11_back-matter.qmd >}}
-<!-- {{< include sections/12_supplement-a.qmd >}} -->
-{{< include sections/13_supplement-b.qmd >}}
-{{< include sections/14_peer-review.qmd >}}
+{{< include sections/12_supplement.qmd >}}
+{{< include sections/13_peer-review.qmd >}}

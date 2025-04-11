@@ -20,7 +20,7 @@ All the while, Jane confirmed her understanding of Basil's corrections and of hi
 
 When Jane explained her interpretation of the soil to her supervisor, he then responded with tentative agreement, paired with his own gestures and intonations that subtly communicated his agreement or disagreement.
 The conversation between Jane and Basil therefore served as a means of calibrating their experiences, using an independent framework as a common reference point.
-In effect, Basil attempted to align Jane's emerging perspective with professional nomenclature used to describe the sediment's character.
+In effect, Basil attempted to align Jane's emerging perspective with a professional outlook on the sediment's character.
 
 As Jane stated in a subsequent interview [@fig-training-eye], she initially found it difficult to "train her eye to see what they're seeing", and "they" seems to refer to more senior and specialized archaeologists, including her supervisor the director, and Alfred, one of the field directors.^[A3](#sec-A3)^
 By talking through their observations in an explicit manner and in the presence of the entities of mutual concern, while also referencing concrete characteristics of the soil, Basil trained Jane to see things in a way that corresponds to a formal model of how to differentiate soil, and contexts as an natural extension of that ability.
@@ -54,7 +54,7 @@ This notion was further underscored by my unrecorded but common observations of 
 In some cases, fieldworkers found certain kinds of information useful as they excavated.
 For instance, knowing about similar stratigraphy in nearby trenches enabled excavators to work at a quicker pace, since it this provided a general understanding of the order and depth of the stratigraphy under them.^[A11](#sec-A11),[A12](#sec-A12)^
 Moreover, when finds specialists reported back to fieldworkers about the contents of their ongoing trenches, their preliminary findings sometimes influenced the care with which they excavated and recorded the trench.^[A13](#sec-A13),[A14](#sec-A14)^
-While Theo (a trench supervisor who eventually became a field director) indicated that knowing about the properties of lithic artefacts that lithics specialists deemed important helped him undertake his work in a manner that better suited the project's overall aims, he presented this notion in very broad terms, and refrained from indicating specific practical impacts when prompted. ^[A13](#sec-A13)^
+While Theo (a trench supervisor who eventually became a field director) indicated that knowing about the properties of lithic artifacts that lithics specialists deemed important helped him undertake his work in a manner that better suited the project's overall aims, he presented this notion in very broad terms, and refrained from indicating specific practical impacts when prompted. ^[A13](#sec-A13)^
 Moreover, Ben dismissed the input provided by palaeobotanical experts as useless to him because he was unable to "see" the archaeobotanical traces as he worked.^[A15](#sec-A15)^
 This may merely reflect practical concerns, specifically regarding the microscopic nature of properties that render archaeobotanical remains significant, but it would not be absurd to find ways to help fieldworkers make sense of such insights in the field.
 For instance, if there was a warrant for such activity, fieldworkers may hypothetically carry a magnifying loupe and reference guide, and be trained to understand how to use them, similar to how Jane learned to characterize soil samples in the field.

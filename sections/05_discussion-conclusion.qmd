@@ -1,32 +1,46 @@
 # Discussion and Conslusion
-My findings demonstrate how the production of stable and concrete archaeological records involves characterizing the phenomena of interest in nominal terms, while downplaying the situated and embodied experiences that informed the records' creation.
-The paper shows how these values are instilled through the social and material experiences in which fieldwork is embedded, which inform students about how their labour, and the outcomes of their labour, contribute to collective efforts.
+This paper's findings demonstrate how the production of stable and concrete archaeological records involves characterizing the phenomena of interest in nominal terms, while downplaying the situated and embodied experiences that informed the records' creation.
+They show how these values are instilled through the social and material experiences in which fieldwork is embedded, which inform students about how their labour, and the outcomes of their labour, contribute to collective efforts.
+In other words, this paper reveals how the management of archaeological data and of archaeological labour are inherently intertwined.
 
 More specifically, I observed a tendency toward enforcing formally-defined records in support of analytical tasks down the line.
-<!-- Including in contexts of reuse / frame reuse as something that happens both within and beyond a project's scope / make it about distance / Reference Faniel/Kansa here. -->
 Fieldwork is therefore presented as a means to an end, and fieldworkers are accordingly rendered as instruments that can be wielded to support future analytic endeavours.
+In this paper and elsewhere [cf. @batist2023a; @batist2024a; @batist-alienation; @batist2021] I argue that systemic workflows, which effectively establish disciplined ways of working according to pre-defined targeted outcomes, have emerged as one strategy that archaeologists rely on to cope with an epistemic anxiety resulting from a tension between competing notions of data: as concrete, disembodied and stable records in one sense, as as situated products of decisions, actions and circumstances in another [@faniel2018; @austin2024; @haciguzeller2021].
 
-This reveals how the management of archaeological data and of archaeological labour are inherently intertwined.
-Consequently, the mechanisms through which archaeological projects establish control over those whose labour produces data bear broader epistemic implications regarding the nature and use of evidence in our reasoning about the past.
+This tension significantly impacts archaeologists' ability to re-use data in secondary research contexts, which are situations whereby the people doing the analysis are more distant from --- and less aware of --- the contexts that circumscribe the data's creation [@huggett2022a; @batist2024b].
+While enhancing documentation practices has been promoted as a means of improving understanding of data at distance, archaeologists regularly express and act on a desire to get in touch with the data's originators to ascertain the subtext hidden between the lines [@faniel2012: 299-301; @atici2013: 676-677; @kansa2013: 90-91; @chapman2016: 213].
+Moreover, efforts to develop more robust documentation standards promote orienting these efforts toward specific contexts of reuse, thereby engaging in discursive, and possibly even collaborative, relationships with those who wish to reuse data [@huvila2022b; @austin2024].
+Strategies for reducing distance therefore acknowledge therefore embody Dallas' [-@dallas2015] notion of curation as simultaneous acts of reconciliation and anticipation, whereby meanings are negotiated in relation to the objectives held across different activity systems.
 
-<!-- Make more explicit reference to this being a systemic issue. Make reference to @buccelatti2017, various works by Gavin Lucas, work by Colleen Morgan, Bill Caraher and Shawn Graham (which re-prioritize consideration of decisions and actions, including failure). -->
-To be clear, the instrumentalization of archaeological labour is not necessarily a bad thing.
-Information commons, such as the pool of knowledge accumulated throughout an archaeological project, do not necessarily have to be egalitarian, and are always governed by norms and expectations concerning who may contribute to and extract from communal resources, and in what ways these interactions should occur.
-The fieldworkers I spoke with (including those whose elicitations do not appear in this paper; see @batist2023a, which is the broader dissertation from which this paper is derived) generally valued their contributions as sensory devices.
-This is linked to the idea that fieldworkers are capable of seeing things as they really are --- as material entities that have seemingly not yet been ascribed stable meaning.
+At the same time, the systemic incentive for archaeologists to state confident records about the past, in accordance with the norms and expectations that govern what constitutes legitimate knowledge and reasoning, makes it necessary to render data as concrete records in order to apply them in analytical contexts.
+Hence attempts to devise workflows, despite widespread tacit acknowledgement of their inability to truly capture archaeological reality [@caraher2019; @batist2021].
+However, the _attempt_ to accomplish this persists, and is valued in different ways.
+For instance, the fieldworkers I spoke with generally valued their contributions as sensory devices, which is linked to the notion that fieldworkers are capable of seeing things as they really are --- as material entities that have seemingly not yet been ascribed stable meaning.
 As such, fieldworkers actively contributed to honing the illusion of their objectivity, which enhanced their value as members of the project and as domain specialists with their own unique mental skills.
 At the same time, it was also clear that fieldworkers knew, on an intuitive level, that any claim of objectivity is overstated [@batist2024a: 12].
 However, their positions as responsive rather than creative actors [cf. @batist-alienation] ensured that they are not responsible for resolving this tension.
 
-<!-- Make reference to data re-use, including @dallas2015 / @batist2024b approach that prioritizes reconcilation/anticipation and membership within a community of practice. -->
-
-The tension between the desire to achieve a state of objective sensor, and the inherently situated nature of observing and recording things, persists.
-All observation is embodied, and all records carry biases imposed by the practical circumstances of their creation.
+In this sense, despite the _attempt_ to enact and participate in a stable workflow, the tension between the desire to achieve a state of objective sensor, and the inherently situated nature of observing and recording things, therefore persists.
+All observations are embodied, and all records carry biases imposed by the practical circumstances of their creation.
 It is unclear how, or even if, this can can be resolved --- but it may perhaps be eased by fostering a commensal and social attitude toward data-sharing, instead of the formal and transactional paradigm that underpins most open data infrastructures.
-
-
 
 ---
 
+Developing and accessing information commons, such as the pool of knowledge accumulated throughout an archaeological project, therefore comprises acts of communication, and is scaffolded by norms and expectations concerning how various actors should contribute to and extract from communal resources.
+
+
+This is facilitated by extant communal understanding of the complex and multifacted nature of archaeological data, which is arrived at through common membership in an archaeoloigical community of practice.
 In fact, I believe that this is a central tenet of being an archaologist, since having at least one (and ideally more) season of fieldwork experience is a de facto requirement for identifying as such.
 Experiencing the production of archaeological data first hand effectively embeds this anxiety deep into the archaeological psyche, and helps distinguish archaeologists with genuine understanding and respect for the _process_ from poseurs who take data at face value and who are driven primarily by _outcomes_.^[footnote about computer scientists who claim to "solve" archaeology through data]
+
+---
+
+<!--
+Make reference to @buccelatti2017, various works by Gavin Lucas, work by Colleen Morgan, Bill Caraher and Shawn Graham (which re-prioritize consideration of decisions and actions, including failure).
+-->
+
+---
+
+Instrumentalization of archaeological labour is not necessarily a bad thing, but it does impact the nature and use of evidence in our reasoning about the past.
+
+
