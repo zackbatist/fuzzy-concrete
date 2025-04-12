@@ -94,8 +94,6 @@ TBD
 
 I revised Figure 1 to include annotations similar to those that appear in Figure 2.
 
-TBD
-
 ### Do you have additional comments?
 > I could not fit the answer to the questions about logic, methods and conclusions in the box.
 > Here is that answer:

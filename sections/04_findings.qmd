@@ -8,7 +8,7 @@ Jane kicked the boulders as she referred to them, literally pointed out relation
 She referred to common nomenclature outlined in the project's standard recording schema and referenced by more experienced personnel, and drew from her experiences working in other trenches that others may have shared.
 More generally, she described the context change only in terms of her interactions with it, and as framed by her particular role in the project.
 
-![Discussion of a potential context change using gestures and speech.](figures/context-change.png){#fig-context-change}
+![Discussion of a potential context change using gestures and speech.](figures/context-change-annotated.png){#fig-context-change}
 
 Afterward, and as illustrated in @fig-context-change-discussion, Jane consulted with Basil, who supervised work in this trench, and who is also the project director, regarding her interpretation of the soil in it.^[A2](#sec-A2)^
 Jane explained what she saw, in terms of her encounters with the entities she identified, while punctuating her observations with physical gestures that underscored certainty that the entities she was observing actually exist.
