@@ -18,7 +18,7 @@ The informal and situated learning experiences I was able to observe represent i
 These scenarios provide especially clear opportunities to ascertain the value ascribed to observed practices and information outcomes conveyed by teachers and adopted by learners through active and productive tutelage.
 There is a strong precedent for this approach to the study of archaeological practice [cf. @everill2007; @goodwin1994; @goodwin2010; @morgan2018], including in contexts of continual, life-long learning among experienced archaeologists [cf. @edgeworth1991; @gero1994; @graham2019].
 
-This project served as one of three cases I investigated for my doctoral dissertation, which documents how archaeological information systems scaffold the collaborative and epistemic commitments that govern professional research practices [@batist2023].
+This project served as one of three cases I investigated for my doctoral dissertation, which documents how archaeological information systems scaffold the collaborative and epistemic commitments that govern professional research practices [@batist2023a].
 The observations and elicitations I present in this paper illustrate a specific phenomenon with a more refined scope than what is accounted for in that more comprehensive work and in other research outcomes deriving from it [cf. @batist-alienation; @batist2024a; @batist2021].
 As such, this paper draws from a relatively small portion of the entire set of observations and interviews, which largely pertain to fieldwork recording practices, processing and analysis of finds, records management, interdisciplinary collaboration, decisions regarding writing and publication of findings, and discussions of how data and findings are presented, evaluated and revised among broader research communities.
 
@@ -57,7 +57,7 @@ Retrospective interviews helped me gain insight into how participants situate th
 They were meant to highlight participants' perspectives on the value of various kinds of research outputs, what they value in their work and the work of others, the major constraints and challenges that they and their communities face, and how they might resolve them.
 
 I examined documents and media (such as forms, photographs, labels, databases, datasets, reports, instructional media and field manuals) to gain insight into institutional norms or expectations.
-See @batist2024 and @batist-alienation for more in-depth analysis of how people interacted with and valued these documents.
+See @batist2024a and @batist-alienation for more in-depth analysis of how people interacted with and valued these documents.
 This involved examining documents and media as means for encapsulating and communicating meanings among users across space and over time.
 This helped me to understand the vectors through which participants either tacitly form collective experiences or directly collaborate among themselves [@huvila2011; @huvila2016; @yarrow2008].
 Document analysis emphasized understanding how document design and media capture protocols anticipate certain methods; how various activities refer to recorded information; the reasons why team members ignore certain equipment and forms of documentation despite their availability; how record-keeping is controlled through explicit or implicit imposition of limitations or constraints; why certain records play more a more central role than others; and how different archaeologists record the same objects in different ways.
@@ -78,9 +78,9 @@ Memoing entails more open-ended exploration and reflection upon latent ideas in 
 By creating memos that relate and elaborate series of encoded observations and that situate observed experiences in relation to broader theoretical frameworks, I was able to form more robust and thematic arguments about the phenomena of interest while remaining firmly grounded in the empirical data.
 See @batist2024a [: 9-10] for a more comprehensive overview of the analytical methods employed for the project from which this paper emerges.
 
-Codes were generated through iterative analysis of recorded observations, transcribed interviews and scans of documets and field notes.
-An initial "open" coding phase involved generating codes in a rather open-ended manner to identify common themes and sensitizing concepts [cf. Saldana xxx].
-Subsequent coding was scaffoled by a provisional taxonomic code system, which was informed by a loose conceptual model, which broadly encompases codes about specific activities, participants' figurations, and theoretical concepts concernong the collective constitution of scienctific knowledge [see @batist2023: Appendix B for an overview of the code system].
+Codes were generated through iterative analysis of recorded observations, transcribed interviews and scans of documents and field notes.
+An initial "open" coding phase involved generating codes in a rather open-ended manner to identify common themes and sensitizing concepts [@bowen2006; @charmaz2014: 30-31].
+Subsequent coding was scaffolded by a provisional taxonomic code system, which was informed by a loose conceptual model, which broadly encompasses codes about specific activities, participants' figurations, and theoretical concepts concerning the collective constitution of scientific knowledge [see @batist2023a: Appendix B for an overview of the code system].
 The study is therefore aligned with Charmaz's [-@charmaz2000] constructivist approach to grounded theory, in that it orients the work by the analyst's prior understandings, rather than have the codes emerge organically.
 
 I refer to specific observations or interview segments throughout the rest of this text using endnotes, which are indexed in the supplementary materials.

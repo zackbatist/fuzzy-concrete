@@ -27,7 +27,7 @@ By talking through their observations in an explicit manner and in the presence 
 This made him more confident in Jane's ability to recognize and report her experiences, upon which Basil depends; as he recalled in a separate interview, Basil came to trust Jane "to either make her own decisions or be responsible enough to ask other people to help her make decisions for those moments when I'm not there."^[A4](#sec-A4)^
 This was because Jane became capable of deciding for herself when and how to distinguish between sediments, having internalized a conceptual framework that affords professional legitimacy to her observational techniques.
 
-![Jane describes how she learned to recognize differences in the soil. Underlined text refer to especially significant eliciations elucidated above.](figures/training-eye.png){#fig-training-eye}
+![Jane describes how she learned to recognize differences in the soil. Underlined text refer to especially significant elicitations elucidated above.](figures/training-eye.png){#fig-training-eye}
 
 Jane's internalization of the broader conceptual framework accomplished a few important things:
 (a) it aligned her own vision as part of a collectively-held way of perceiving the world, which is led by authoritative actors who exhibit greater creative control;
@@ -73,7 +73,7 @@ In other words, fieldworkers' efforts to shed their embodied experiences was a s
 This is supported by systems that effectively re-assign creative agency from fieldworkers to data managers [@batist2024a; @batist-alienation].
 For instance, I previously noted that database managers, who were tasked with translating messy observations into concrete data structures, generally lacked adequate understanding of the contexts in which data were initially recorded; to overcome this challenge, they attempted to enforce standards, workflows and rulesets among fieldworkers so that they could obtain greater control over the data [@batist2024a].
 
-It should also be emphasized that this is a systemic issue, and does not reflect individual archaeolgists' skills and abilities.
+It should also be emphasized that this is a systemic issue, and does not reflect individual archaeologists' skills and abilities.
 This is evident by the remarkable consistency across responses by and observations of all the archaeologists I engaged with on this matter, regardless of their degree of experience; they were all both intuitively and explicitly aware of these concerns but were unable to grapple with them or enact change through their own individual actions.
 Nor are these observations intended to demonize or pass negative judgement on the projects' leaders and database managers, who are similarly constrained by systemic pressures to generate forms of knowledge that are valued by the scientific enterprise.
 This, in turn, involves balancing a tension between sharing concrete records about archaeological observations while accounting for the situated decisions and actions that contributed their creation.
@@ -102,4 +102,4 @@ Recognizing the situatedness of data while they were being collected would have 
 
 In other words, the constitution of archaeological records involved temporarily suspending disbelief regarding the stability of archaeological observations among fieldworkers, and then re-integration of storied accounts about the record's origins by supervisors who were granted greater creative agency.
 However, this was conditioned through the use of language that rendered prior work as generic and non-situated processes, thereby obscuring the agency of those whose work the report was based on.
-Although not specifically targeted for this study, similar tendencies may also be casually observed while recontextualizing prior work as part of broader narratives at various scales --- in summaries about a trench, an area, a site, and even an entire region.
+Although not specifically targeted for this study, similar tendencies may also be casually observed while re-contextualizing prior work as part of broader narratives at various scales --- in summaries about a trench, an area, a site, and even an entire region.

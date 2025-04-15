@@ -41,7 +41,7 @@ format:
       body-width: 850px
   pdf:
     documentclass: article
-    keep-tex: false
+    keep-tex: true
     geometry:
       - top = 1in
       - bottom = 1in
@@ -53,7 +53,7 @@ format:
       text: |
         \usepackage{orcidlink}
         \usepackage{marvosym}
-    template-partials: 
+    template-partials:
       - title.tex
 ---
 

@@ -19,14 +19,13 @@ I also added greater contextual information pertaining to the project and the ca
 
 I added greater depth to the discussion and conclusions, which include more explicit take-aways.
 
-TBD
-
 > My comment -- would you consider putting your supplemental materials in an accessible digital archive instead.
 > That has more data durability.
 > You'd then use that citation for the supplements.
 > In the end, accessing supplemental materials is a link in the article, so too is the digital archive, but the archive is more stable.
 
-TBD
+I agree with what you suggest, and I will upload the supplement to my Knowledge Commons (https://works.hcommons.org/) account.
+However, for fear of creating redundant copies, I will wait to post the materials until after the reviewers indicate their satisfaction with the changes.
 
 ## Reviewer 1
 ### Please provide comments on the strength of the contribution.
@@ -85,8 +84,6 @@ I see how this could be mis-interpreted, and I clarified the discussion in respo
 
 I added greater depth to the discussion and conclusions, which include more explicit take-aways that draw from this important feedback.
 
-TBD
-
 ### Please provide comments on the graphical elements
 > The figures combining transcripts of interviews and photos from the situation discussed are illustrative of the examples discussed.
 > There is some repetition of the conversations, as they are written in some figures, in the text and as supplements.
@@ -135,7 +132,7 @@ At the same time, I relate this to the manner in which fieldworkers are made to 
 In other words, I attribute this to a systemic factor, rather than being due to a lack of skill or care.
 I made this point much more explicit in my revisions.
 
-I did interview data management personnel, which contributed to another paper published from the dissertation that is based on [@batist2024].
+I did interview data management personnel, which contributed to another paper published from the dissertation that is based on [@batist2024a].
 I revised the section to include explicit references to related observations made in that paper.
 
 > "Leaving traces…" is a description of how some situated experiences and changed decisions are still visible in the record and in the report.
@@ -150,8 +147,6 @@ I draw greater attention to these concerns in my revisions.
 > It could be further developed in the section of discussion and conclusion.
 
 I added greater depth to the discussion and conclusions.
-
-TBD
 
 ## Reviewer 2
 ### Please provide comments on the strength of the contribution
@@ -179,8 +174,6 @@ I revised the language to conform to the SAA style guide.
 > More concrete takeaways and recommendations could be included to make the article more applicable to a broader set of practicing archaeologists.
 
 I added greater depth to the discussion and conclusions, which include more explicit take-aways.
-
-TBD
 
 ### Please provide comments on logic, techniques, methods, and conclusions
 > One concern is how the researcher balances their role as a participant observer which is not fully addressed in the article.
@@ -233,9 +226,7 @@ I require clearer instructions before proceeding.
 > Watson, Sadie. 2019. "Whither Archaeologists? Continuing Challenges to Field Practice." Antiquity, 1643–52.
 
 Thank you for this list of additional sources.
-I revised the background and discussion sections with your feedback in mind (including earlier comments on articulating broader impact), and I made reference to these works as part of those revisions.
-
-TBD
+I revised the background and discussion sections with your feedback in mind (including earlier comments on articulating broader impact), and I made reference to some of these works as part of those revisions.
 
 ### Do you have additional comments?
 > More detailed in-line comments are provided in the attached PDF.
@@ -254,8 +245,6 @@ I would gladly revise the text to clarify the unfamiliar terminology, but I am u
 > As this is still a relatively new way of approaching fieldwork, I don't have a big problem with this.
 
 I added greater depth to the discussion and conclusions, which include more explicit take-aways.
-
-TBD
 
 ### Do you have additional comments?
 > I'd like to see more discussion of the project's recording and documentation practices, as well as specifically how those practices informed (and/or failed to inform) "data construction" on the case study project.

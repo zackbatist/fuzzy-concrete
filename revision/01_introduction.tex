@@ -1,0 +1,98 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{article}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage[]{biblatex}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\section{Introduction}\label{introduction}
+
+The series of challenges pertaining to the organization, sharing and
+reuse of archaeological data, which are often collectively referred to
+as the discipline's ``curation crisis'' or ``data deluge'', have
+highlighted the wide array of practices that underlie data's
+construction, management, dissemination and reuse
+\autocite{bevan2012a,huggett2022,huggett2022a}. Numerous studies have
+complicated the common imagination of data -- which considers them as
+concise, corpuscular, discrete and inherently truthful records -- by
+demonstrating how, in practice, they are actually messy, incomplete and
+non-reductive
+\autocites[cf.][]{batist2024a,dallas2015,huggett2022a,voss2012}. In
+fact, archaeologists create data while anticipating their utility as
+records that inform certain kinds of analysis, while those who apply
+data in analytical contexts simultaneously reconcile their own use-cases
+with the conditions under which the data were originally created
+\autocite[190-191]{dallas2015}.
+
+This is reflected in the ways in which archaeologists reuse data.
+\textcite{faniel2013} and \textcite{atici2013} documented how those who
+reuse data seek out additional contextual information about the
+circumstances of a dataset's creation by communicating directly with the
+dataset's originators, thereby establishing a discursive collaborative
+tie. Alternatively, many data analysts who operate at a distance from
+the contexts in which data originate prefer to trust in the models that
+give the data concrete structure, thereby offloading the acts of
+reconciliation to those who produced the data \autocite{huggett2022}. In
+other words, reusing data involves establishing trust, which can be
+garnered through mutual understanding of the challenges that had to be
+overcome to get observations to fit within discrete data structures, or
+through reliance on mechanisms of control to ensure that data are
+collected and maintained in a consistent manner.
+
+This paper demonstrates some of the strategies employed to establish
+trust in data. Through analysis of one illustrative example of
+archaeological documentation in fieldwork, I show how data-capture is
+not merely a sensory experience whereby nature is recorded on a 1:1
+basis, but is in fact structured by models and power relations that
+legitimize data and make them useful.
+
+\printbibliography
+
+\end{document}
