@@ -27,8 +27,8 @@ license: CC BY
 citation:
   title: Balancing Situated and Objective Representations in Archaeological Fieldwork
   url: https://zackbatist.info/fuzzy-concrete
-bibliography: /Users/zackbatist/Library/CloudStorage/Dropbox/zotero/zack.bib
-csl: society-for-american-archaeology.csl
+bibliography: fuzzy-concrete.bib
+csl: chicago-author-date.csl
 toc: true
 toc-depth: 3
 toc-expand: 2
