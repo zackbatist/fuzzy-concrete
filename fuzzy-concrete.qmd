@@ -15,14 +15,22 @@ author:
     orcid: 0000-0003-0435-508X
 date: today
 abstract: |
-  Archaeology comprises both systematic and improvised attitudes and processes concerned with the collection and maintenance of data.
+  Archaeology comprises both systematic and pragmatic attitudes and processes concerned with the collection and maintenance of data.
   This reflects the need to obtain formally-defined data, while also grappling with the fuzzy and uncertain nature of archaeological encounters, especially in fieldwork environments.
   This produces an epistemic tension, whereby archaeologists struggle to reconcile their desire to produce concrete outcomes based on objective facts, and their intuitive understanding that data are in fact products of situated decisions and actions.
   Through observations of archaeological practices, interviews with archaeologists at work, and analysis of the documents they produced while recording objects of archaeological concern, this paper articulates how archaeologists cope with this tension and integrate it into their work experiences.
+  # 
+  # La arqueología comprende actitudes y procesos, tanto sistemáticos como pragmáticos, relacionados con la recolección y el mantenimiento de datos.
+  # Esto refleja la necesidad de obtener datos formalmente definidos, al mismo tiempo que se lucha con la naturaleza difusa e incierta de los hallazgos arqueológicos, especialmente en el contexto del trabajo de campo.
+  # Esto produce una tensión epistémica, en la que los arqueólogos luchan por conciliar su deseo de producir resultados concretos basados en hechos objetivos y su comprensión intuitiva de que los datos son, de hecho, producto de decisiones y acciones tomadas en contextos específicos.
+  # A través de la observación  de prácticas arqueológicas, las entrevistas con arqueólogos en campo y el análisis de los documentos que elaboraron al registrar objetos de interés arqueológico, este artículo explica cómo los arqueólogos afrontan esta tensión y la integran a sus experiencias laborales.
 keywords:
   - data work
   - documentation
   - collaborative experiences
+  # - gestión de datos
+  # - documentación
+  # - experiencias colaborativas
 license: CC BY
 citation:
   title: Balancing Situated and Objective Representations in Archaeological Fieldwork

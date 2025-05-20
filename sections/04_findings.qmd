@@ -23,7 +23,7 @@ The conversation between Jane and Basil therefore served as a means of calibrati
 In effect, Basil attempted to align Jane's emerging perspective with a professional outlook on the sediment's character.
 
 As Jane stated in a subsequent interview [@fig-training-eye], she initially found it difficult to "train her eye to see what they're seeing", and "they" seems to refer to more senior and specialized archaeologists, including her supervisor the director, and Alfred, one of the field directors.^[A3](#sec-A3)^
-By talking through their observations in an explicit manner and in the presence of the entities of mutual concern, while also referencing concrete characteristics of the soil, Basil trained Jane to see things in a way that corresponds to a formal model of how to differentiate soil, and contexts as an natural extension of that ability.
+By talking through their observations in an explicit manner and in the presence of the entities of mutual concern, while also referencing concrete characteristics of the soil, Basil trained Jane to see things in a way that corresponds to a formal model of how to differentiate contexts as a natural extension of that ability.
 This made him more confident in Jane's ability to recognize and report her experiences, upon which Basil depends; as he recalled in a separate interview, Basil came to trust Jane "to either make her own decisions or be responsible enough to ask other people to help her make decisions for those moments when I'm not there."^[A4](#sec-A4)^
 This was because Jane became capable of deciding for herself when and how to distinguish between sediments, having internalized a conceptual framework that affords professional legitimacy to her observational techniques.
 
@@ -51,7 +51,7 @@ This helped eliminate peripheral sensory distractions when getting up or reachin
 In effect, fieldworkers were made to become disembodied sensing devices attuned to one thing and one thing only: the soil immediately in front of them.
 This notion was further underscored by my unrecorded but common observations of supervisors having to force assistants to take breaks, drink water, apply sunscreen, and remind them that they have bodies worth cherishing and protecting.
 
-In some cases, fieldworkers found certain kinds of information useful as they excavated.
+In some cases, fieldworkers found certain kinds of externally derived information useful as they excavated.
 For instance, knowing about similar stratigraphy in nearby trenches enabled excavators to work at a quicker pace, since it this provided a general understanding of the order and depth of the stratigraphy under them.^[A11](#sec-A11),[A12](#sec-A12)^
 Moreover, when finds specialists reported back to fieldworkers about the contents of their ongoing trenches, their preliminary findings sometimes influenced the care with which they excavated and recorded the trench.^[A13](#sec-A13),[A14](#sec-A14)^
 While Theo (a trench supervisor who eventually became a field director) indicated that knowing about the properties of lithic artifacts that lithics specialists deemed important helped him undertake his work in a manner that better suited the project's overall aims, he presented this notion in very broad terms, and refrained from indicating specific practical impacts when prompted. ^[A13](#sec-A13)^
@@ -93,7 +93,7 @@ Additionally, the report described how the contexts were eventually lumped toget
 In this way, the report switched back and forth between ambiguous and concrete representations, which conveyed experiential and distant perspectives, respectively.
 This resembles the tone switching that occurred in the conversation between Jane and Basil, whereby Basil, as supervisor responsible for creating formal documentation, re-presented Jane's experiences using more formal terms.
 As such, this reflects an implicit recognition that there is immense value in being able to share more nuanced perspectives on the things that make up the archaeological record.
-At the same time, and in contrast with truly situated records like those maintained in field journals [cf. @batist2024a], since the language documenting such tentativity in the report remained largely impersonal and observations were de-situated and disembodied.
+At the same time, and in contrast with truly situated records like those maintained in field journals [cf. @batist2024a], the language documenting such tentativity in the report remained largely impersonal and observations were de-situated and disembodied.
 
 It is notable that situated experiences were recorded in the report-writing phase, and only by those acting in authoritative roles. This parallels how field journals --- which are also records of situated experiences --- are exclusively maintained by supervising personnel [@batist2024a].
 These observations reflect the different kinds of agency held by different actors in the project.
