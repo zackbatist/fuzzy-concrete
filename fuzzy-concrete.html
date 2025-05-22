@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Zachary Batist">
+<meta name="dcterms.date" content="2025-05-22">
+<meta name="keywords" content="data work, documentation, collaborative experiences">
+
+<title>Balancing Situated and Objective Representations in Archaeological Fieldwork</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="fuzzy-concrete_files/libs/clipboard/clipboard.min.js"></script>
+<script src="fuzzy-concrete_files/libs/quarto-html/quarto.js"></script>
+<script src="fuzzy-concrete_files/libs/quarto-html/popper.min.js"></script>
+<script src="fuzzy-concrete_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="fuzzy-concrete_files/libs/quarto-html/anchor.min.js"></script>
+<link href="fuzzy-concrete_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="fuzzy-concrete_files/libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="fuzzy-concrete_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="fuzzy-concrete_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="fuzzy-concrete_files/libs/bootstrap/bootstrap-fb8e7bcfb55e3a147b290ffa5c0f4ae3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#methods-and-materials" id="toc-methods-and-materials" class="nav-link" data-scroll-target="#methods-and-materials">Methods and Materials</a>
+  <ul class="collapse">
+  <li><a href="#case" id="toc-case" class="nav-link" data-scroll-target="#case">Case</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">Analysis</a></li>
+  </ul></li>
+  <li><a href="#findings" id="toc-findings" class="nav-link" data-scroll-target="#findings">Findings</a>
+  <ul class="collapse">
+  <li><a href="#learning-to-see-like-an-archaeologist" id="toc-learning-to-see-like-an-archaeologist" class="nav-link" data-scroll-target="#learning-to-see-like-an-archaeologist">Learning to see like an archaeologist</a></li>
+  <li><a href="#shedding-the-body" id="toc-shedding-the-body" class="nav-link" data-scroll-target="#shedding-the-body">Shedding the body</a></li>
+  <li><a href="#leaving-traces-in-the-subsequent-record" id="toc-leaving-traces-in-the-subsequent-record" class="nav-link" data-scroll-target="#leaving-traces-in-the-subsequent-record">Leaving traces in the subsequent record</a></li>
+  </ul></li>
+  <li><a href="#discussion-and-conclusion" id="toc-discussion-and-conclusion" class="nav-link" data-scroll-target="#discussion-and-conclusion">Discussion and Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
+  <ul class="collapse">
+  
+  
+  
+  
+  
+  
+  
+  </ul></li>
+  <li><a href="#supplementary-materials" id="toc-supplementary-materials" class="nav-link" data-scroll-target="#supplementary-materials">Supplementary Materials</a>
+  <ul class="collapse">
+  <li><a href="#summary-of-participants-roles-and-backgrounds" id="toc-summary-of-participants-roles-and-backgrounds" class="nav-link" data-scroll-target="#summary-of-participants-roles-and-backgrounds">Summary of Participants’ Roles and Backgrounds</a></li>
+  <li><a href="#observations-and-elicitations" id="toc-observations-and-elicitations" class="nav-link" data-scroll-target="#observations-and-elicitations">Observations and Elicitations</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="fuzzy-concrete.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Balancing Situated and Objective Representations in Archaeological Fieldwork</h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://zackbatist.info">Zachary Batist</a> <a href="mailto:zachary.batist@mcgill.ca" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-0435-508X" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            McGill University
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 22, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Archaeology comprises both systematic and pragmatic attitudes and processes concerned with the collection and maintenance of data. This reflects the need to obtain formally-defined data, while also grappling with the fuzzy and uncertain nature of archaeological encounters, especially in fieldwork environments. This produces an epistemic tension, whereby archaeologists struggle to reconcile their desire to produce concrete outcomes based on objective facts, and their intuitive understanding that data are in fact products of situated decisions and actions. Through observations of archaeological practices, interviews with archaeologists at work, and analysis of the documents they produced while recording objects of archaeological concern, this paper articulates how archaeologists cope with this tension and integrate it into their work experiences. # # La arqueología comprende actitudes y procesos, tanto sistemáticos como pragmáticos, relacionados con la recolección y el mantenimiento de datos. # Esto refleja la necesidad de obtener datos formalmente definidos, al mismo tiempo que se lucha con la naturaleza difusa e incierta de los hallazgos arqueológicos, especialmente en el contexto del trabajo de campo. # Esto produce una tensión epistémica, en la que los arqueólogos luchan por conciliar su deseo de producir resultados concretos basados en hechos objetivos y su comprensión intuitiva de que los datos son, de hecho, producto de decisiones y acciones tomadas en contextos específicos. # A través de la observación de prácticas arqueológicas, las entrevistas con arqueólogos en campo y el análisis de los documentos que elaboraron al registrar objetos de interés arqueológico, este artículo explica cómo los arqueólogos afrontan esta tensión y la integran a sus experiencias laborales.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>data work, documentation, collaborative experiences</p>
+  </div>
+</div>
+
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is a preprint of a paper accepted for publication in <a href="https://www.cambridge.org/core/journals/advances-in-archaeological-practice">Advances in Archaeological Practice</a>.</p>
+</div>
+</div>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>The series of challenges pertaining to the organization, sharing and reuse of archaeological data, which are often collectively referred to as the discipline’s “curation crisis” or “data deluge”, have highlighted the wide array of practices that underlie data’s construction, management, dissemination and reuse <span class="citation" data-cites="bevan2012a huggett2022 huggett2022a">(<a href="#ref-bevan2012a" role="doc-biblioref">Bevan 2012</a>; <a href="#ref-huggett2022" role="doc-biblioref">Huggett 2022b</a>, <a href="#ref-huggett2022a" role="doc-biblioref">2022a</a>)</span>. Numerous studies have complicated the common imagination of data – which considers them as concise, corpuscular, discrete and inherently truthful records – by demonstrating how, in practice, they are actually messy, incomplete and non-reductive <span class="citation" data-cites="batist2024a dallas2015 huggett2022a voss2012">(cf. <a href="#ref-batist2024a" role="doc-biblioref">Batist 2024</a>; <a href="#ref-dallas2015" role="doc-biblioref">Dallas 2015</a>; <a href="#ref-huggett2022a" role="doc-biblioref">Huggett 2022a</a>; <a href="#ref-voss2012" role="doc-biblioref">Voss 2012</a>)</span>. In fact, archaeologists create data while anticipating their utility as records that inform certain kinds of analysis, while those who apply data in analytical contexts simultaneously reconcile their own use-cases with the conditions under which the data were originally created <span class="citation" data-cites="dallas2015">(<a href="#ref-dallas2015" role="doc-biblioref">Dallas 2015</a>: 190-191)</span>.</p>
+<p>This is reflected in the ways in which archaeologists reuse data. <span class="citation" data-cites="faniel2013">Faniel et al. (<a href="#ref-faniel2013" role="doc-biblioref">2013</a>)</span> and <span class="citation" data-cites="atici2013">Atici et al. (<a href="#ref-atici2013" role="doc-biblioref">2013</a>)</span> documented how those who reuse data seek out additional contextual information about the circumstances of a dataset’s creation by communicating directly with the dataset’s originators, thereby establishing a discursive collaborative tie. Alternatively, many data analysts who operate at a distance from the contexts in which data originate prefer to trust in the models that give the data concrete structure, thereby offloading the acts of reconciliation to those who produced the data <span class="citation" data-cites="huggett2022">(<a href="#ref-huggett2022" role="doc-biblioref">Huggett 2022b</a>)</span>. In other words, reusing data involves establishing trust, which can be garnered through mutual understanding of the challenges that had to be overcome to get observations to fit within discrete data structures, or through reliance on mechanisms of control to ensure that data are collected and maintained in a consistent manner.</p>
+<p>This paper demonstrates some of the strategies employed to establish trust in data. Through analysis of one illustrative example of archaeological documentation in fieldwork, I show how data-capture is not merely a sensory experience whereby nature is recorded on a 1:1 basis, but is in fact structured by models and power relations that legitimize data and make them useful.</p>
+</section>
+<section id="background" class="level1">
+<h1>Background</h1>
+<p>This work builds upon prior studies of archaeological documentation in fieldwork settings, particularly Edgeworth’s <span class="citation" data-cites="edgeworth1991">(<a href="#ref-edgeworth1991" role="doc-biblioref">1991</a>: 28)</span> dissertation that documented “the transaction between the subject and the object, as it takes place in the act of discovery,” which represented an attempt to ground theoretical discourse concerning the objectivity of the archaeological record in the practical “intersubjective work or labour upon material objects”. This extremely polyvalent work touched on various aspects of archaeological practice, highlighting the collective and discursive process of archaeological knowledge production in various settings. Edgeworth closely examined the physical acts of excavation, the mindsets of the people doing this work, the sensory and conceptual apparatus through which objects are uncovered and made meaningful, and the social transactions that surround and permeate life on the project. His work drew attention to the social and professional interactions taking place at an archaeological excavation, and which occur as archaeologists articulate an object as a meaningful or discrete entity and make it official. Crucially, Edgeworth highlighted how archaeological records are produced through improvised, semi-structured and discursive action, afforded by practical concern and limited by the prior experiences held by those doing the work.</p>
+<p>Similarly, Goodwin <span class="citation" data-cites="goodwin1994 goodwin2010">(<a href="#ref-goodwin1994" role="doc-biblioref">1994</a>, <a href="#ref-goodwin2010" role="doc-biblioref">2010</a>)</span> observed how the formation of concrete records in fieldwork settings relates to the establishment of professional frameworks, which lend authoritative legitimacy to the meanings that archaeologists eventually settled upon. This touched on similar observations made by <span class="citation" data-cites="gero1996">Gero (<a href="#ref-gero1996" role="doc-biblioref">1996</a>)</span>, who noted how certain ways of delimiting features — which corresponded with gendered experiences — were deemed more legitimate than others. <span class="citation" data-cites="mickel2021">Mickel (<a href="#ref-mickel2021" role="doc-biblioref">2021</a>)</span> and <span class="citation" data-cites="yarrow2008">Yarrow (<a href="#ref-yarrow2008" role="doc-biblioref">2008</a>)</span> also documented that archaeological labourers (including local labourers and undergraduate students) are less able to contribute as interpretive agents in the production of lasting records about the things they recover.</p>
+<p><span class="citation" data-cites="thorpe2012">Thorpe (<a href="#ref-thorpe2012" role="doc-biblioref">2012</a>)</span> also argued that the broader social and political circumstances — neoliberal austerity, in particular — in which archaeological fieldwork tends to operate significantly effects how interpretations are made and arguments are extended, by effectively curtailing fieldworkers’ creative agency. <span class="citation" data-cites="huggett2022">Huggett (<a href="#ref-huggett2022" role="doc-biblioref">2022b</a>)</span>, <span class="citation" data-cites="caraher2019">Caraher (<a href="#ref-caraher2019" role="doc-biblioref">2019</a>)</span>, <span class="citation" data-cites="batist2021">Batist et al. (<a href="#ref-batist2021" role="doc-biblioref">2021</a>)</span> and <span class="citation" data-cites="batist-alienation">Batist (<a href="#ref-batist-alienation" role="doc-biblioref">In review</a>)</span> similarly draw attention to how digital workflows effectively segregate acts of recording from acts of analysis and interpretation, by putting significant epistemic distance between those who hold creative agency in analytical and interpretive domains and those who occupy the domain of fieldwork; they further demonstrate how the latter is leveraged by the former to produce a clear and concise basis upon which formal analytical methods rest. Moreover, <span class="citation" data-cites="batist2024a">Batist (<a href="#ref-batist2024a" role="doc-biblioref">2024</a>)</span> and <span class="citation" data-cites="haciguzeller2021">Hacıgüzeller, Taylor, and Perry (<a href="#ref-haciguzeller2021" role="doc-biblioref">2021</a>)</span> point out that the formal and transactional paradigm that dominates discourse on what data are and how they should be handled poses problems for communicating what was actually encountered while excavating a feature, including tentative thoughts, desires and apprehensions that are left out of official records.</p>
+<p>In what follows, I will extend this critique by showcasing the improvised nature of data construction in fieldwork settings and by demonstrating how rough encounters with archaeological remains are stabilized and made more legitimate through documentation practices.</p>
+</section>
+<section id="methods-and-materials" class="level1">
+<h1>Methods and Materials</h1>
+<p>This paper draws from observations of and interviews with archaeologists at work, as well as the documents that they produced. Specifically, I articulate how archaeologists enacted various activities and how their actions were situated as part of broader systems of knowledge production. My involvement with this project constituted a longitudinal investigation of archaeological practice that contributed to my doctoral dissertation <span class="citation" data-cites="batist2023a">(see <a href="#ref-batist2023a" role="doc-biblioref">Batist 2023</a>)</span>.</p>
+<section id="case" class="level2">
+<h2 class="anchored" data-anchor-id="case">Case</h2>
+<p>This paper draws from observations of and interviews with members of an archaeological project, focusing specifically on the pragmatic and multifaceted ways in which participants engage with the project’s information system. This involved recording and interviewing archaeologists as they worked during the summer field seasons from 2017 to 2019 and holding additional interviews between fieldwork sessions. The project’s director also provided access to all documents and records for the purpose of this research.</p>
+<p>The project upon which this case is based is a research project comprising excavation of a prehistoric site in Southern Europe. It is directed by a foreign professor affiliated with a North American university, but who has extensive experience working in the region. The director coordinates various specialists whom he recruited for their expertise in the interpretation of finds, a number of trench supervisors who lead excavation and data collection activities, and excavators who operate under the guidance of their assigned trench supervisors.</p>
+<p>It is a research project involving archaeologists with varying degrees of experience and coming from diverse professional backgrounds, including those with extensive experience in the commercial sector (see the supplementary materials for brief summaries of individuals’ background). It is not a field school, but it does rely to a large extent on labour provided by undergraduate and graduate students, and as such engages in on-the-job training. The informal and situated learning experiences I was able to observe represent instances of legitimate peripheral participation, whereby newcomers are introduced to the norms and expectations that govern the archaeological community of practice. These scenarios provide especially clear opportunities to ascertain the value ascribed to observed practices and information outcomes conveyed by teachers and adopted by learners through active and productive tutelage. There is a strong precedent for this approach to the study of archaeological practice <span class="citation" data-cites="everill2007 goodwin1994 goodwin2010 morgan2018">(cf. <a href="#ref-everill2007" role="doc-biblioref">Everill 2007</a>; <a href="#ref-goodwin1994" role="doc-biblioref">Goodwin 1994</a>, <a href="#ref-goodwin2010" role="doc-biblioref">2010</a>; <a href="#ref-morgan2018" role="doc-biblioref">Morgan and Wright 2018</a>)</span>, including in contexts of continual, life-long learning among experienced archaeologists <span class="citation" data-cites="edgeworth1991 gero1994 graham2019">(cf. <a href="#ref-edgeworth1991" role="doc-biblioref">Edgeworth 1991</a>; <a href="#ref-gero1994" role="doc-biblioref">Gero 1994</a>; <a href="#ref-graham2019" role="doc-biblioref">Graham 2019</a>)</span>.</p>
+<p>This project served as one of three cases I investigated for my doctoral dissertation, which documents how archaeological information systems scaffold the collaborative and epistemic commitments that govern professional research practices <span class="citation" data-cites="batist2023a">(<a href="#ref-batist2023a" role="doc-biblioref">Batist 2023</a>)</span>. The observations and elicitations I present in this paper illustrate a specific phenomenon with a more refined scope than what is accounted for in that more comprehensive work and in other research outcomes deriving from it <span class="citation" data-cites="batist-alienation batist2024a batist2021">(cf. <a href="#ref-batist-alienation" role="doc-biblioref">Batist, In review</a>, <a href="#ref-batist2024a" role="doc-biblioref">2024</a>; <a href="#ref-batist2021" role="doc-biblioref">Batist et al. 2021</a>)</span>. As such, this paper draws from a relatively small portion of the entire set of observations and interviews, which largely pertain to fieldwork recording practices, processing and analysis of finds, records management, interdisciplinary collaboration, decisions regarding writing and publication of findings, and discussions of how data and findings are presented, evaluated and revised among broader research communities.</p>
+<p>I actively contributed to the project for several years, primarily serving as a database manager. This afforded me with greater awareness of its organizational and institutional history, including a deeper familiarity with all the people involved, and provided me with a privileged outlook on how team members structure information, how they typically use data, and what circumstantial events or motivating factors frame such concerns. My continual and participatory engagement with this project allowed me to develop an understanding of the intricate social relations as they developed over time, and enabled me to examine certain methods that are drawn out over the course of several field seasons.</p>
+<p>I must emphasize that in case-study research, cases represent discrete instances of a phenomenon relating to a researcher’s interest <span class="citation" data-cites="ragin1992">(<a href="#ref-ragin1992" role="doc-biblioref">Ragin 1992</a>)</span>. Cases are therefore not the subjects of inquiry, but the vehicles through which phenomena of interest are manifested in an observable way. I recognize that all archaeological projects are informed by their own histories, memberships, sets of tools, methods, and social or political circumstances, which inform distinct traditions of practice, and that it is not possible to generalize across the whole discipline through a single case study. In other words, my findings are informed by the informants whose actions and attitudes I sought to articulate, and by my own perspective as a scholar of the culture and practice of archaeology and of the media and infrastructures that support it. The implication is that commercial archaeology, which comprises the vast majority of archaeological work in North America and Europe, is out of the study’s scope, owing to the fact that the case represents a research project and that I have very limited experience with and knowledge about commercial archaeology. However, see <span class="citation" data-cites="chadwick1998">Chadwick (<a href="#ref-chadwick1998" role="doc-biblioref">1998</a>)</span>, <span class="citation" data-cites="thorpe2012">Thorpe (<a href="#ref-thorpe2012" role="doc-biblioref">2012</a>)</span> and <span class="citation" data-cites="zorzin2015">Zorzin (<a href="#ref-zorzin2015" role="doc-biblioref">2015</a>)</span> for similar research pertaining to commercial archaeology which produced complementary findings as those presented here.</p>
+<p>That being said, this single case study does articulate some significant factors that contribute to decisions and behaviours that archaeologists commonly make and enact, makes certain underappreciated social and collaborative commitments that underlie common tools and practices more visible, and draws attention to certain patterns of practice that relate to contemporary discourse on the nature of archaeological data and ongoing development of information infrastructures.</p>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>My dataset comprises recorded observations, embedded interviews, retrospective interviews, archaeological documentation, and ethnographic and reflexive fieldnotes.</p>
+<p>Observational data comprised records of participants’ behaviours as they performed various archaeological activities and take the form of video, audio and textual files. They enable me to document <em>how</em> practices are performed, in addition to the fact <em>that</em> they are performed. Moreover, observational data allow me to document what participants actually do as opposed to what they think or say they do. For instance, I situated activities in relation to broader systems, even when participants are unaware that they are contributing to these systems, in order to consider how activities occurring at various times or in various contexts indirectly relate to, compare with or inform each other. I observed roughly 66 hours of work from this case, which were typically recorded using three different cameras — including cameras placed on participants’ foreheads — to obtain different perspectives on the recorded activities. Some of the primary foci that guided my observations were the processes that result in archaeological records; people’s use of information objects or interfaces, which sometimes differ from expected behaviour established through their design; how subjects implemented unconventional solutions or “hacks” to work around problems; how the context of an activity affects its implementation; and how local or idiosyncratic terms, concepts and gestures become established in a research community.</p>
+<p>Embedded interviews comprised conversational inquiries with participants in the context of their work, and were meant to account for participants’ perspectives regarding how and why they act as they do, given the immediate constraints of the situation at hand. Embedded interviews provided insight into the practicalities of work in the moment, from the perspective of practitioners themselves <span class="citation" data-cites="flick1997 flick2000 witzel2000">(<a href="#ref-flick1997" role="doc-biblioref">Flick 1997</a>, <a href="#ref-flick2000" role="doc-biblioref">2000</a>; <a href="#ref-witzel2000" role="doc-biblioref">Witzel 2000</a>)</span>. They are also useful for comparing participants’ responses with observational records to interrogate how and why participants’ observed actions may differ from the rationales elucidated from embedded interviews. The fact that embedded interviews occurred while observing work practices makes it difficult to distinguish these interactions from their broader contexts, and it is therefore impractical to quantify how much data were collected in this way. Embedded interviews focused on how participants identify problems or challenges in their work, and to determine ways to resolve them; how certain people gain recognition as domain experts or authorities with specialized knowledge; how specialists relate their contributions to the contributions of others; and how specialists relate their situated perspectives to centralized knowledge repositories.</p>
+<p>Retrospective interviews comprised longer sem-structured interviews outside of work settings with select participants to contextualize data collected by other means and to determine participants’ views on more general or relatively unobservable aspects of archaeological research (such as planning, publishing, collaboration, etc). Participants were selected for interviews based on the potential to triangulate different perspectives on objects, themes or situations whose significance was emerging throughout the research <span class="citation" data-cites="morse2019">(<a href="#ref-morse2019" role="doc-biblioref">Morse and Clark 2019</a>)</span>. I conducted 13 interviews during this case; some included more than one participant, and some participants sat for more than one interview. Retrospective interviews helped me gain insight into how participants situate themselves as members of and in relation to research communities, which may be characterized by different regimes of value and by different methodological protocols or argumentation strategies. They were meant to highlight participants’ perspectives on the value of various kinds of research outputs, what they value in their work and the work of others, the major constraints and challenges that they and their communities face, and how they might resolve them.</p>
+<p>I examined documents and media (such as forms, photographs, labels, databases, datasets, reports, instructional media and field manuals) to gain insight into institutional norms or expectations. See <span class="citation" data-cites="batist2024a">Batist (<a href="#ref-batist2024a" role="doc-biblioref">2024</a>)</span> and <span class="citation" data-cites="batist-alienation">Batist (<a href="#ref-batist-alienation" role="doc-biblioref">In review</a>)</span> for more in-depth analysis of how people interacted with and valued these documents. This involved examining documents and media as means for encapsulating and communicating meanings among users across space and over time. This helped me to understand the vectors through which participants either tacitly form collective experiences or directly collaborate among themselves <span class="citation" data-cites="huvila2011 huvila2016 yarrow2008">(<a href="#ref-huvila2011" role="doc-biblioref">Huvila 2011</a>, <a href="#ref-huvila2016" role="doc-biblioref">2016</a>; <a href="#ref-yarrow2008" role="doc-biblioref">Yarrow 2008</a>)</span>. Document analysis emphasized understanding how document design and media capture protocols anticipate certain methods; how various activities refer to recorded information; the reasons why team members ignore certain equipment and forms of documentation despite their availability; how record-keeping is controlled through explicit or implicit imposition of limitations or constraints; why certain records play a more central role than others; and how different archaeologists record the same objects in different ways.</p>
+<p>Finally, my field notes comprised reflexive journal entries that I wrote between observational sessions or interviews. They also include moments from observational sessions or interviews that I deemed particularly important, as well as descriptive accounts of unrecorded activities or conversations that I have since deemed useful data in their own right.</p>
+<p>I obtained informed consent from all individuals included in this study in compliance with the University of Toronto’s Social Sciences, Humanities, and Education Research Ethics Board, Protocol 34526. In order to ensure that participants could speak freely about their personal and professional relationships while minimizing risk to their personal and professional reputations, I committed to refrain from publishing any personally identifying information. I refer to all participants, affiliated organizations, and mentioned individuals or organizations using pseudonyms. I also edited visual media to obscure participants’ faces and other information that might reveal their identities, and took care to edit or avoid using direct quotations that were cited in other published work that follows a more permissive protocol regarding the dissemination of participants’ identifying information.</p>
+</section>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
+<p>I analyzed recorded observations and interviews, and interrogated the roles and affordances of various tools and documents, using qualitative data analysis methods. More specifically, I draw from the “constellation of methods” that <span class="citation" data-cites="charmaz2014">Charmaz (<a href="#ref-charmaz2014" role="doc-biblioref">2014</a>: 14-15)</span> associated with grounded theory, namely coding and memoing. Coding involves defining what data are about in terms (or codes) that are relevant to the theoretical frameworks that inform my research, and identifying instances of these concepts (codings) as they appear throughout the text <span class="citation" data-cites="charmaz2014">(<a href="#ref-charmaz2014" role="doc-biblioref">Charmaz 2014</a>: 43)</span>. Memoing entails more open-ended exploration and reflection upon latent ideas in order to crystallize them into new avenues to pursue, and constitutes a relatively flexible way of engaging with data and serves as fertile ground for honing new ideas <span class="citation" data-cites="charmaz2014">(<a href="#ref-charmaz2014" role="doc-biblioref">Charmaz 2014</a>: 72)</span>. By creating memos that relate and elaborate series of encoded observations and that situate observed experiences in relation to broader theoretical frameworks, I was able to form more robust and thematic arguments about the phenomena of interest while remaining firmly grounded in the empirical data. See <span class="citation" data-cites="batist2024a">Batist (<a href="#ref-batist2024a" role="doc-biblioref">2024</a>: 9-10)</span> for a more comprehensive overview of the analytical methods employed for the project from which this paper emerges.</p>
+<p>Codes were generated through iterative analysis of recorded observations, transcribed interviews and scans of documents and field notes. An initial “open” coding phase involved generating codes in a rather open-ended manner to identify common themes and sensitizing concepts <span class="citation" data-cites="bowen2006 charmaz2014">(<a href="#ref-bowen2006" role="doc-biblioref">Bowen 2006</a>; <a href="#ref-charmaz2014" role="doc-biblioref">Charmaz 2014</a>: 30-31)</span>. Subsequent coding was scaffolded by a provisional taxonomic code system, which was informed by a loose conceptual model, which broadly encompasses codes about specific activities, participants’ figurations, and theoretical concepts concerning the collective constitution of scientific knowledge <span class="citation" data-cites="batist2023a">(see <a href="#ref-batist2023a" role="doc-biblioref">Batist 2023</a>: Appendix B for an overview of the code system)</span>. The study is therefore aligned with Charmaz’s <span class="citation" data-cites="charmaz2000">(<a href="#ref-charmaz2000" role="doc-biblioref">2000</a>)</span> constructivist approach to grounded theory, in that it orients the work by the analyst’s prior understandings, rather than have the codes emerge organically.</p>
+<p>I refer to specific observations or interview segments throughout the rest of this text using endnotes, which are indexed in the supplementary materials.</p>
+</section>
+</section>
+<section id="findings" class="level1">
+<h1>Findings</h1>
+<p>I focus on a string of episodes where Jane, a promising trench assistant working at an archaeological project, learned to identify, differentiate, and document parts of a stratigraphic sequence. I illustrate how the constitution of the archaeological record, and the internalization of archaeological knowledge, occurred as part of project frameworks and collaborative relations that were structured by projects’ divisions of labour.</p>
+<section id="learning-to-see-like-an-archaeologist" class="level2">
+<h2 class="anchored" data-anchor-id="learning-to-see-like-an-archaeologist">Learning to see like an archaeologist</h2>
+<p>As illustrated in <a href="#fig-context-change" class="quarto-xref">Figure&nbsp;1</a>, Jane explained to me how she identified and differentiated a new context that she was beginning to expose in her trench, using a series of gestures paired with speech to help convey what she meant to say.<sup><a href="#sec-A1">A1</a></sup> Jane kicked the boulders as she referred to them, literally pointed out relations to previous experiences that she deemed relevant, and described certain aspects of the soil by miming the ways that she would interact with them. She referred to common nomenclature outlined in the project’s standard recording schema and referenced by more experienced personnel, and drew from her experiences working in other trenches that others may have shared. More generally, she described the context change only in terms of her interactions with it, and as framed by her particular role in the project.</p>
+<div id="fig-context-change" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-context-change-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/context-change-annotated.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-context-change-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Discussion of a potential context change using gestures and speech.
+</figcaption>
+</figure>
+</div>
+<p>Afterward, and as illustrated in <a href="#fig-context-change-discussion" class="quarto-xref">Figure&nbsp;2</a>, Jane consulted with Basil, who supervised work in this trench, and who is also the project director, regarding her interpretation of the soil in it.<sup><a href="#sec-A2">A2</a></sup> Jane explained what she saw, in terms of her encounters with the entities she identified, while punctuating her observations with physical gestures that underscored certainty that the entities she was observing actually exist. Basil came to take a closer look and translated Jane’s situated experiences into more nominal and normalized terms, that distance the observer from the observed entities. Basil then identified a series of actions that Jane must implement, and summarized the situation by joining what was observed with what was to be done about it, in effect rendering a conclusive and well-reasoned decision. All the while, Jane confirmed her understanding of Basil’s corrections and of his specific instructions.</p>
+<div id="fig-context-change-discussion" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-context-change-discussion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/context-change-discussion.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-context-change-discussion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Explanation of a potential context change using gestures and speech.
+</figcaption>
+</figure>
+</div>
+<p>When Jane explained her interpretation of the soil to her supervisor, he then responded with tentative agreement, paired with his own gestures and intonations that subtly communicated his agreement or disagreement. The conversation between Jane and Basil therefore served as a means of calibrating their experiences, using an independent framework as a common reference point. In effect, Basil attempted to align Jane’s emerging perspective with a professional outlook on the sediment’s character.</p>
+<p>As Jane stated in a subsequent interview <a href="#fig-training-eye" class="quarto-xref">Figure&nbsp;3</a>, she initially found it difficult to “train her eye to see what they’re seeing”, and “they” seems to refer to more senior and specialized archaeologists, including her supervisor the director, and Alfred, one of the field directors.<sup><a href="#sec-A3">A3</a></sup> By talking through their observations in an explicit manner and in the presence of the entities of mutual concern, while also referencing concrete characteristics of the soil, Basil trained Jane to see things in a way that corresponds to a formal model of how to differentiate contexts as a natural extension of that ability. This made him more confident in Jane’s ability to recognize and report her experiences, upon which Basil depends; as he recalled in a separate interview, Basil came to trust Jane “to either make her own decisions or be responsible enough to ask other people to help her make decisions for those moments when I’m not there.”<sup><a href="#sec-A4">A4</a></sup> This was because Jane became capable of deciding for herself when and how to distinguish between sediments, having internalized a conceptual framework that affords professional legitimacy to her observational techniques.</p>
+<div id="fig-training-eye" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-training-eye-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/training-eye.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-training-eye-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Jane describes how she learned to recognize differences in the soil. Underlined text refer to especially significant elicitations elucidated above.
+</figcaption>
+</figure>
+</div>
+<p>Jane’s internalization of the broader conceptual framework accomplished a few important things: (a) it aligned her own vision as part of a collectively-held way of perceiving the world, which is led by authoritative actors who exhibit greater creative control; (b) it rendered her own unique experiences as generic contributions to the project’s information commons, which has the effect of reducing her individual agency while also drawing her into a class of related agents serving similar data collection functions, e.g.&nbsp;student labourers; and (c) it re-framed her embodied and sensory experience as a matter of information modelling, which occurs outside material space and circumstantial moments in time. By clarifying relatively ambiguous perceptions through a carefully calibrated prism, the project may obtain sharper and more well-defined outlines of the things they target for observation, while correcting for and making it easier to dismiss the particular embodied experiences that are collectively focused through the aggregative lens.</p>
+</section>
+<section id="shedding-the-body" class="level2">
+<h2 class="anchored" data-anchor-id="shedding-the-body">Shedding the body</h2>
+<p>I should note that Jane did not actually object to the reduction of her situated experience in favour of more generic forms of representing the stratigraphy. In fact, this conformed with a pattern of behaviour — which was enacted by all the fieldworkers I spoke with — whereby they tried not to think too much while excavating, opting instead to operate in the moment, face the task at hand, and deal with what is immediately in front of them, literally and figuratively.<sup><a href="#sec-A5">A5</a>,<a href="#sec-A6">A6</a></sup> This conformed with the expectation that the things an excavator uncovers will gradually reveal themselves, and that she should passively follow what is occurring in the earth before her.</p>
+<p>To help accomplish this, fieldworkers modified the environments in which they worked. For instance, some fieldworkers focused better while listening to music or while blocking out social distractions.<sup><a href="#sec-A7">A7</a>,<a href="#sec-A8">A8</a></sup> Ben, who worked as an assistant in a separate trench, said that listening to music helped him avoid being too self-aware<sup><a href="#sec-A7">A7</a></sup> while Jane concurred by expressing that she listened to music to help her “get lost in digging.”<sup><a href="#sec-A8">A8</a></sup> Even when music was not used, or when it is forbidden on site, there remains a warrant for fieldworkers to remain focused as they work.<sup><a href="#sec-A9">A9</a></sup> For instance, Basil recalled what he characterized as “old fashioned” archaeological fieldwork practices, which dictate that “the only sound you should hear is trowel on stone.”<sup><a href="#sec-A8">A8</a></sup></p>
+<p>Having all the necessary tools at hand was another way to facilitate uninterrupted focus during fieldwork.<sup><a href="#sec-A10">A10</a></sup> This helped eliminate peripheral sensory distractions when getting up or reaching for tools placed further away. In effect, fieldworkers were made to become disembodied sensing devices attuned to one thing and one thing only: the soil immediately in front of them. This notion was further underscored by my unrecorded but common observations of supervisors having to force assistants to take breaks, drink water, apply sunscreen, and remind them that they have bodies worth cherishing and protecting.</p>
+<p>In some cases, fieldworkers found certain kinds of externally derived information useful as they excavated. For instance, knowing about similar stratigraphy in nearby trenches enabled excavators to work at a quicker pace, since it this provided a general understanding of the order and depth of the stratigraphy under them.<sup><a href="#sec-A11">A11</a>,<a href="#sec-A12">A12</a></sup> Moreover, when finds specialists reported back to fieldworkers about the contents of their ongoing trenches, their preliminary findings sometimes influenced the care with which they excavated and recorded the trench.<sup><a href="#sec-A13">A13</a>,<a href="#sec-A14">A14</a></sup> While Theo (a trench supervisor who eventually became a field director) indicated that knowing about the properties of lithic artifacts that lithics specialists deemed important helped him undertake his work in a manner that better suited the project’s overall aims, he presented this notion in very broad terms, and refrained from indicating specific practical impacts when prompted. <sup><a href="#sec-A13">A13</a></sup> Moreover, Ben dismissed the input provided by palaeobotanical experts as useless to him because he was unable to “see” the archaeobotanical traces as he worked.<sup><a href="#sec-A15">A15</a></sup> This may merely reflect practical concerns, specifically regarding the microscopic nature of properties that render archaeobotanical remains significant, but it would not be absurd to find ways to help fieldworkers make sense of such insights in the field. For instance, if there was a warrant for such activity, fieldworkers may hypothetically carry a magnifying loupe and reference guide, and be trained to understand how to use them, similar to how Jane learned to characterize soil samples in the field. However, this would require a more comprehensive partnership between specialists and fieldworkers, and broadening the extreme focus that fieldworkers have honed for themselves.</p>
+<p>In general then, I observed aspects of fieldwork practice that both complement and contradict efforts to enhance reflexivity in fieldwork. The professed desire not to overthink while excavating pushes back against impulses to provide more information to fieldworkers during the moment of excavation <span class="citation" data-cites="berggren2012 berggren2015">(cf. <a href="#ref-berggren2012" role="doc-biblioref">Berggren 2012</a>; <a href="#ref-berggren2015" role="doc-biblioref">Berggren et al. 2015</a>)</span>. According to Theo and Ben, fieldworkers operate in a strictly separate role than those who interpret and write about finds, and this boundary feels natural to them.<sup><a href="#sec-A16">A16</a>,<a href="#sec-A17">A17</a>,<a href="#sec-A18">A18</a></sup> Rather than ingest loads of additional information, which involves learning how to make sense of it all and find it meaningful in a practical sense,<sup><a href="#sec-A19">A19</a></sup> the fieldworkers I spoke with went in the opposite direction; they value their extremely focused experiences with the material, which presents them with a unique and proprietary way of knowing that dissipates as they are, as <span class="citation" data-cites="edgeworth2003">Edgeworth (<a href="#ref-edgeworth2003" role="doc-biblioref">2003</a>: 109)</span> put it, forced to “[detach themselves] from the task-in-hand to consider the material field from a distance”. This means of engagement feels more natural to them, as if unmuddied by reflexive thought, and the fieldworkers I spoke with perceived this as a strength.</p>
+<p>At the same time, the fieldworkers I spoke with were very aware that all observation is subjective and that all records carry biases imposed by the practical circumstances of their creation; they were deeply involved in navigating these practical circumstances and in devising ways to control their environments to foster the <em>illusion</em> of objectivity. All of what I described was in service of a broader systemic framework, which is informed by a (flawed) conception of the nature of archaeological data and of what constitutes proper or legitimate archaeological reasoning <span class="citation" data-cites="batist-alienation">(<a href="#ref-batist-alienation" role="doc-biblioref">Batist, In review</a>)</span>.</p>
+<p>In other words, fieldworkers’ efforts to shed their embodied experiences was a strategy for coping with an “epistemic anxiety”, whereby archaeologists must grapple with a tension between the drive to produce confident records and their intuitive understanding that their own observations are inherently situated <span class="citation" data-cites="huggett2022a lucas2019 wylie2017 batist2024a">(<a href="#ref-huggett2022a" role="doc-biblioref">Huggett 2022a</a>: 274-278; <a href="#ref-lucas2019" role="doc-biblioref">Lucas 2019</a>: 55-57; <a href="#ref-wylie2017" role="doc-biblioref">Wylie 2017</a>; <a href="#ref-batist2024a" role="doc-biblioref">Batist 2024</a>)</span>. This is supported by systems that effectively re-assign creative agency from fieldworkers to data managers <span class="citation" data-cites="batist2024a batist-alienation">(<a href="#ref-batist2024a" role="doc-biblioref">Batist 2024</a>, <a href="#ref-batist-alienation" role="doc-biblioref">In review</a>)</span>. For instance, I previously noted that database managers, who were tasked with translating messy observations into concrete data structures, generally lacked adequate understanding of the contexts in which data were initially recorded; to overcome this challenge, they attempted to enforce standards, workflows and rulesets among fieldworkers so that they could obtain greater control over the data <span class="citation" data-cites="batist2024a">(<a href="#ref-batist2024a" role="doc-biblioref">Batist 2024</a>)</span>.</p>
+<p>It should also be emphasized that this is a systemic issue, and does not reflect individual archaeologists’ skills and abilities. This is evident by the remarkable consistency across responses by and observations of all the archaeologists I engaged with on this matter, regardless of their degree of experience; they were all both intuitively and explicitly aware of these concerns but were unable to grapple with them or enact change through their own individual actions. Nor are these observations intended to demonize or pass negative judgement on the projects’ leaders and database managers, who are similarly constrained by systemic pressures to generate forms of knowledge that are valued by the scientific enterprise. This, in turn, involves balancing a tension between sharing concrete records about archaeological observations while accounting for the situated decisions and actions that contributed their creation.</p>
+</section>
+<section id="leaving-traces-in-the-subsequent-record" class="level2">
+<h2 class="anchored" data-anchor-id="leaving-traces-in-the-subsequent-record">Leaving traces in the subsequent record</h2>
+<p>Turning back to the specific observations of archaeological fieldwork, Basil’s prediction that the context would not change came to fruition. However, the tentative decision to proceed as if a change in context was imminent left residual traces on recording sheets, in the database, and in the final trench report (see <a href="#fig-context-description-transcribed" class="quarto-xref">Figure&nbsp;4</a> and <a href="#fig-context-sketch" class="quarto-xref">Figure&nbsp;5</a>).</p>
+<div id="fig-context-description-transcribed" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-context-description-transcribed-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/context-description-transcribed.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-context-description-transcribed-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Transcribed section of a recording sheet describing the context addressed in the observed episode.
+</figcaption>
+</figure>
+</div>
+<div id="fig-context-sketch" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-context-sketch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/context-sketch.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-context-sketch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Sketch of the base of a trench, portraying the context addressed in the observed episode, boxed in red.
+</figcaption>
+</figure>
+</div>
+<div id="fig-context-report" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-context-report-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/context-report.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-context-report-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Section of a trench report describing the context addressed in the observed episode, and situating it as part of a lithostratigraphic unit.
+</figcaption>
+</figure>
+</div>
+<p>In particular, the tentativity and ambiguity that Jane and Basil experienced while excavating this trench was one of its notable properties, as elicited in the final trench report (see <a href="#fig-context-report" class="quarto-xref">Figure&nbsp;6</a>). Additionally, the report described how the contexts were eventually lumped together into a more concretely defined “lithostratigraphic unit,” which was formally delimited using nominal and standardized terminology. In this way, the report switched back and forth between ambiguous and concrete representations, which conveyed experiential and distant perspectives, respectively. This resembles the tone switching that occurred in the conversation between Jane and Basil, whereby Basil, as supervisor responsible for creating formal documentation, re-presented Jane’s experiences using more formal terms. As such, this reflects an implicit recognition that there is immense value in being able to share more nuanced perspectives on the things that make up the archaeological record. At the same time, and in contrast with truly situated records like those maintained in field journals <span class="citation" data-cites="batist2024a">(cf. <a href="#ref-batist2024a" role="doc-biblioref">Batist 2024</a>)</span>, the language documenting such tentativity in the report remained largely impersonal and observations were de-situated and disembodied.</p>
+<p>It is notable that situated experiences were recorded in the report-writing phase, and only by those acting in authoritative roles. This parallels how field journals — which are also records of situated experiences — are exclusively maintained by supervising personnel <span class="citation" data-cites="batist2024a">(<a href="#ref-batist2024a" role="doc-biblioref">Batist 2024</a>)</span>. These observations reflect the different kinds of agency held by different actors in the project. Fieldworkers were encouraged to shape their behaviour so that the information they obtained was born as formal entities from the start, whereas those responsible for presenting the record as part of a broader scope of work were responsible for re-situating the data as products of data-collection processes that they designed and dictated. Recognizing the situatedness of data while they were being collected would have warranted recognition of their limitations, which fieldworkers believed would enable undisciplined data collection behaviour.<sup><a href="#sec-A20">A20</a></sup></p>
+<p>In other words, the constitution of archaeological records involved temporarily suspending disbelief regarding the stability of archaeological observations among fieldworkers, and then re-integration of storied accounts about the record’s origins by supervisors who were granted greater creative agency. However, this was conditioned through the use of language that rendered prior work as generic and non-situated processes, thereby obscuring the agency of those whose work the report was based on. Although not specifically targeted for this study, similar tendencies may also be casually observed while re-contextualizing prior work as part of broader narratives at various scales — in summaries about a trench, an area, a site, and even an entire region.</p>
+</section>
+</section>
+<section id="discussion-and-conclusion" class="level1">
+<h1>Discussion and Conclusion</h1>
+<p>This paper’s findings demonstrate how the production of stable and concrete archaeological records involves characterizing the phenomena of interest in nominal terms, while downplaying the situated and embodied experiences that informed the records’ creation. More specifically, it documents a tendency toward enforcing formally-defined records in support of analytical tasks down the line, which present fieldwork as a means to an end, and fieldworkers as instruments that can be wielded to support future analytic endeavours. It shows how these values are instilled through the social and material experiences in which fieldwork is embedded, which inform fieldworkers about how their labour, and the outcomes of their labour, contribute to collective efforts. In other words, it reveals how the management of archaeological data and of archaeological labour are inherently intertwined, and draws attention to some mechanisms through which certain voices are rendered more visible than others when constituting the archaeological record.</p>
+<p>Moreover, the fieldworkers I observed and spoke with played into the roles they were assigned, even though this meant having less creative agency. In fact, they generally valued their contributions as sensory devices, which is linked to the notion that they were capable of seeing things as they really are — as material entities that have seemingly not yet been ascribed stable meaning. As such, fieldworkers actively contributed to honing the illusion of their objectivity, which enhanced their value as members of the project and as domain specialists with their own unique mental skills. At the same time, it was also clear that fieldworkers knew, on an intuitive level, that any claim of objectivity is overstated <span class="citation" data-cites="batist2024a">(as per complementary work published in <a href="#ref-batist2024a" role="doc-biblioref">Batist 2024</a>: 12)</span>. However, their positions as responsive rather than creative actors ensured that they are not responsible for resolving this tension <span class="citation" data-cites="batist-alienation">(cf. <a href="#ref-batist-alienation" role="doc-biblioref">Batist, In review</a>)</span>.</p>
+<p>These findings complement other empirical research examining archaeological data management as collective interpretive action. For instance, <span class="citation" data-cites="batist2021">Batist et al. (<a href="#ref-batist2021" role="doc-biblioref">2021</a>)</span> and <span class="citation" data-cites="batist-alienation">Batist (<a href="#ref-batist-alienation" role="doc-biblioref">In review</a>)</span> note that rote fieldwork practices tend to be assigned to relatively junior project personnel, who become ensnared in workflows which discipline their actions. Similarly, <span class="citation" data-cites="morgan2018">Morgan and Wright (<a href="#ref-morgan2018" role="doc-biblioref">2018</a>)</span>, who compare analog and digital field drawing techniques, reveal how the act of transcribing archaeological deposits on a blank surface produces greater understanding in the minds of students than participating as a cog in a broader digital apparatus, owing to different degrees of creative interpretive agency that each method affords them. Moreover, <span class="citation" data-cites="yarrow2008">Yarrow (<a href="#ref-yarrow2008" role="doc-biblioref">2008</a>)</span>, who examines the meaning, materiality and agency in archaeological recording practices, draws attention to expressions of resignation among fieldworkers who were more aware that the information they record does not hold special meaning, based on their prior understanding of how these records would actually be used down the line. <span class="citation" data-cites="thorpe2012">Thorpe (<a href="#ref-thorpe2012" role="doc-biblioref">2012</a>)</span>, <span class="citation" data-cites="zorzin2010">Zorzin (<a href="#ref-zorzin2010" role="doc-biblioref">2010</a>)</span>, <span class="citation" data-cites="edgeworth1991">Edgeworth (<a href="#ref-edgeworth1991" role="doc-biblioref">1991</a>)</span> and <span class="citation" data-cites="watson2019">Watson (<a href="#ref-watson2019" role="doc-biblioref">2019</a>)</span> highlight similar perspectives in their critical investigations of agentic relationships and knowledge production in commercial archaeology.</p>
+<p>This paper has clear implications for thinking about data documentation and the potential for data to be re-used in secondary research contexts, at greater distance from their contexts of creation. Surveys and experiments by <span class="citation" data-cites="faniel2013">Faniel et al. (<a href="#ref-faniel2013" role="doc-biblioref">2013</a>: 299-301)</span>, <span class="citation" data-cites="atici2013">Atici et al. (<a href="#ref-atici2013" role="doc-biblioref">2013</a>: 676-677)</span>, <span class="citation" data-cites="kansa2013">Kansa and Whitcher Kansa (<a href="#ref-kansa2013" role="doc-biblioref">2013</a>: 90-91)</span> and <span class="citation" data-cites="chapman2016">Chapman and Wylie (<a href="#ref-chapman2016" role="doc-biblioref">2016</a>: 213)</span>, which investigated the needs of data re-users, highlighted their desires to communicate directly with datasets’ creators to ascertain the subtext hidden between the lines of their formal documentation. This aligns with investigations of attempts to enhance archaeological documentation by <span class="citation" data-cites="huvila2022b">Huvila, Börjesson, and Sköld (<a href="#ref-huvila2022b" role="doc-biblioref">2022</a>)</span>, <span class="citation" data-cites="austin2024">Austin et al. (<a href="#ref-austin2024" role="doc-biblioref">2024</a>)</span> and <span class="citation" data-cites="opitz2021">Opitz et al. (<a href="#ref-opitz2021" role="doc-biblioref">2021</a>)</span>, which suggest that such efforts should be directed by specific contexts of re-use. A common thread across these investigations on either end of the archive is that effective data-sharing must involve some discursive relationship between those who produce and re-use data, thereby bridging the epistemic distance imposed by layers of abstraction <span class="citation" data-cites="huggett2022a">(<a href="#ref-huggett2022a" role="doc-biblioref">Huggett 2022a</a>)</span>. Strategies for enhancing data’s re-use potential across the continuum of archaeological practice thereby embody Dallas’ <span class="citation" data-cites="dallas2015">(<a href="#ref-dallas2015" role="doc-biblioref">2015</a>)</span> notion of curation as simultaneous acts of reconciliation and anticipation, whereby meanings are negotiated in relation to prior and future objectives and circumstances.</p>
+<p>However, the systemic drive to produce certain kinds of information outcomes based on confident and stable data sources is not fully compatible with this need to acknowledge the complex and storied histories of data. This tension between distinct notions of data, as concrete and disembodied records in one sense, and as situated products of decisions, actions and circumstances in another, produces an epistemic anxiety that archaeologists must cope with. It is unclear how, or even if, this epistemic tension can be resolved, but the drive to achieve a state of objectivity in fieldwork, which is facilitated by systemic distributions of agency, persists — in spite of this outcome’s impossibility — as one coping mechanism.</p>
+<p>To be clear, the instrumentalisation of archaeological labour is often necessary in order to derive concrete and confident records that are suitable for analytical methods which comply with modern scientific quality standards. Moreover, information commons, such as the pool of knowledge accumulated throughout an archaeological project, do not necessarily have to be egalitarian, and are always governed by norms and expectations concerning who may contribute to and extract from communal resources, and in what ways these interactions should occur. But rather than lean in to the illusion of archaeological objectivity, which is a value built in to most contemporary data management systems, it may be prudent to try an alternative approach that fosters a commensal attitude toward data; namely, one which more fully recognizes data work occurring throughout the continuum of archaeological practice, including in domains that are not typically recognized for their capacity to work with data, such as fieldwork.</p>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-atici2013" class="csl-entry" role="listitem">
+Atici, Levent, Sarah Whitcher Kansa, Justin Lev-Tov, and Eric C. Kansa. 2013. <span>“Other <span>People</span>’s <span>Data</span>: <span>A Demonstration</span> of the <span>Imperative</span> of <span>Publishing Primary Data</span>.”</span> <em>Journal of Archaeological Method and Theory</em> 20 (4): 663. <a href="https://doi.org/10.1007/s10816-012-9132-9">https://doi.org/10.1007/s10816-012-9132-9</a>.
+</div>
+<div id="ref-austin2024" class="csl-entry" role="listitem">
+Austin, Anne, Ixchel M. Faniel, Brittany Brannon, and Sarah Whitcher Kansa. 2024. <span>“Improving the <span>Usability</span> of <span>Archaeological Data</span> Through <span>Written Guidelines</span>.”</span> <em>Advances in Archaeological Practice</em>, January, 1–12. <a href="https://doi.org/10.1017/aap.2023.38">https://doi.org/10.1017/aap.2023.38</a>.
+</div>
+<div id="ref-batist-alienation" class="csl-entry" role="listitem">
+Batist, Zachary. In review. <span>“Locating Creative Agency in Archaeological Data Work.”</span> <em>Peer Community In Archaeology</em>. <a href="https://doi.org/10.17613/8eqy4-n1m82">https://doi.org/10.17613/8eqy4-n1m82</a>.
+</div>
+<div id="ref-batist2023a" class="csl-entry" role="listitem">
+———. 2023. <span>“Archaeological Data Work as Continuous and Collaborative Practice.”</span> PhD thesis, Toronto: University of Toronto. <a href="https://hdl.handle.net/1807/130306">https://hdl.handle.net/1807/130306</a>.
+</div>
+<div id="ref-batist2024a" class="csl-entry" role="listitem">
+———. 2024. <span>“On the <span>Value</span> of <span>Informal Communication</span> in <span>Archaeological Data Work</span>.”</span> <em>Open Archaeology</em> 10 (1): 20240014. <a href="https://doi.org/10.1515/opar-2024-0014">https://doi.org/10.1515/opar-2024-0014</a>.
+</div>
+<div id="ref-batist2021" class="csl-entry" role="listitem">
+Batist, Zachary, Val Masters, Tiffany C. Torma, Michael Carter, Neal Ferris, Isto Huvila, Seamus Ross, and Costis Dallas. 2021. <span>“Figurations of <span>Digital Practice</span>, <span>Craft</span>, and <span>Agency</span> in <span>Two Mediterranean Fieldwork Projects</span>.”</span> <em>Open Archaeology</em> 7 (1): 1731–55. <a href="https://doi.org/10.1515/opar-2020-0217">https://doi.org/10.1515/opar-2020-0217</a>.
+</div>
+<div id="ref-berggren2012" class="csl-entry" role="listitem">
+Berggren, Åsa. 2012. <span>“Comments on <span>Matt Edgeworth</span>: <span>‘<span>Follow</span> the <span>Cut</span>, <span>Follow</span> the <span>Rhythm</span>, <span>Follow</span> the <span>Material</span>’</span>.”</span> <em>Norwegian Archaeological Review</em> 45 (1): 92–94. <a href="https://doi.org/10.1080/00293652.2012.679425">https://doi.org/10.1080/00293652.2012.679425</a>.
+</div>
+<div id="ref-berggren2015" class="csl-entry" role="listitem">
+Berggren, Åsa, Nicolo Dell’Unto, Maurizio Forte, Scott Haddow, Ian Hodder, Justine Issavi, Nicola Lercari, Camilla Mazzucato, Allison Mickel, and James S. Taylor. 2015. <span>“Revisiting Reflexive Archaeology at <span>Çatalhöyük</span>: <span>Integrating</span> Digital and <span>3D</span> Technologies at the Trowel’s Edge.”</span> <em>Antiquity</em> 89 (344): 433–48. <a href="https://doi.org/10.15184/aqy.2014.43">https://doi.org/10.15184/aqy.2014.43</a>.
+</div>
+<div id="ref-bevan2012a" class="csl-entry" role="listitem">
+Bevan, Andrew. 2012. <span>“Value, <span>Authority</span> and the <span>Open Society</span>. <span>Some Implications</span> for <span>Digital</span> and <span>Online Archaeology</span>.”</span> In <em>Archaeology and <span>Digital Communication</span>: <span>Towards Strategies</span> of <span>Public Engagement</span></em>, edited by Chiara Bonacchi, 1–14. London, UK: Archetype.
+</div>
+<div id="ref-bowen2006" class="csl-entry" role="listitem">
+Bowen, Glenn A. 2006. <span>“Grounded <span>Theory</span> and <span>Sensitizing Concepts</span>:”</span> <em>International Journal of Qualitative Methods</em> 5 (3): 12–23. <a href="https://doi.org/10.1177/160940690600500304">https://doi.org/10.1177/160940690600500304</a>.
+</div>
+<div id="ref-caraher2019" class="csl-entry" role="listitem">
+Caraher, William. 2019. <span>“Slow <span>Archaeology</span>, <span>Punk Archaeology</span>, and the <span>‘<span>Archaeology</span> of <span>Care</span>’</span>.”</span> <em>European Journal of Archaeology</em> 22 (3): 372–85. <a href="https://doi.org/10.1017/eaa.2019.15">https://doi.org/10.1017/eaa.2019.15</a>.
+</div>
+<div id="ref-chadwick1998" class="csl-entry" role="listitem">
+Chadwick, Adrian. 1998. <span>“Archaeology at the Edge of Chaos: Further Towards Reflexive Excavation Methodologies.”</span> <em>Assemblage</em> 3:97–117.
+</div>
+<div id="ref-chapman2016" class="csl-entry" role="listitem">
+Chapman, Robert, and Alison Wylie. 2016. <em>Evidential <span>Reasoning</span> in <span>Archaeology</span></em>. Bloomsbury Academic. <a href="https://books.google.com?id=tMohDQAAQBAJ">https://books.google.com?id=tMohDQAAQBAJ</a>.
+</div>
+<div id="ref-charmaz2000" class="csl-entry" role="listitem">
+Charmaz, Kathy. 2000. <span>“Grounded <span>Theory</span>: <span>Objectivist</span> and <span>Constructionist Methods</span>.”</span> In <em>Handbook of <span>Qualitative Research</span></em>, edited by Norman K. Denzin and Yvonna S. Lincoln, 2nd ed., 509–36. Thousand Oaks, CA: SAGE.
+</div>
+<div id="ref-charmaz2014" class="csl-entry" role="listitem">
+———. 2014. <em>Constructing <span>Grounded Theory</span></em>. 2nd ed. SAGE.
+</div>
+<div id="ref-dallas2015" class="csl-entry" role="listitem">
+Dallas, Costis. 2015. <span>“Curating <span>Archaeological Knowledge</span> in the <span>Digital Continuum</span>: <span>From Practice</span> to <span>Infrastructure</span>.”</span> <em>Open Archaeology</em> 1 (1): 176–207. <a href="https://doi.org/10.1515/opar-2015-0011">https://doi.org/10.1515/opar-2015-0011</a>.
+</div>
+<div id="ref-edgeworth1991" class="csl-entry" role="listitem">
+Edgeworth, Matt. 1991. <span>“The Act of Discovery: <span>An</span> Ethnography of the Subject-Object Relation in Archaeological Practice.”</span> PhD thesis, Durham University. <a href="http://etheses.dur.ac.uk/1481/">http://etheses.dur.ac.uk/1481/</a>.
+</div>
+<div id="ref-edgeworth2003" class="csl-entry" role="listitem">
+———. 2003. <em>Acts of Discovery: <span>An</span> Ethnography of Archaeological Practice</em>. Vol. 1131. British Archaeological Reports.
+</div>
+<div id="ref-everill2007" class="csl-entry" role="listitem">
+Everill, Paul. 2007. <span>“A <span>Day</span> in the <span>Life</span> of a <span>Training Excavation</span>: <span>Teaching Archaeological Fieldwork</span> in the <span>UK</span>.”</span> <em>World Archaeology</em> 39 (4): 483–98. <a href="https://doi.org/10.1080/00438240701676243">https://doi.org/10.1080/00438240701676243</a>.
+</div>
+<div id="ref-faniel2013" class="csl-entry" role="listitem">
+Faniel, Ixchel, Eric C. Kansa, Sarah Whitcher Kansa, Julianna Barrera-Gomez, and Elizabeth Yakel. 2013. <span>“The <span>Challenges</span> of <span>Digging Data</span>: <span>A Study</span> of <span>Context</span> in <span>Archaeological Data Reuse</span>.”</span> In <em>Proceedings of the 13th <span>ACM</span>/<span>IEEE-CS Joint Conference</span> on <span>Digital Libraries</span></em>, 295–304. New York: ACM. <a href="https://doi.org/10.1145/2467696.2467712">https://doi.org/10.1145/2467696.2467712</a>.
+</div>
+<div id="ref-flick1997" class="csl-entry" role="listitem">
+Flick, Uwe. 1997. <span>“The Episodic Interview. <span>Small</span> Scale Narratives as Approach to Relevant Experiences.”</span> <em>London School of Economics Methodology Institute: Discussion Papers-Qualitative Series</em>.
+</div>
+<div id="ref-flick2000" class="csl-entry" role="listitem">
+———. 2000. <span>“Episodic <span>Interviewing</span>.”</span> In <em>Qualitative <span>Researching</span> with <span>Text</span>, <span>Image</span> and <span>Sound</span></em>, by Martin Bauer and George Gaskell, 76–92. London: SAGE Publications Ltd. <a href="https://doi.org/10.4135/9781849209731.n5">https://doi.org/10.4135/9781849209731.n5</a>.
+</div>
+<div id="ref-gero1994" class="csl-entry" role="listitem">
+Gero, Joan M. 1994. <span>“Excavation <span>Bias</span> and the <span>Woman</span> at <span>Home Ideology</span>.”</span> <em>Archeological Papers of the American Anthropological Association</em> 5 (1): 37–42. <a href="https://doi.org/10.1525/ap3a.1994.5.1.37">https://doi.org/10.1525/ap3a.1994.5.1.37</a>.
+</div>
+<div id="ref-gero1996" class="csl-entry" role="listitem">
+———. 1996. <span>“Archaeological Practice and Gendered Encounters with Field Data.”</span> <em>Gender and Archaeology</em>, 251–80.
+</div>
+<div id="ref-goodwin1994" class="csl-entry" role="listitem">
+Goodwin, Charles. 1994. <span>“Professional <span>Vision</span>.”</span> <em>American Anthropologist</em> 96 (3): 606–33. <a href="https://doi.org/10.1525/aa.1994.96.3.02a00100">https://doi.org/10.1525/aa.1994.96.3.02a00100</a>.
+</div>
+<div id="ref-goodwin2010" class="csl-entry" role="listitem">
+———. 2010. <span>“Things and Their Embodied Environments.”</span> In <em>The Cognitive Life of Things: <span>Recasting</span> the Boundaries of the Mind</em>, edited by Lambros Malafouris and Colin Renfrew, 103–20. Cambridge: McDonald Institute of Archaeological Research.
+</div>
+<div id="ref-graham2019" class="csl-entry" role="listitem">
+Graham, Shawn. 2019. <em>Failing Gloriously and Other Essays</em>. Grand Forks, North Dakota: The Digital Press at the University of North Dakota. <a href="https://doi.org/10.31356/dpb015">https://doi.org/10.31356/dpb015</a>.
+</div>
+<div id="ref-haciguzeller2021" class="csl-entry" role="listitem">
+Hacıgüzeller, Piraye, James Stuart Taylor, and Sara Perry. 2021. <span>“On the <span>Emerging Supremacy</span> of <span>Structured Digital Data</span> in <span>Archaeology</span>: <span>A Preliminary Assessment</span> of <span>Information</span>, <span>Knowledge</span> and <span>Wisdom Left Behind</span>.”</span> <em>Open Archaeology</em> 7 (1): 1709–30. <a href="https://doi.org/10.1515/opar-2020-0220">https://doi.org/10.1515/opar-2020-0220</a>.
+</div>
+<div id="ref-huggett2022a" class="csl-entry" role="listitem">
+Huggett, Jeremy. 2022a. <span>“Data <span>Legacies</span>, <span>Epistemic Anxieties</span>, and <span>Digital Imaginaries</span> in <span>Archaeology</span>.”</span> <em>Digital</em> 2 (2): 267–95. <a href="https://doi.org/10.3390/digital2020016">https://doi.org/10.3390/digital2020016</a>.
+</div>
+<div id="ref-huggett2022" class="csl-entry" role="listitem">
+———. 2022b. <span>“Is <span>Less More</span>? <span>Slow Data</span> and <span>Datafication</span> in <span>Archaeology</span>.”</span> In <em>Critical <span>Archaeology</span> in the <span>Digital Age</span>: <span>Proceedings</span> of the 12th <span>IEMA Visiting Scholar</span>’s <span>Conference</span></em>, edited by Kevin Garstki, 97–110. Los Angeles, CA: Cotsen Institute of Archaeology Press. <a href="https://escholarship.org/uc/item/0vh9t9jq#page=112">https://escholarship.org/uc/item/0vh9t9jq#page=112</a>.
+</div>
+<div id="ref-huvila2011" class="csl-entry" role="listitem">
+Huvila, Isto. 2011. <span>“Being Formal and Flexible: Semantic Wiki as an Archaeological e-Science Infrastructure.”</span> In <em>Revive the <span>Past</span>: <span>Proceeding</span> of the 39th <span>Conference</span> on <span>Computer Applications</span> and <span>Quantitative Methods</span> in <span>Archaeology</span>, <span>Beijing</span></em>, 186–97.
+</div>
+<div id="ref-huvila2016" class="csl-entry" role="listitem">
+———. 2016. <span>“"<span>If We Just Knew Who Should Do It</span>", or the <span>Social Organization</span> of the <span>Archiving</span> of <span>Archaeology</span> in <span>Sweden</span>.”</span> <em>Information Research: An International Electronic Journal</em> 21 (2): n2. <a href="https://eric.ed.gov/?id=EJ1104372">https://eric.ed.gov/?id=EJ1104372</a>.
+</div>
+<div id="ref-huvila2022b" class="csl-entry" role="listitem">
+Huvila, Isto, Lisa Börjesson, and Olle Sköld. 2022. <span>“Archaeological Information-Making Activities According to Field Reports.”</span> <em>Library &amp; Information Science Research</em> 44 (3): 101171. <a href="https://doi.org/10.1016/j.lisr.2022.101171">https://doi.org/10.1016/j.lisr.2022.101171</a>.
+</div>
+<div id="ref-kansa2013" class="csl-entry" role="listitem">
+Kansa, Eric C., and Sarah Whitcher Kansa. 2013. <span>“We <span>All Know That</span> a 14 <span>Is</span> a <span>Sheep</span>: <span>Data Publication</span> and <span>Professionalism</span> in <span>Archaeological Communication</span>.”</span> <em>Journal of Eastern Mediterranean Archaeology and Heritage Studies</em> 1 (1): 88–97. <a href="https://doi.org/10.1353/ema.2013.0007">https://doi.org/10.1353/ema.2013.0007</a>.
+</div>
+<div id="ref-lucas2019" class="csl-entry" role="listitem">
+Lucas, Gavin. 2019. <em>Writing the Past: <span>Knowledge</span> and Literary Production in Archaeology</em>. Abingdon, Oxon ; New York, NY: Routledge.
+</div>
+<div id="ref-mickel2021" class="csl-entry" role="listitem">
+Mickel, Allison. 2021. <em>Why <span>Those Who Shovel Are Silent</span>: <span>A History</span> of <span>Local Archaeological Knowledge</span> and <span>Labor</span></em>. University Press of Colorado. <a href="https://doi.org/10.5876/9781646421152">https://doi.org/10.5876/9781646421152</a>.
+</div>
+<div id="ref-morgan2018" class="csl-entry" role="listitem">
+Morgan, Colleen, and Holly Wright. 2018. <span>“Pencils and <span>Pixels</span>: <span>Drawing</span> and <span>Digital Media</span> in <span>Archaeological Field Recording</span>.”</span> <em>Journal of Field Archaeology</em> 43 (2): 136–51. <a href="https://doi.org/10.1080/00934690.2018.1428488">https://doi.org/10.1080/00934690.2018.1428488</a>.
+</div>
+<div id="ref-morse2019" class="csl-entry" role="listitem">
+Morse, Janice M., and Lauren Clark. 2019. <span>“The <span>Nuances</span> of <span>Grounded Theory Sampling</span> and the <span>Pivotal Role</span> of <span>Theoretical Sampling</span>.”</span> In <em>The <span>SAGE Handbook</span> of <span>Current Developments</span> in <span>Grounded Theory</span></em>, by Antony Bryant and Kathy Charmaz, 145–66. 1 Oliver’s Yard,&nbsp;55 City Road&nbsp;London&nbsp;EC1Y 1SP: SAGE Publications Ltd. <a href="https://doi.org/10.4135/9781526436061.n9">https://doi.org/10.4135/9781526436061.n9</a>.
+</div>
+<div id="ref-opitz2021" class="csl-entry" role="listitem">
+Opitz, Rachel, Colleen Strawhacker, Philip Buckland, Jackson Cothren, Tom Dawson, Andrew Dugmore, George Hambrecht, et al. 2021. <span>“A <span>Lockpick</span>’s <span>Guide</span> to <span class="nocase">dataARC</span>: <span>Designing Infrastructures</span> and <span>Building Communities</span> to <span>Enable Transdisciplinary Research</span>.”</span> <em>Internet Archaeology</em> 56 (October). <a href="https://doi.org/10.11141/ia.56.15">https://doi.org/10.11141/ia.56.15</a>.
+</div>
+<div id="ref-ragin1992" class="csl-entry" role="listitem">
+Ragin, Charles C. 1992. <span>“Casing and the Process of Social Research.”</span> In <em>What Is a <span>Case</span>? <span>Exploring</span> the <span>Foundations</span> of <span>Social Inquiry</span></em>, edited by Charles C. Ragin and Howard S. Becker, 217–26. Cambridge University Press New York.
+</div>
+<div id="ref-thorpe2012" class="csl-entry" role="listitem">
+Thorpe, Reuben. 2012. <span>“Often <span>Fun</span>, <span>Usually Messy</span>: <span>Fieldwork</span>, <span>Recording</span> and <span>Higher Orders</span> of <span>Things</span>.”</span> In <em>Reconsidering <span>Archaeological Fieldwork</span>: <span>Exploring On-Site Relationships Between Theory</span> and <span>Practice</span></em>, edited by Hannah Cobb, Harris Harris Oliver J. T., Cara Jones, and Philip Richardson, 31–52. Springer, Boston, MA. <a href="https://doi.org/10.1007/978-1-4614-2338-6_3">https://doi.org/10.1007/978-1-4614-2338-6_3</a>.
+</div>
+<div id="ref-voss2012" class="csl-entry" role="listitem">
+Voss, Barbara L. 2012. <span>“Curation as Research. <span>A</span> Case Study in Orphaned and Underreported Archaeological Collections.”</span> <em>Archaeological Dialogues</em> 19 (2): 145–69. <a href="https://doi.org/10.1017/s1380203812000219">https://doi.org/10.1017/s1380203812000219</a>.
+</div>
+<div id="ref-watson2019" class="csl-entry" role="listitem">
+Watson, Sadie. 2019. <span>“Whither Archaeologists? <span>Continuing</span> Challenges to Field Practice.”</span> <em>Antiquity</em> 93 (372): 1643–52. <a href="https://doi.org/10.15184/aqy.2019.141">https://doi.org/10.15184/aqy.2019.141</a>.
+</div>
+<div id="ref-witzel2000" class="csl-entry" role="listitem">
+Witzel, Andreas. 2000. <span>“The Problem-Centered Interview.”</span> <em>Forum Qualitative Sozialforschung / Forum: Qualitative Social Research</em> 1 (1). <a href="https://doi.org/10.17169/fqs-1.1.1132">https://doi.org/10.17169/fqs-1.1.1132</a>.
+</div>
+<div id="ref-wylie2017" class="csl-entry" role="listitem">
+Wylie, Alison. 2017. <span>“How <span>Archaeological Evidence Bites Back</span>: <span>Strategies</span> for <span>Putting Old Data</span> to <span>Work</span> in <span>New Ways</span>.”</span> <em>Science, Technology, &amp; Human Values</em> 42 (2): 203–25. <a href="https://doi.org/10.1177/0162243916671200">https://doi.org/10.1177/0162243916671200</a>.
+</div>
+<div id="ref-yarrow2008" class="csl-entry" role="listitem">
+Yarrow, Thomas. 2008. <span>“In <span>Context</span>: <span>Meaning</span>, <span>Materiality</span> and <span>Agency</span> in the <span>Process</span> of <span>Archaeological Recording</span>.”</span> In <em>Material <span>Agency</span>: <span>Towards</span> a <span>Non-Anthropocentric Approach</span></em>, edited by Carl Knappett and Lambros Malafouris, 121–37. Boston, MA: Springer. <a href="https://doi.org/10.1007/978-0-387-74711-8_7">https://doi.org/10.1007/978-0-387-74711-8_7</a>.
+</div>
+<div id="ref-zorzin2010" class="csl-entry" role="listitem">
+Zorzin, Nicolas. 2010. <span>“The Political Economy of a Commercial Archaeology a <span>Quebec</span> Case-Study.”</span> University of Southampton. <a href="https://eprints.soton.ac.uk/344777/">https://eprints.soton.ac.uk/344777/</a>.
+</div>
+<div id="ref-zorzin2015" class="csl-entry" role="listitem">
+———. 2015. <span>“Dystopian <span>Archaeologies</span>: <span>The Implementation</span> of the <span>Logic</span> of <span>Capital</span> in <span>Heritage Management</span>.”</span> <em>International Journal of Historical Archaeology</em> 19 (4): 791–809. <a href="https://doi.org/10.1007/s10761-015-0315-4">https://doi.org/10.1007/s10761-015-0315-4</a>.
+</div>
+</div>
+
+
+
+
+
+
+
+</section>
+<section id="supplementary-materials" class="level1">
+<h1>Supplementary Materials</h1>
+<p>These supplementary materials include a summary of the participants’ backgrounds and extracts of specific observations and interviews referenced throughout the paper.</p>
+<section id="summary-of-participants-roles-and-backgrounds" class="level2">
+<h2 class="anchored" data-anchor-id="summary-of-participants-roles-and-backgrounds">Summary of Participants’ Roles and Backgrounds</h2>
+<p>Here is a list and brief description of individuals mentioned throughout the paper:</p>
+<p><strong>Basil:</strong> Project director and faculty member at a North American university. He has extensive field experience and has consulted as a lithics specialist for various other projects, where he met many of the people who became involved with the project that he now leads.</p>
+<p><strong>Jane:</strong> One of Basil’s top students, who joined the project for one season. As a very independent and competent worker, she took on supervisory responsibilities and stood out as an exemplary fieldworker.</p>
+<p><strong>Theo:</strong> Commercial archaeologist, recommended to Basil by a mutual friend. An excavator by profession, his competence often serves as an example for the rest of the crew. He became field director after a few years working as a trench supervisor. He is very laid back and has a casual attitude.</p>
+<p><strong>Ben:</strong> One of Basil’s top students, who joined as a trench assistant. He came back the following year as a trench supervisor.</p>
+<p><strong>Alfred:</strong> Senior graduate student working at the project for his geoarchaeology dissertation at a North American university. At a certain point he took on the role of field director. He is confident, with a hands-on, get-things-done attitude.</p>
+<hr>
+<p>Here is a list and brief description of individuals mentioned throughout the referenced materials but who do not appear in the main section of the paper:</p>
+<p><strong>Dorothy:</strong> Senior graduate student who oversees palaeobotanical analysis, including sample collection and processing protocols.</p>
+<p><strong>Jolene:</strong> Senior graduate student who oversees the analysis of chipped stone for the project. She met Basil while working at another project.</p>
+<p><strong>Agatha:</strong> Graduate student who serves as Jolene’s assistant. Her specialty is ground-stone artefacts but in this project she largely performs logistical duties.</p>
+<p><strong>Talia:</strong> Junior faculty member who became involved with the project as a trench supervisor after a colleague recommended her to Basil.</p>
+<p><strong>Lauren:</strong> Graduate student who became involved with the project as a trench supervisor after a colleague recommended her to Basil.</p>
+<p><strong>Lester:</strong> Commercial archaeologist who became involved with the project as a trench supervisor after Theo recommended him to Basil.</p>
+<p><strong>Olivia:</strong> Commercial archaeologist who became involved with the project as a trench supervisor after Alfred recommended her to Basil.</p>
+</section>
+<section id="observations-and-elicitations" class="level2">
+<h2 class="anchored" data-anchor-id="observations-and-elicitations">Observations and Elicitations</h2>
+<section id="sec-A1" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A1">A1</h5>
+<p><strong>Jane:</strong> Approaching another context, I think.<br>
+<strong>Zack:</strong> Why do you think that?<br>
+<strong>Jane:</strong> The texture is changing, and the colour is changing a bit, and umm, there’s a layer of big boulders and now there isn’t.<br>
+<strong>Zack:</strong> Can you be more specific?<br>
+<strong>Jane:</strong> Well the darker sand is becoming more red, which is similar to what we had there, and then I also noticed that is holds more of a form, like the hearth is very loose, but the sand is more in place, it’s almost like if you brushed it, you would get a perfect floor.</p>
+</section>
+<section id="sec-A2" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A2">A2</h5>
+<p><strong>Jane:</strong> So, this is like still kind of a dark, dark brown, going into the sand, but it’s like really tough, like hard to dig through, kind of. So I think maybe it’s just context [?]. ((gesturing towards other side of the trench)) And then this is like really light grey, ((bobs hand up and down to emphasize these last three words)) and I thought it was just cuz it had just dried out, and I hadn’t done this kind of [fill], but it’s also really hard to dig, and like a really light grey, so I don’t know if it’s just remnants of this part, or what...<br>
+((Basil gets in the trench to take a closer look))<br>
+<strong>Jane:</strong> Or like maybe this is like, would it be possible that that’s like an older hearth, like the other one that was leached out?<br>
+<strong>Basil:</strong> Yeah, hmm. So the colour here is the same as what you were digging, but the consistency has changed?<br>
+<strong>Jane:</strong> Yeah<br>
+<strong>Basil:</strong> I would clean up, maybe just straighten that section a bit<br>
+<strong>Jane:</strong> Yeah<br>
+<strong>Basil:</strong> Just to the depth that you started at for this context<br>
+<strong>Jane:</strong> Yeah<br>
+<strong>Basil:</strong> And then we’ll clean up and carry on with, you know, we can just write in the text that, you know, these are the differences<br>
+<strong>Jane:</strong> Yeah<br>
+<strong>Basil:</strong> But you know what, after we start to dig it it might change back to something more familiar<br>
+<strong>Jane:</strong> Yeah<br>
+<strong>Basil:</strong> And we can just say oh, it’s like some kind of differential lens of material within it<br>
+<strong>Jane:</strong> Right<br>
+<strong>Jane:</strong> Okay. Okay, so just clean up the walls, and then keep going, okay.<br>
+<strong>Basil:</strong> Yeah, but we can photograph, change numbers.<br>
+<strong>Jane:</strong> Oh, okay.<br>
+<strong>Basil:</strong> We’ll treat it as something different, you know we can write in the notes that there is a very good chance that it’s still the same stuff, but the consistency changed<br>
+<strong>Jane:</strong> Right.<br>
+<strong>Basil:</strong> So, just be careful.</p>
+</section>
+<section id="sec-A3" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A3">A3</h5>
+<p><strong>Zack:</strong> Did you feel like there are, like, problems, with communicating, in terms of like understanding, sort of the things that like Alfred was getting at? Or like, if there were any issues in like, uhh, comprehending something that eventually you sort of learned, or were there any sort of challenges in that sense that you had to deal with? Do you recall any examples like that? Especially maybe in the beginning.<br>
+<strong>Jane:</strong> I think for a geology it’s best, especially like if you do a couple of geology courses, it’s always hard to like train your eyes to see certain things. Like sometimes Alfred would like take out a handful of sand and go like do you see the red flakes? and I would be like no. Or even like, pointing our stratigraphy, like see how this changes to this level, and it just kind of, training your eye to see what they’re seeing is, sounds like an easy thing but it’s actually hard to like, kind of, pick out things that they want you to pick out. And I think like now it’s easier to like, oh, see how that’s transitioning, or like, umm, even just like comparing peoples’ trenches and like the contexts they’re in, it’s easier now but at the start it was like, it looks the same to me, or like I don’t spot what you’re spotting, you know? And it’s just a way of looking at things that I think that’s the hardest part for me.<br>
+<strong>Zack:</strong> Do you know how that developed?<br>
+<strong>Jane:</strong> I think just like repetitive, like every day, looking at stuff, I think is like, just a good way of learning. I don’t know if there’s something specific but... and just hearing from like, hearing Alfred pointing it out, hearing Basil pointing it out, hearing different supervisors pointing it out, it was just different ways of explaining it or showing it to you that it starts to kind of, like, produce a form of knowledge. Umm, but I dunno.</p>
+</section>
+<section id="sec-A4" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A4">A4</h5>
+<p><strong>Lester:</strong> And that was the time I really kind of got into excavation as a concept. So I did that on my first year. In my second year, I [unclear] community archaeology, and then [redacted] field school. [redacted] field school is a big part of [redacted] University’s training program for their students. I didn’t receive enough excavation experience in my own degree, so I went and applied and volunteered on that excavation, and then my third year I went back to the same excavation at a supervisor grade.</p>
+</section>
+<section id="sec-A5" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A5">A5</h5>
+<p>Had a brief convo with Olivia as she was cleaning up, when the corner cam died. I really [.…] by the mic. It was about focus, [awareness?] of one’s surroundings, being in the moment and focusing on the task at hand. Focusing on the little things helps her keep her organized. It is an active strategy in use. She hates that although excavation is manual labour, it really requires you to actively think. You can’t just phase out – [illegible sentence]. I mentioned my tendency to compare excavation with tunnel vision, and noted how I think it is somewhat flawed. She asked me if I played a musical instrument, and I said no, and then asked if I could relate to that. She compared these activities in order to convey the sense of being in the moment, facing a task at hand, dealing with what is immediately in front of you, literally and figuratively, and the satisfaction of achieving one’s goals and ticking off all the boxes. She likes to set goals, for herself and for others.</p>
+</section>
+<section id="sec-A6" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A6">A6</h5>
+<p><strong>Lester:</strong> So, our first week was tough. Very, very tough. We had a very uhh difficult trench to excavate, very hard layers that were very difficult to physically excavate. Uhm and I can dig for a certain extent, for a period of time in quite hot weather, I’m used to this, for this is not a problem. But I see people that have never approached this, attack it physically, really really attack it physically, and not bear in mind that this is actually really difficult. And it’s not a physicality thing, it’s a, it’s a thought process. So it’s uhh, yes you’re physically able to excavate twenty centimeters in a day, but how are you going to feel at the end of the day? Are you going to be able to identify the context while you’re doing it? It’s better to excavate ten thoroughly than twenty in a hurry, you know? And, but the speed will come with time. And so I’ve noticed this with Morris particularly, he was quite, he’s a very able archaeologist, a very good digger, uhm but physically he’s changed the way he approaches things, so he won’t go full-on that [unclear] now, and then expect to be able to do it again the following morning. And then equally, the understanding is growing, so like contextual change, uhm, I’ve really struggled to try and integrate teaching into my methodologies on site, because that’s not my skillset, and not what I’m used to. But now I think we’ve finally figured it, I’m involving him in the paperwork a lot more, making that a part of the teaching process, a bit more. I think it’s beneficial.</p>
+</section>
+<section id="sec-A7" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A7">A7</h5>
+<p><strong>Ben:</strong> I think just sometimes, like, I’ve become too self-aware, and I get in my head sometimes.<br>
+<strong>Zack:</strong> While you’re digging?<br>
+<strong>Ben:</strong> No, not while I’m digging. Because while I’m digging I’m like generally busy, and I’m like, like listening to music or whatever</p>
+</section>
+<section id="sec-A8" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A8">A8</h5>
+<p><strong>Zack:</strong> And uhh, the music is a thing, it frames the mood. I’m trying to think about time and how it frames the day. That’s a bit of an idea that I abandoned and that I want to come back to later on. You know, sort of, so I need to observe that earlier on in the season, which I didn’t get an opportunity to do.<br>
+<strong>Ben:</strong> Yeah. I’ll think about that while I’m out there.<br>
+<strong>Zack:</strong> How about you?<br>
+<strong>Jane:</strong> I’m kind of the same. Like I’d rather just like get going and like continue going. Like umm, often when Kaitlin is near the trench and like Basil’s not there she’d be like get out, have a break, or like, Talia likes to be like come out and have a breeze break, but I just would rather like just keep going until lunch. Like it’s just, like maybe step out once or twice to get water, but like, I find breaking and like, just kind of like, I like to just start thinking about things and for me it’s just kind of like, get lost in digging and doing your shit, and then time passes.<br>
+<strong>Zack:</strong> Do you get lost digging?<br>
+<strong>Jane:</strong> Yeah! I just, like, I started thinking about something and then I’m... Like it just makes it, like, less of like a, oh when’s gonna be my next break? Or like, even like, that’s why I’m kind of glad we don’t talk or like listen to music, because I feel like that would like frame time more specifically. Whereas like, without any sound it just kind of like comes, time is like insignificant kinda thing.</p>
+</section>
+<section id="sec-A9" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A9">A9</h5>
+<p><strong>Basil:</strong> I didn’t have music in our trenches, and I think I initially used the excuse that our proximity to umm Gary’s house. Although, of course Gary was only there for the last two weeks. I think that it might slightly annoy me if I need to be focused, I find it a distraction. And it’s not like it’s just in the background. I think, you know, with Theo and those guys, there’s dancing, there’s singing along, which I, if I was right next to them I think it would drive me bananas. And it probably drove Lauren slightly bananas. Umm, most projects that I’ve been on, there hasn’t been music. Which, back in the day, you know, you would need batteries and [unclear] and what have you, and umm, so technologically I think it’s easier to have music on site now. Umm. No, but I think there’s intimations of it being unprofessional. It’s like, it’s it’s a distraction from what you’re doing. In fact, I worked, when I worked at Sutton Hoo back in the day, umm, Philip Rahtz, one of the excavators there, had written a textbook on archaeological field practice, infamous, umm very old fashioned, and he, he had a famous section about, umm uhh, during the excavation, the only sound you should hear is trowel on stone. If you had found something important, you quietly get up, walk over to the supervisor, bring them over, show them, you don’t [unintelligible yelp], you don’t make any [unclear]. It should be focused and silent. Now I’m not gonna ever go to that extreme. But uhh, I remember, I think, I mean Alfred, I mean Alfred had umm, well I mean, it’s you know, it’s like, office environment. Well, no, some office environments do have music on. But umm, umm we had uhh, I think, I mean Alfred had music on in the background. I think he—<br>
+<strong>Zack:</strong> Where? In the rock shelter, you mean?<br>
+<strong>Basil:</strong> Umm, trench [redacted trench ID] and when he was over with Maddie. Umm, he always had music. But it was background music for him, umm I don’t know how loud or whatever, I— it doesn’t appeal to me. I, I find it a distraction. I can’t work here with music. Or if I’m, if I ever have music on it’s because I’m writing emails or I’m doing something that I can’t be distracted by. Umm, sometimes, you know, I allow myself classical music because it’s a foreign language or there’s no lyrics for me to be distracted by. Umm I think Alfred was, had a problem with, but maybe he didn’t see it as his role to umm make that call, with people being plugged in. So Kaitlin would dig with headphones in. I think a couple other people might do that as well.&nbsp;<strong>Zack:</strong> I think Jane did too. Don did.<br>
+<strong>Basil:</strong> Yeah. Umm. And I think Alfred was like, no, you need to be more focused on what you’re doing. And it was like, I think like, I didn’t feel strongly enough about it, or I felt like the music thing’s a bit weird anyway, that I wasn’t gonna come down on people. I might think about that for, for next time in terms of...</p>
+</section>
+<section id="sec-A10" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A10">A10</h5>
+<p><strong>Zack:</strong> So I have like one more section. We zoomed through this. I’m wondering about, like, the way you set up, like your research environments, environment or plural. I mean, do you, I’ve noticed, but maybe you don’t, maybe you are less able to recognize certain routines that you get into.<br>
+<strong>Lauren:</strong> Oh, totally, totally.<br>
+<strong>Zack:</strong> Yeah. And I’m sort of wondering if you could explain any of those to me.<br>
+<strong>Lauren:</strong> Umm, I’m a very organized person. I do need that. So for me, umm, packing my backpack the same way every morning, knowing where my things are, sorting stuff out in advance, like taking notes, for myself, in my own notebook, saying tomorrow you need to do this and this and this, and knowing where my notebook is, is very important. So I pack my backpack, either in the evening or in the morning, it doesn’t really matter to me. Umm, I know what material or supplies I need, and pack them. I bring them and then when we are on site I always put my backpack in the same place, I take my stuff out in the same, I mean they’re not laid out in order or something, but umm, yeah.</p>
+</section>
+<section id="sec-A11" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A11">A11</h5>
+<p><strong>Zack:</strong> Okay. But with regards to stratigraphy, do you take into account the other trenches and their stratigraphy? <strong>Ben:</strong> Oh, right. Yeah. Because I’m close by to [redacted trench ID] and a lot of the reason for opening the trench I’m in now, [redacted trench ID], uhh was to find similar things as [redacted trench ID], I am following, or I am trying to like compare the stratigraphy.</p>
+</section>
+<section id="sec-A12" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A12">A12</h5>
+<p><strong>Lauren:</strong> Exactly. Because I write it down. But still, I enjoy these interactions with people in my trench. And also people like, we are, like, in a luxury position on the east side, and we are really close with our trenches, especially Theo and I, so we can talk about what’s happening in our trenches, correlate it, and ask each other for opinions.<br>
+<strong>Zack:</strong> How have you, like, how would you, like how has that worked out? Can you give an example?<br>
+<strong>Lauren:</strong> Really good. Usually it’s like, umm, Theo sticking his out of his trench and is like, Lauren, do you have a moment? Or me saying, Theo, can you have a look at this? And then umm, we compare, usually we compare, like, our stratigraphy or we look at material, like getting each other’s opinion on, I don’t know, certain flakes, or umm, types of rocks. So yeah, umm, it’s really, really interesting. Obviously, Theo has worked here last year so I’ve relied on his umm...</p>
+</section>
+<section id="sec-A13" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A13">A13</h5>
+<p><strong>Zack:</strong> How does the feedback you get from Jolene and Agatha and Basil and Alfred help you when you’re doing it on your own, or when you’re starting from scratch, when you’re starting your own trench?<br>
+<strong>Theo:</strong> It just gives you an idea of what to expect. I mean not necessarily with the lithics, but with Basil and Alfred knowing the hill so well, they know what they want and they know what they’re looking for. For example, when I was working on [redacted trench ID], Basil wanted, the point of that trench was to look for Mesolithic stuff, and to try and find stratified Meso, so umm that, so Basil explained that to me and then I knew what I was looking for. I knew that I was looking for microliths, predominantly, maybe the whiter, the bright white chert, rather than–</p>
+</section>
+<section id="sec-A14" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A14">A14</h5>
+<p><strong>Ben:</strong> I have interacted very little with Jolene. I feel that I should interact with her more, because I would like to know like what’s going on in my trench. Umm I should probably talk to Agatha as well. Umm, but yeah. I’ve talked to, I was only here for a few days, well by the time I was supervisor Alfred had already left. So I didn’t really ask him about anything. Umm. The only person I’ve really talked to is Basil, because he’s very interested in my stuff, so like he’ll come to me and actually give me information, then I will like ask questions.<br>
+<strong>Zack:</strong> What kinds of information does he give you?<br>
+<strong>Ben:</strong> Umm. Uhh just like type of stuff we’re finding, uhh...<br>
+<strong>Zack:</strong> From the apotheke, you mean?<br>
+<strong>Ben:</strong> Yeah, just like the type of artefacts that are coming out of my trench, and he’ll give me some examples of like, not what to look for, but like some examples of characteristics that are being found on my, or on the artefacts from my trench. Uhh just like hinge fractures on some of the cores and stuff like that, which are characteristic of–&nbsp;<strong>Zack:</strong> How do you make use of that?<br>
+<strong>Ben:</strong> It’s, it’s easy to like, once you see it, once you see it, right, like if you see a hinge fracture, and like oh okay, that’s what a hinge fracture is, and you look at it in the field and you’re like, you weren’t sure of something, like you weren’t sure that it was an artefact, and you see that, you’re like oh, that’s a hinge fracture, let me take that. So I think it’s good to know like that information–<br>
+<strong>Zack:</strong> Because that definitely effects the sieve, like the sieve...<br>
+<strong>Ben:</strong> Sorry?<br>
+<strong>Zack:</strong> That definitely effects the collection of artefacts...<br>
+<strong>Ben:</strong> Oh, 100%. Like it could bias it. But any, any prior knowledge you have is going to bias it, right? Like...</p>
+</section>
+<section id="sec-A15" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A15">A15</h5>
+<p><strong>Zack:</strong> What do you think of people like Dorothy, who aren’t necessarily working with you?<br>
+<strong>Ben:</strong> What do I think?<br>
+<strong>Zack:</strong> Like have you asked them about their interpretation of your stuff. Do you think that would be helpful to have?<br>
+<strong>Ben:</strong> I think Dorothy is a little bit different, just because hers is like very, like she’s working on micro remains and like macro remains, or like...<br>
+<strong>Zack:</strong> Botanicals.<br>
+<strong>Ben:</strong> Botanical stuff, right. So her stuff is like coming out of the soil that I collect. So there’s nothing I can do to effect the amount of stuff she’s gonna find. So while it’s cool if she finds stuff from my trench, like there’s no way that I’m going to effect it and there’s no way that she can effect me in finding uhh. I would like to know more, I guess I should also ask her, but I think it’s a little bit different because we’re not interacting directly with the botanical remains.</p>
+</section>
+<section id="sec-A16" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A16">A16</h5>
+<p><strong>Zack:</strong> So umm, I guess I’ve already got your bio and all that. But I’m wondering if you could reiterate your overall objective of your work. I mean how your work contributes to [this project].<br>
+<strong>Theo:</strong> Umm, the objective of my work...<br>
+<strong>Zack:</strong> Or of your contri– or of what you’re doing here.<br>
+<strong>Theo:</strong> It’s to dig holes. Dig holes.<br>
+<strong>Zack:</strong> So maybe a way to get a better answer, can you tell me about the current season and what your current plans are, or have been?<br>
+<strong>Theo:</strong> For this season I’ve been digging a big hole. Yeah, we aim to finish it, but I doubt we will.</p>
+</section>
+<section id="sec-A17" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A17">A17</h5>
+<p><strong>Zack:</strong> So the third theme, and this is the one I’m a little bit, I wasn’t sure how your response would uhh, would play out, but are you involved at all in the preparation of data that will be shared externally or openly as addendums or publications, or like via professional networks or like on platforms like the ADS or whatever?<br>
+<strong>Theo:</strong> No.<br>
+<strong>Zack:</strong> No?<br>
+<strong>Theo:</strong> Nope. I’m not an academic.<br>
+<strong>Zack:</strong> But you do– sorry...<br>
+<strong>Theo:</strong> I don’t get involved in that shit.<br>
+<strong>Zack:</strong> But as someone who, umm, works in commercial archaeology, a lot of ADS has a lot of stuff in commercial archaeology.<br>
+<strong>Theo:</strong> Yeah, but it’s not me. I’m not a supervisor in commercial archaeology, I don’t write up sites, I just dig holes.<br>
+<strong>Zack:</strong> I thought you were do do commercial, I thought you do dig holes for commercial archaeology.<br>
+<strong>Theo:</strong> Yeah, I do, but I don’t write anything up.<br>
+<strong>Zack:</strong> So that’s the extent of your involvement then?<br>
+<strong>Theo:</strong> Yeah.<br>
+<strong>Zack:</strong> You get the material.<br>
+<strong>Theo:</strong> Yeah.<br>
+<strong>Zack:</strong> Do you, I mean, so I guess you, it sort of seems like you don’t want to be, uhh have any sort of involvement with–<br>
+<strong>Theo:</strong> I would. I would if I was asked. I wouldn’t mind. I wouldn’t be good at it. It’s been a long time since I’ve written anything properly.</p>
+</section>
+<section id="sec-A18" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A18">A18</h5>
+<p><strong>Ben:</strong> Umm, I am not super academic. So that’s part of the reason why I’m not like super into the, the–<br>
+<strong>Zack:</strong> The findings?<br>
+<strong>Ben:</strong> No, no not necessarily the findings. Like I find the findings interesting, and like the Levallois stuff, and like the technology, and like the differences and all that. I find that super interesting. But I don’t, like the paperwork and all that, like I’m not like, I’m not, I’m not one to like be sitting at a desk just writing all day. Like, I like to be in the trench, I like to be doing something physical and like engaging, right? And I don’t, like reading and like articles and like scientific research and stuff, just like, it doesn’t interest me, like that much. Even like, I have to be engaged in the topic, you know?<br>
+<strong>Zack:</strong> Yeah, yeah. I feel like you and Theo have a lot in common.<br>
+<strong>Ben:</strong> I think so, yeah. Like Theo describes himself as like I dig holes, and I’m like yeah, I can relate to that, man. Like I dig holes too. Like this stuff is cool, but like, I don’t see myself like engaging with it, or like...</p>
+</section>
+<section id="sec-A19" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A19">A19</h5>
+<p><strong>Zack:</strong> Are you familiar with the work of the ADS?<br>
+<strong>Theo:</strong> Yeah.<br>
+<strong>Zack:</strong> Yeah? What do you think about it?<br>
+<strong>Theo:</strong> It’s pretty good.<br>
+<strong>Zack:</strong> Yeah.<br>
+<strong>Theo:</strong> I like it, because I can look up sites if I want.<br>
+<strong>Zack:</strong> Do you do that regularly?<br>
+<strong>Theo:</strong> Sometimes. If I’m in, if there’s things that I want to read up on. Like, sites I’m working on and stuff from the fields nearby.<br>
+<strong>Zack:</strong> So just out of curiosity.<br>
+<strong>Theo:</strong> Yeah.<br>
+<strong>Zack:</strong> And they have lots of commercial stuff, right?<br>
+<strong>Theo:</strong> Oh yeah.<br>
+<strong>Zack:</strong> What sort of stuff do you look up? Like what do you read?<br>
+<strong>Theo:</strong> It was just, old site reports.<br>
+<strong>Zack:</strong> Like the PDFs, or do you look at the tables, or like if they do photogrammetry, do you look at any of that?<br>
+<strong>Theo:</strong> Ehh it depends. It depends on what there is.<br>
+<strong>Zack:</strong> And it informs you as you work on your own stuff?<br>
+<strong>Theo:</strong> Yeah. It’s like, I dunno, I don’t use it often. But if you’re on a really exciting site and you want to know more about what’s happening, then yeah.<br>
+<strong>Zack:</strong> Have you, I mean have you, if you’re on the site–<br>
+<strong>Theo:</strong> It’s just out of curiosity.<br>
+<strong>Zack:</strong> Are you, but like–<br>
+<strong>Theo:</strong> If you’re aware of it, if you’re aware of a site that’s been excavated, and you’ve heard that it’s supposed to be really good, see if it’s on ADS.</p>
+</section>
+<section id="sec-A20" class="level5">
+<h5 class="anchored" data-anchor-id="sec-A20">A20</h5>
+<p><strong>Zack:</strong> So I’m not really, like I’m not really as privy on the details of that. Can you briefly describe specifically what the issues were?<br>
+<strong>Theo:</strong> It was just that it was dug poorly.<br>
+<strong>Zack:</strong> How do you mean?<br>
+<strong>Theo:</strong> Well it was like they just went down, they didn’t give a shit about the sections or the recording so much. The recording, the more I’ve done it and looked at it, the happier I am with it.<br>
+<strong>Zack:</strong> From last year’s?<br>
+<strong>Theo:</strong> Yeah, from last year.<br>
+<strong>Zack:</strong> Why?<br>
+<strong>Theo:</strong> But it was just initially it’s very much like minimal recording. There was minimal recording.<br>
+<strong>Zack:</strong> Why was that gradual, why the more do you look at it the more–<br>
+<strong>Theo:</strong> Well because I have, over the season, gotten more of an understanding of the trench. I’ve been thinking about it far more, and working out what’s going on.<br>
+<strong>Zack:</strong> So that minimal recording sort of made sense as you sort of got to know it?<br>
+<strong>Theo:</strong> Yeah.<br>
+<strong>Zack:</strong> Huh.<br>
+<strong>Theo:</strong> But I mean it could have had more recording, but I mean the bare minimum that was required.<br>
+<strong>Zack:</strong> Can you give an example of that kind of uhh, that kind of poor recording that eventually grew on you? Or that you eventually came to understand, perhaps?<br>
+<strong>Theo:</strong> I don’t know. If you go to the other ones<br>
+<strong>Zack:</strong> If you go to the what?<br>
+<strong>Theo:</strong> The more complex stuff, the fact that it, last year it was five lithostratigraphic units and now I’ve just three.<br>
+<strong>Zack:</strong> Mhm.<br>
+<strong>Theo:</strong> And one unit is just one big mess. It’s quite nice. That makes, I think, the mixture of poor recording and over-complicating stuff, that made it difficult to understand to start with, and poor digging.<br>
+<strong>Zack:</strong> So how did he over-complicate things?<br>
+<strong>Theo:</strong> He just like–<br>
+<strong>Zack:</strong> Did he just like split instead of lump?<br>
+<strong>Theo:</strong> Yeah, he split stuff and used terms that he didn’t quite necessarily understand. I don’t understand them. I made, I got Alfred to explain it to me [unclear]<br>
+<strong>Zack:</strong> So, in your view, what sort of, what could have, how would you have avoided this if you were digging that trench last year? How would you have avoided these issues? Or were they avoidable at all??<br>
+<strong>Theo:</strong> Yeah, you could have recorded it better. He could have written more. Had a more thorough notebook. Not– I’m pretty sure one of the contexts was made up.<br>
+<strong>Zack:</strong> Cleaning context?<br>
+<strong>Theo:</strong> No, no.<br>
+<strong>Zack:</strong> Not even?<br>
+<strong>Theo:</strong> Right in the middle of the season. The only record of it is the context sheets, but yeah. I don’t suppose we should actually really talk about all that.<br>
+<strong>Zack:</strong> Okay.<br>
+<strong>Theo:</strong> Like, in honour of professional standard.<br>
+<strong>Zack:</strong> Well that’s what I’m hoping to understand.<br>
+<strong>Zack:</strong> We could, we could.<br>
+<strong>Theo:</strong> For the integrity of the project, we shouldn’t really talk about the fuck ups, really, should we?</p>
+<!-- {{< include sections/13_peer-review.qmd >}} -->
+</section>
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section id="acknowledgments" class="level2 appendix"><h2 class="anchored quarto-appendix-heading">Acknowledgments</h2><div class="quarto-appendix-contents">
+
+<p>I extend warm thanks to Costis Dallas, Matt Ratto, Ted Banning, Jeremy Huggett and Ed Swenson for supervising my work and providing critical feedback as I conducted my doctoral research, which this paper is based upon. I am also very grateful to the anonymous reviewers for their constructive evaluation. Of course, this work would not have been possible without the anonymous research participants who allowed me to observe and interview them as they worked, and to articulate their actions and outlooks.</p>
+<p>Permits were not required for this research.</p>
+</div></section><section id="funding" class="level2 appendix"><h2 class="anchored quarto-appendix-heading">Funding</h2><div class="quarto-appendix-contents">
+
+<p>This work is derived from the author’s doctoral dissertation, <em>Archaeological data work as continuous and collaborative practice</em> <span class="citation" data-cites="batist2023a">(<a href="#ref-batist2023a" role="doc-biblioref">Batist 2023</a>)</span>, which was supported by the Canadian Social Sciences and Humanities Research Council Doctoral Fellowship (Award ID: 752-2019-2233).</p>
+</div></section><section id="competing-interests" class="level2 appendix"><h2 class="anchored quarto-appendix-heading">Competing Interests</h2><div class="quarto-appendix-contents">
+
+<p>The author states no conflicts of interest.</p>
+</div></section><section id="author-contribution" class="level2 appendix"><h2 class="anchored quarto-appendix-heading">Author Contribution</h2><div class="quarto-appendix-contents">
+
+<p>Zachary Batist is the sole author of this work. He defined the scope of the study and identified suitable cases for inclusion, collected and processed all data, performed analysis, interpreted the findings, created all the figures, and wrote the paper.</p>
+</div></section><section id="informed-consent" class="level2 appendix"><h2 class="anchored quarto-appendix-heading">Informed Consent</h2><div class="quarto-appendix-contents">
+
+<p>Informed consent has been obtained from all individuals included in this study, in compliance with the University of Toronto’s Social Sciences, Humanities, and Education Research Ethics Board, Protocol 34526.</p>
+</div></section><section id="data-availability-statement" class="level2 appendix"><h2 class="anchored quarto-appendix-heading">Data Availability Statement</h2><div class="quarto-appendix-contents">
+
+<p>The data generated and analyzed during the current study are included in this published article’s supplementary files.</p>
+</div></section><section id="author-bio" class="level2 appendix"><h2 class="anchored quarto-appendix-heading">Author Bio</h2><div class="quarto-appendix-contents">
+
+<p>Zachary Batist obtained his PhD from the University of Toronto’s Faculty of Information. His research explores the collaborative commitments inherent throughout archaeological practice, especially relating to data management and the constitution of information commons. He currently works as a Postdoctoral Researcher at the Department of Epidemiology, Biostatistics and Occupational Health in the School of Population and Global Health at McGill University, where he investigates the collaborative, technical and administrative structures that scaffold data harmonization in epidemiological research.</p>
+<!-- ## Figure Captions {.appendix}
+- Figure 1: Explanation of a potential context change using gestures and speech.
+- Figure 2: Discussion of a potential context change using gestures and speech.
+- Figure 3: Jane describes how she learned to recognize differences in the soil.
+- Figure 4: Transcribed section of a recording sheet describing the context addressed in the observed episode.
+- Figure 5: Sketch of the base of a trench, portraying the context addressed in the observed episode, boxed in red.
+- Figure 6: Section of a trench report describing the context addressed in the observed episode, and situating it as part of a lithostratigraphic unit. -->
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{batist2025,
+  author = {Batist, Zachary},
+  title = {Balancing {Situated} and {Objective} {Representations} in
+    {Archaeological} {Fieldwork}},
+  date = {2025-05-22},
+  url = {https://zackbatist.info/fuzzy-concrete},
+  langid = {en},
+  abstract = {Archaeology comprises both systematic and pragmatic
+    attitudes and processes concerned with the collection and
+    maintenance of data. This reflects the need to obtain
+    formally-defined data, while also grappling with the fuzzy and
+    uncertain nature of archaeological encounters, especially in
+    fieldwork environments. This produces an epistemic tension, whereby
+    archaeologists struggle to reconcile their desire to produce
+    concrete outcomes based on objective facts, and their intuitive
+    understanding that data are in fact products of situated decisions
+    and actions. Through observations of archaeological practices,
+    interviews with archaeologists at work, and analysis of the
+    documents they produced while recording objects of archaeological
+    concern, this paper articulates how archaeologists cope with this
+    tension and integrate it into their work experiences. \# \# La
+    arqueología comprende actitudes y procesos, tanto sistemáticos como
+    pragmáticos, relacionados con la recolección y el mantenimiento de
+    datos. \# Esto refleja la necesidad de obtener datos formalmente
+    definidos, al mismo tiempo que se lucha con la naturaleza difusa e
+    incierta de los hallazgos arqueológicos, especialmente en el
+    contexto del trabajo de campo. \# Esto produce una tensión
+    epistémica, en la que los arqueólogos luchan por conciliar su deseo
+    de producir resultados concretos basados en hechos objetivos y su
+    comprensión intuitiva de que los datos son, de hecho, producto de
+    decisiones y acciones tomadas en contextos específicos. \# A través
+    de la observación de prácticas arqueológicas, las entrevistas con
+    arqueólogos en campo y el análisis de los documentos que elaboraron
+    al registrar objetos de interés arqueológico, este artículo explica
+    cómo los arqueólogos afrontan esta tensión y la integran a sus
+    experiencias laborales.}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-batist2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Batist, Zachary. 2025. <span>“Balancing Situated and Objective
+Representations in Archaeological Fieldwork.”</span> May 22, 2025. <a href="https://zackbatist.info/fuzzy-concrete">https://zackbatist.info/fuzzy-concrete</a>.
+</div></div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

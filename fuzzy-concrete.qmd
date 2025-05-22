@@ -50,6 +50,7 @@ format:
   pdf:
     documentclass: article
     keep-tex: true
+    latex-clean: false
     geometry:
       - top = 1in
       - bottom = 1in
@@ -66,7 +67,7 @@ format:
 ---
 
 ::: {.callout-note}
-This is a preprint of a paper under peer-review at [Advances in Archaeological Practice](https://www.cambridge.org/core/journals/advances-in-archaeological-practice).
+This is a preprint of a paper accepted for publication in [Advances in Archaeological Practice](https://www.cambridge.org/core/journals/advances-in-archaeological-practice).
 :::
 
 {{< include sections/01_introduction.qmd >}}
@@ -74,7 +75,10 @@ This is a preprint of a paper under peer-review at [Advances in Archaeological P
 {{< include sections/03_methods-materials.qmd >}}
 {{< include sections/04_findings.qmd >}}
 {{< include sections/05_discussion-conclusion.qmd >}}
+\newpage
 {{< include sections/10_references.qmd >}}
+\newpage
 {{< include sections/11_back-matter.qmd >}}
+\newpage
 {{< include sections/12_supplement.qmd >}}
-{{< include sections/13_peer-review.qmd >}}
+<!-- {{< include sections/13_peer-review.qmd >}} -->

@@ -1,16 +1,8 @@
 # Supplementary Materials
-Supplementary materials for "Balancing Situated and Objective Representations in Archaeological Fieldwork" by Zachary Batist and published in _Advances in Archaeological Practice_.
-
-This document includes two sections:
-
-- A summary of the participants' backgrounds.
-- Extracts of specific observations and interviews referenced throughout the paper.
-
-<!-- This document is also available on Knowledge Commons at [DOI]. -->
+These supplementary materials include a summary of the participants' backgrounds and extracts of specific observations and interviews referenced throughout the paper.
 
 ## Summary of Participants' Roles and Backgrounds
 Here is a list and brief description of individuals mentioned throughout the paper:
-
 
 **Basil:** Project director and faculty member at a North American university.
 He has extensive field experience and has consulted as a lithics specialist for various other projects, where he met many of the people who became involved with the project that he now leads.
@@ -114,7 +106,7 @@ Had a brief convo with Olivia as she was cleaning up, when the corner cam died. 
 **Basil:** Umm, trench \[redacted trench ID\] and when he was over with Maddie. Umm, he always had music. But it was background music for him, umm I don't know how loud or whatever, I--- it doesn't appeal to me. I, I find it a distraction. I can't work here with music. Or if I'm, if I ever have music on it's because I'm writing emails or I'm doing something that I can't be distracted by. Umm, sometimes, you know, I allow myself classical music because it's a foreign language or there's no lyrics for me to be distracted by. Umm I think Alfred was, had a problem with, but maybe he didn't see it as his role to umm make that call, with people being plugged in. So Kaitlin would dig with headphones in. I think a couple other people might do that as well.\ **Zack:** I think Jane did too. Don did.\
 **Basil:** Yeah. Umm. And I think Alfred was like, no, you need to be more focused on what you're doing. And it was like, I think like, I didn't feel strongly enough about it, or I felt like the music thing's a bit weird anyway, that I wasn't gonna come down on people. I might think about that for, for next time in terms of\...
 
-##### A1- {#sec-A10}
+##### A10 {#sec-A10}
 **Zack:** So I have like one more section. We zoomed through this. I'm wondering about, like, the way you set up, like your research environments, environment or plural. I mean, do you, I've noticed, but maybe you don't, maybe you are less able to recognize certain routines that you get into.\
 **Lauren:** Oh, totally, totally.\
 **Zack:** Yeah. And I'm sort of wondering if you could explain any of those to me.\
