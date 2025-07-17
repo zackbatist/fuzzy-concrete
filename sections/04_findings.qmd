@@ -8,9 +8,12 @@ Jane kicked the boulders as she referred to them, literally pointed out relation
 She referred to common nomenclature outlined in the project's standard recording schema and referenced by more experienced personnel, and drew from her experiences working in other trenches that others may have shared.
 More generally, she described the context change only in terms of her interactions with it, and as framed by her particular role in the project.
 
-<!-- ![Explanation of a potential context change using gestures and speech.](figures/context-change-annotated.png){#fig-context-change} -->
 
-:::: {#fig-context-change}
+::: {.content-visible when-format="pdf"}
+![Explanation of a potential context change using gestures and speech.](figures/context-change-annotated.png){#fig-context-change}
+:::
+
+:::: {#fig-context-change .content-visible when-format="html"}
 ::: {.panel-tabset .nav-pills}
 ### PNG
 ![](figures/context-change-annotated.png)
@@ -28,9 +31,11 @@ Basil came to take a closer look and translated Jane's situated experiences into
 Basil then identified a series of actions that Jane must implement, and summarized the situation by joining what was observed with what was to be done about it, in effect rendering a conclusive and well-reasoned decision.
 All the while, Jane confirmed her understanding of Basil's corrections and of his specific instructions.
 
-<!-- ![Discussion of a potential context change using gestures and speech.](figures/context-change-discussion.png){#fig-context-change-discussion} -->
+:::{.content-visible when-format="pdf"}
+![Discussion of a potential context change using gestures and speech.](figures/context-change-discussion.png){#fig-context-change-discussion}
+:::
 
-:::: {#fig-context-change-discussion}
+:::: {#fig-context-change-discussion .content-visible when-format="html"}
 ::: {.panel-tabset .nav-pills}
 ### PNG
 ![](figures/context-change-discussion.png)
