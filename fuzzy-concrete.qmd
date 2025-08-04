@@ -25,8 +25,15 @@ keywords:
   - collaborative experiences
 license: CC BY
 citation:
+  type: article-journal
   title: Balancing Situated and Objective Representations in Archaeological Fieldwork
   url: https://zackbatist.info/fuzzy-concrete
+  doi: 10.1017/aap.2025.10101
+  container-title: Advances in Archaeological Practice
+  volume: xx
+  issue: yy
+  page-first: 1
+  page-last: 2
 bibliography: fuzzy-concrete.bib
 csl: chicago-author-date.csl
 toc: true
@@ -69,6 +76,7 @@ format:
 
 ::: {.callout-note}
 This is a preprint of a paper accepted for publication in [Advances in Archaeological Practice](https://www.cambridge.org/core/journals/advances-in-archaeological-practice).
+Please refer to the version of record when citing this work, using DOI: [10.1017/aap.2025.10101](http://doi.org/10.1017/aap.2025.10101).
 :::
 
 {{< include sections/01_introduction.qmd >}}
