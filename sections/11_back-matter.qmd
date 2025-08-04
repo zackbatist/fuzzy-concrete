@@ -1,4 +1,4 @@
-::: {.content-hidden}
+:::{.content-visible when-format="html"}
 # Back Matter {.hide}
 :::
 
@@ -37,5 +37,4 @@ He currently works as a Postdoctoral Researcher at the Department of Epidemiolog
 - Figure 4: Transcribed section of a recording sheet describing the context addressed in the observed episode.
 - Figure 5: Sketch of the base of a trench, portraying the context addressed in the observed episode, boxed in red.
 - Figure 6: Section of a trench report describing the context addressed in the observed episode, and situating it as part of a lithostratigraphic unit. -->
-
 

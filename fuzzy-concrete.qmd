@@ -33,12 +33,22 @@ toc: true
 toc-depth: 3
 toc-expand: 2
 number-sections: false
+filters:
+  - count-para.lua
+enclosing: "[]"
 format:
   html:
     page-layout: article
     number-sections: false
     grid:
       body-width: 850px
+    include-in-header:
+      - text: |
+          <style type="text/css">
+          h1.hide {
+            display: none;
+          }
+          </style>
   pdf:
     documentclass: article
     keep-tex: true
@@ -67,9 +77,9 @@ This is a preprint of a paper accepted for publication in [Advances in Archaeolo
 {{< include sections/04_findings.qmd >}}
 {{< include sections/05_discussion-conclusion.qmd >}}
 \newpage
+{{< include sections/12_supplement.qmd >}}
+\newpage
 {{< include sections/10_references.qmd >}}
 \newpage
 {{< include sections/11_back-matter.qmd >}}
-\newpage
-{{< include sections/12_supplement.qmd >}}
 <!-- {{< include sections/13_peer-review.qmd >}} -->
