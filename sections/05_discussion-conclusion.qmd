@@ -6,12 +6,12 @@ In other words, it reveals how the management of archaeological data and of arch
 
 Moreover, the fieldworkers I observed and spoke with played into the roles they were assigned, even though this meant having less creative agency.
 In fact, they generally valued their contributions as sensory devices, which is linked to the notion that they were capable of seeing things as they really are --- as material entities that have seemingly not yet been ascribed stable meaning.
-As such, fieldworkers actively contributed to honing the illusion of their objectivity, which enhanced their value as members of the project and as domain specialists with their own unique mental skills.
+As such, fieldworkers actively contributed to honing the illusion of their objectivity, which enhanced their value as members of the project and as domain specialists with their own unique cognitive skills.
 At the same time, it was also clear that fieldworkers knew, on an intuitive level, that any claim of objectivity is overstated [as per complementary work published in @batist2024a: 12].
-However, their positions as responsive rather than creative actors ensured that they are not responsible for resolving this tension [cf. @batist-alienation].
+However, their positions as responsive rather than creative actors ensured that they are not responsible for resolving this tension [cf. @batist2025].
 
 These findings complement other empirical research examining archaeological data management as collective interpretive action.
-For instance, @batist2021 and @batist-alienation note that rote fieldwork practices tend to be assigned to relatively junior project personnel, who become ensnared in workflows which discipline their actions.
+For instance, @batist2021 and @batist2025 note that rote fieldwork practices tend to be assigned to relatively junior project personnel, who become ensnared in workflows which discipline their actions.
 Similarly, @morgan2018, who compare analog and digital field drawing techniques, reveal how the act of transcribing archaeological deposits on a blank surface produces greater understanding in the minds of students than participating as a cog in a broader digital apparatus, owing to different degrees of creative interpretive agency that each method affords them.
 Moreover, @yarrow2008, who examines the meaning, materiality and agency in archaeological recording practices, draws attention to expressions of resignation among fieldworkers who were more aware that the information they record does not hold special meaning, based on their prior understanding of how these records would actually be used down the line.
 @thorpe2012, @zorzin2010, @edgeworth1991 and @watson2019 highlight similar perspectives in their critical investigations of agentic relationships and knowledge production in commercial archaeology.

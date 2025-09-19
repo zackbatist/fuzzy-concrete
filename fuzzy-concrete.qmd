@@ -59,6 +59,7 @@ format:
   pdf:
     documentclass: article
     keep-tex: true
+    latex-clean: true
     geometry:
       - top = 1in
       - bottom = 1in
