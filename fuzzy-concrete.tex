@@ -1,25 +1,28 @@
 % Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
 ]{article}
-
+\usepackage{xcolor}
+\usepackage[top = 1in,bottom = 1in,left = 1in,right = 1in]{geometry}
 \usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math}
+  \usepackage{unicode-math} % this also loads fontspec
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
 \usepackage{lmodern}
-\ifPDFTeX\else  
-    % xetex/luatex font selection
+\ifPDFTeX\else
+  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -37,10 +40,6 @@
 }{% if KOMA class
   \KOMAoptions{parskip=half}}
 \makeatother
-\usepackage{xcolor}
-\usepackage[top = 1in,bottom = 1in,left = 1in,right = 1in]{geometry}
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 % Make \paragraph and \subparagraph free-standing
 \makeatletter
 \ifx\paragraph\undefined\else
@@ -66,8 +65,7 @@
 \makeatother
 
 
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -92,6 +90,8 @@
 % Set default figure placement to htbp
 \def\fps@figure{htbp}
 \makeatother
+
+
 % definitions for citeproc citations
 \NewDocumentCommand\citeproctext{}{}
 \NewDocumentCommand\citeproc{mm}{%
@@ -125,6 +125,18 @@
 \newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
 
 \usepackage{orcidlink}
 \usepackage{marvosym}
@@ -189,11 +201,9 @@
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
-
 \usepackage{bookmark}
-
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
+\urlstyle{same}
 \hypersetup{
   pdftitle={Balancing Situated and Objective Representations in Archaeological Fieldwork},
   pdfauthor={Zachary Batist},
@@ -216,7 +226,7 @@ Batist \orcidlink{0000-0003-0435-508X} \href{mailto:zachary.batist@mcgill.ca}{\L
      \\
   }
 
-\date{2025-09-19}
+\date{2025-12-10}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -236,12 +246,14 @@ into their work experiences.
 \end{abstract}
 
 
-\begin{tcolorbox}[enhanced jigsaw, left=2mm, leftrule=.75mm, coltitle=black, arc=.35mm, colframe=quarto-callout-note-color-frame, rightrule=.15mm, opacityback=0, breakable, toprule=.15mm, bottomtitle=1mm, toptitle=1mm, titlerule=0mm, colbacktitle=quarto-callout-note-color!10!white, colback=white, bottomrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, opacitybacktitle=0.6]
+\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, toprule=.15mm, rightrule=.15mm, coltitle=black, colframe=quarto-callout-note-color-frame, colbacktitle=quarto-callout-note-color!10!white, bottomrule=.15mm, colback=white, arc=.35mm, breakable, opacityback=0, bottomtitle=1mm, leftrule=.75mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, toptitle=1mm, titlerule=0mm, left=2mm]
 
 This is a preprint of a paper accepted for publication in
 \href{https://www.cambridge.org/core/journals/advances-in-archaeological-practice}{Advances
-in Archaeological Practice}. Please refer to the version of record when
-citing this work, using DOI:
+in Archaeological Practice}. There may be slight spelling and
+grammatical differences between these versions, but the content is
+largely the same. Please refer to the version of record when citing this
+work, using DOI:
 \href{http://doi.org/10.1017/aap.2025.10101}{10.1017/aap.2025.10101}.
 
 \end{tcolorbox}
@@ -257,7 +269,7 @@ underlie data's construction, management, dissemination and reuse (Bevan
 common imagination of data -- which considers them as concise,
 corpuscular, discrete and inherently truthful records -- by
 demonstrating how, in practice, they are actually messy, incomplete and
-non-reductive (cf. Batist 2024; Dallas 2015; Huggett 2022a; Voss 2012).
+non-reductive (see Batist 2024; Dallas 2015; Huggett 2022a; Voss 2012).
 In fact, archaeologists create data while anticipating their utility as
 records that inform certain kinds of analysis, while those who apply
 data in analytical contexts simultaneously reconcile their own use-cases
@@ -265,83 +277,83 @@ with the conditions under which the data were originally created (Dallas
 2015: 190-191).
 
 This\paragraphnumber{[2]} is reflected in the ways in which
-archaeologists reuse data. Faniel et al. (2013) and Atici et al. (2013)
-documented how those who reuse data seek out additional contextual
-information about the circumstances of a dataset's creation by
-communicating directly with the dataset's originators, thereby
-establishing a discursive collaborative tie. Alternatively, many data
-analysts who operate at a distance from the contexts in which data
-originate prefer to trust in the models that give the data concrete
-structure, thereby offloading the acts of reconciliation to those who
-produced the data (Huggett 2022b). In other words, reusing data involves
-establishing trust, which can be achieved through mutual understanding
-of the challenges that had to be overcome to get observations to fit
-within discrete data structures, and relying on mechanisms of control to
-ensure that data are collected and maintained in a consistent manner.
+archaeologists reuse data. Faniel et al. (2013) and coworkers and Atici
+et al. (2013) and colleagues documented how those who reuse data seek
+out additional contextual information about the circumstances of a
+dataset's creation by communicating directly with the dataset's
+originators, thereby establishing a discursive collaborative tie.
+Alternatively, many data analysts who operate at a distance from the
+contexts in which data originate prefer to trust in the models that give
+the data concrete structure, thereby offloading the acts of
+reconciliation to those who produced the data (Huggett 2022b). In other
+words, reusing data involves establishing trust, which can be achieved
+through mutual understanding of the challenges that had to be overcome
+to get observations to fit within discrete data structures, and relying
+on mechanisms of control to ensure that data are collected and
+maintained in a consistent manner.
 
 This\paragraphnumber{[3]} paper demonstrates some of the strategies
-employed to establish trust in data. Through analysis of one
-illustrative example of archaeological documentation in fieldwork, I
-show how data-capture is not merely a sensory experience whereby nature
-is recorded on a 1:1 basis, but is in fact structured by models and
-power relations that legitimize data and make them useful.
+employed to establish trust in data. Through analysis of an example of
+archaeological documentation in fieldwork, I show how data capture is
+not merely a sensory experience whereby nature is recorded on a
+one-to-one basis but is in fact structured by models and power relations
+that legitimize data and make them useful.
 
 \section{Background}\label{background}
 
-This\paragraphnumber{[4]} work builds upon prior studies of
-archaeological documentation in fieldwork settings, particularly
-Edgeworth's (1991: 28) dissertation that documented ``the transaction
-between the subject and the object, as it takes place in the act of
-discovery,'' which represented an attempt to ground theoretical
-discourse concerning the objectivity of the archaeological record in the
-practical ``intersubjective work or labour upon material objects''. This
-extremely polyvalent work touched on various aspects of archaeological
-practice, highlighting the collective and discursive process of
-archaeological knowledge production in various settings. Edgeworth
-closely examined the physical acts of excavation, the mindsets of the
-people doing this work, the sensory and conceptual apparatus through
-which objects are uncovered and made meaningful, and the social
-transactions that surround and permeate life on the project. His work
-drew attention to the social and professional interactions taking place
-at an archaeological excavation, and which occur as archaeologists
-articulate an object as a meaningful or discrete entity and make it
-official. Crucially, Edgeworth highlighted how archaeological records
-are produced through improvised, semistructured, and discursive actions
-feasible given practical concerns and limited by the prior experiences
-held by those doing the work.
+This\paragraphnumber{[4]} work builds on prior studies of archaeological
+documentation in fieldwork settings, particularly Edgeworth's (1991: 28)
+dissertation that documented ``the transaction between the subject and
+the object, as it takes place in the act of discovery'': his work was an
+attempt to ground theoretical discourse concerning the objectivity of
+the archaeological record in the practical ``intersubjective work or
+labour upon material objects''. This extremely polyvalent work touched
+on various aspects of archaeological practice, highlighting the
+collective and discursive process of archaeological knowledge production
+in various settings. Edgeworth closely examined the physical acts of
+excavation, the mindsets of the people doing this work, the sensory and
+conceptual apparatus through which objects are uncovered and made
+meaningful, and the social transactions that surround and permeate life
+on the project. His work drew attention to the social and professional
+interactions taking place at an archaeological excavation and those that
+occur as archaeologists articulate an object as a meaningful or discrete
+entity and make it official. Crucially, Edgeworth highlighted how
+archaeological records are produced through improvised, semistructured,
+and discursive actions feasible given practical concerns and limited by
+the prior experiences held by those doing the work.
 
 Similarly,\paragraphnumber{[5]} Goodwin (1994, 2010) observed how the
 formation of concrete records in fieldwork settings relates to the
 establishment of professional frameworks, which lend authoritative
-legitimacy to the meanings that archaeologists eventually settled upon.
-This touched on similar observations made by Gero (1996), who noted how
-certain ways of delimiting features --- which corresponded with gendered
-experiences --- were deemed more legitimate than others. Mickel (2021)
-and Yarrow (2008) also documented that archaeological labourers
-(including local labourers and undergraduate students) are less able to
-contribute as interpretive agents in the production of lasting records
-about the things they recover.
+legitimacy to the meanings on which archaeologists eventually settle.
+Gero (1996) made similar observations, noting how certain ways to
+delimit features---which corresponded with gendered experiences---were
+deemed more legitimate than others. Mickel (2021) and Yarrow (2008)
+documented that archaeological labourers (including local laborers and
+undergraduate students) are less able to contribute as interpretive
+agents in the production of lasting records about the things they
+recover.
 
 Thorpe (2012)\paragraphnumber{[6]} also argued that the broader social
 and political circumstances --- neoliberal austerity, in particular ---
 in which archaeological fieldwork tends to operate significantly effects
-how interpretations are made and arguments are extended, by effectively
+how interpretations are made and arguments are extended by effectively
 curtailing fieldworkers' creative agency. Huggett (2022b), Caraher
 (2019), Batist et al. (2021) and Batist (2025) similarly draw attention
 to how digital workflows effectively segregate acts of recording from
-acts of analysis and interpretation, by putting significant epistemic
+acts of analysis and interpretation by putting significant epistemic
 distance between those who hold creative agency in analytical and
 interpretive domains and those who occupy the domain of fieldwork; they
-further demonstrate how the latter is leveraged by the former to produce
-a clear and concise basis upon which formal analytical methods rest.
-Moreover, Batist (2024) and Hacıgüzeller, Taylor, and Perry (2021) point
-out that the formal and transactional paradigm that dominates discourse
-on what data are and how they should be handled poses problems for
-communicating what was actually encountered while excavating a feature,
-including tentative thoughts, desires and apprehensions that are left
-out of official records.
+further demonstrate how the latter domain is leveraged by the former to
+produce a clear and concise basis on which formal analytical methods
+rest. Moreover, Batist (2024) and Hacıgüzeller, Taylor, and Perry (2021)
+point out that the formal and transactional paradigm that dominates
+discourse on what data are and how they should be handled poses problems
+for communicating what was actually encountered while excavating a
+feature, including tentative thoughts, desires and apprehensions that
+are left out of official records.
 
-In\paragraphnumber{[7]} what follows, I will extend this critique by
+In\paragraphnumber{[7]} what follows, I extend this critique by
 showcasing the improvised nature of data construction in fieldwork
 settings and by demonstrating how rough encounters with archaeological
 remains are stabilized and made more legitimate through documentation
@@ -359,7 +371,7 @@ practice that contributed to my doctoral dissertation (see Batist 2023).
 
 \subsection{Case}\label{case}
 
-This\paragraphnumber{[9]} paper draws from observations of and
+This\paragraphnumber{[9]} article draws from observations of and
 interviews with members of an archaeological project, focusing
 specifically on the pragmatic and multifaceted ways in which
 participants engage with the project's information system. This involved
@@ -368,255 +380,251 @@ summer field seasons from 2017 to 2019 and holding additional interviews
 between fieldwork sessions. The project's director also provided access
 to all documents and records for the purpose of this research.
 
-The\paragraphnumber{[10]} project upon which this case is based is a
-research project comprising excavation of a prehistoric site in Southern
-Europe. It is directed by a foreign professor affiliated with a North
-American university, but who has extensive experience working in the
-region. The director coordinates various specialists whom he recruited
-for their expertise in the interpretation of finds, a number of trench
-supervisors who lead excavation and data collection activities, and
-excavators who operate under the guidance of their assigned trench
-supervisors.
+This\paragraphnumber{[10]} research project, which excavated a
+prehistoric site in southern Europe, was directed by a foreign professor
+affiliated with a North American university and who had extensive
+experience working in the region. The director coordinated various
+specialists whom he recruited for their expertise in the interpretation
+of finds, a trench supervisors who lead excavation and data-collection
+activities, and excavators who operated under the guidance of their
+assigned trench supervisors.s The research project involved
+archaeologists with varying degrees of experience and diverse
+professional backgrounds, including those with extensive experience in
+the commercial sector (see the supplementary materials for brief
+summaries of individuals' background). It was not a field school but did
+rely on labour provided by undergraduate and graduate students and, as
+such, provided on-the-job training.
 
-It\paragraphnumber{[11]} is a research project involving archaeologists
-with varying degrees of experience and coming from diverse professional
-backgrounds, including those with extensive experience in the commercial
-sector (see the supplementary materials for brief summaries of
-individuals' background). It is not a field school, but it does rely to
-a large extent on labour provided by undergraduate and graduate
-students, and as such engages in on-the-job training. The informal and
-situated learning experiences I was able to observe represent instances
-of legitimate peripheral participation, whereby newcomers are introduced
-to the norms and expectations that govern the archaeological community
-of practice. These scenarios provide especially clear opportunities to
-ascertain the value ascribed to observed practices and information
-outcomes conveyed by teachers and adopted by learners through active and
-productive tutelage. There is a strong precedent for this approach to
-the study of archaeological practice (cf. Everill 2007; Goodwin 1994,
-2010; Morgan and Wright 2018), including in contexts of continual,
-life-long learning among experienced archaeologists (cf. Edgeworth 1991;
-Gero 1994; Graham 2019).
+The\paragraphnumber{[11]} informal and situated learning experiences I
+observed represent instances of legitimate peripheral participation,
+whereby newcomers are introduced to the norms and expectations that
+govern the archaeological community of practice. These scenarios provide
+valuable opportunities to ascertain the value ascribed to observed
+practices and information outcomes conveyed by teachers and adopted by
+learners through active and productive tutelage. There is a strong
+precedent for this approach to the study of archaeological practice (see
+Everill 2007; Goodwin 1994, 2010; Morgan and Wright 2018), including in
+contexts of continual, lifelong learning among experienced
+archaeologists (cf. Edgeworth 1991; Gero 1994; Graham 2019).
 
 This\paragraphnumber{[12]} project served as one of three cases I
 investigated for my doctoral dissertation, which documents how
 archaeological information systems scaffold the collaborative and
 epistemic commitments that govern professional research practices
-(Batist 2023). The observations and elicitations I present in this paper
+(Batist 2023). The observations and elicitations I present here
 illustrate a specific phenomenon with a more refined scope than what is
 accounted for in that more comprehensive work and in other research
 outcomes deriving from it (cf. Batist 2025, 2024; Batist et al. 2021).
-As such, this paper draws from a relatively small portion of the entire
-set of observations and interviews, which largely pertain to fieldwork
+It draws from a relatively small portion of the entire set of
+observations and interviews, which largely pertain to fieldwork
 recording practices, processing and analysis of finds, records
 management, interdisciplinary collaboration, decisions regarding writing
 and publication of findings, and discussions of how data and findings
-are presented, evaluated and revised among broader research communities.
+are presented, evaluated, and revised among broader research
+communities.
 
 I\paragraphnumber{[13]} actively contributed to the project for several
-years, primarily serving as a database manager. This afforded me with
+years, primarily serving as a database manager. This provided me with
 greater awareness of its organizational and institutional history,
-including a deeper familiarity with all the people involved, and
-provided me with a privileged outlook on how team members structure
-information, how they typically use data, and what circumstantial events
-or motivating factors frame such concerns. My continual and
-participatory engagement with this project allowed me to develop an
-understanding of the intricate social relations as they developed over
-time, and enabled me to examine certain methods that are drawn out over
-the course of several field seasons.
+including a deeper familiarity with all the people involved, and a
+privileged outlook on how team members structure information, how they
+typically use data, and what circumstantial events or motivating factors
+frame such concerns. My participatory engagement with this project
+allowed me to develop an understanding of the intricate social relations
+as they developed over time, and to examine certain methods that are
+drawn out over the course of several field seasons.
 
-I\paragraphnumber{[14]} must emphasize that in case-study research,
-cases represent discrete instances of a phenomenon relating to a
-researcher's interest (Ragin 1992). Cases are therefore not the subjects
-of inquiry, but the vehicles through which phenomena of interest are
-manifested in an observable way. I recognize that all archaeological
-projects are informed by their own histories, memberships, sets of
-tools, methods, and social or political circumstances, which inform
-distinct traditions of practice, and that it is not possible to
-generalize across the whole discipline through a single case study. In
-other words, my findings are informed by the informants whose actions
-and attitudes I sought to articulate, and by my own perspective as a
-scholar of the culture and practice of archaeology and of the media and
-infrastructures that support it. The implication is that commercial
-archaeology, which comprises the vast majority of archaeological work in
-North America and Europe, is out of the study's scope, owing to the fact
-that the case represents a research project and that I have very limited
-experience with and knowledge about commercial archaeology. However, see
-Chadwick (1998), Thorpe (2012) and Zorzin (2015) for similar research
-pertaining to commercial archaeology which produced complementary
-findings as those presented here.
+In\paragraphnumber{[14]} case-study research, cases represent discrete
+instances of a phenomenon relating to a researcher's interest (Ragin
+1992). Therefore, cases are not the subjects of inquiry, but instead the
+vehicles through which phenomena of interest are manifested in an
+observable way. I recognize that all archaeological projects are
+informed by their own histories, memberships, sets of tools, methods,
+and social or political circumstances, which inform distinct traditions
+of practice, and that it is not possible to generalize across the whole
+discipline through a single case study. In other words, my findings are
+informed by the informants whose actions and attitudes I sought to
+articulate, and by my own perspective as a scholar of the culture and
+practice of archaeology and of the media and infrastructures that
+support it. Commercial archaeology, which comprises the vast majority of
+archaeological work in North America and Europe, is outside the study's
+scope, because the case represents a research project and I have very
+limited experience with and knowledge about commercial archaeology.
+However, Chadwick (1998), Thorpe (2012), and Zorzin (2015) present
+similar research pertaining to commercial archaeology, which produced
+complementary findings to those presented here.
 
-That\paragraphnumber{[15]} being said, this single case study does
+Nevertheless,\paragraphnumber{[15]} this single case study does
 articulate some significant factors that contribute to decisions and
-behaviours that archaeologists commonly make and enact, makes certain
-underappreciated social and collaborative commitments that underlie
-common tools and practices more visible, and draws attention to certain
+behaviours that archaeologists commonly make and enact, make more
+visible certain underappreciated social and collaborative commitments
+that underlie common tools and practices, and draw attention to certain
 patterns of practice that relate to contemporary discourse on the nature
 of archaeological data and ongoing development of information
 infrastructures.
 
 \subsection{Data}\label{data}
 
-My\paragraphnumber{[16]} dataset comprises recorded observations,
+My\paragraphnumber{[16]} dataset includes recorded observations,
 embedded interviews, retrospective interviews, archaeological
-documentation, and ethnographic and reflexive fieldnotes.
-
-Observational\paragraphnumber{[17]} data comprised records of
-participants' behaviours as they performed various archaeological
-activities and take the form of video, audio and textual files. They
-enable me to document \emph{how} practices are performed, in addition to
-the fact \emph{that} they are performed. Moreover, observational data
-allow me to document what participants actually do as opposed to what
-they think or say they do. For instance, I situated activities in
-relation to broader systems, even when participants are unaware that
-they are contributing to these systems, in order to consider how
-activities occurring at various times or in various contexts indirectly
-relate to, compare with or inform each other. I observed roughly 66
+documentation, and ethnographic and reflexive fieldnotes. Observational
+data comprise records of participants' behaviours as they performed
+various archaeological activities and take the form of video, audio and
+textual files. They enable me to document \emph{how} practices are
+performed, in addition to the fact \emph{that} they are performed. Thus,
+these data allow me to document what participants actually did, as
+opposed to what they thought or said they did. For instance, to consider
+how activities occurring at various times or in various contexts
+indirectly relate to, compare with, or inform each other, I situated
+activities in relation to broader systems, even when participants were
+unaware that they were contributing to these systems. I observed 66
 hours of work from this case, which were typically recorded using three
-different cameras --- including cameras placed on participants'
-foreheads --- to obtain different perspectives on the recorded
-activities. Some of the primary foci that guided my observations were
-the processes that result in archaeological records; people's use of
-information objects or interfaces, which sometimes differ from expected
-behaviour established through their design; how subjects implemented
-unconventional solutions or ``hacks'' to work around problems; how the
-context of an activity affects its implementation; and how local or
-idiosyncratic terms, concepts and gestures become established in a
-research community.
+cameras --- including cameras placed on participants' foreheads --- to
+obtain different perspectives on the recorded activities. Some of the
+primary foci that guided my observations were the processes that
+resulted in archaeological records; people's use of information objects
+or interfaces, which sometimes differed from expected behavior; how
+subjects implemented unconventional solutions or ``hacks'' as
+workarounds; how the context of an activity affected its implementation;
+and how local or idiosyncratic terms, concepts, and gestures became
+established in a research community.
 
-Embedded\paragraphnumber{[18]} interviews comprised conversational
-inquiries with participants in the context of their work, and were meant
-to account for participants' perspectives regarding how and why they act
-as they do, given the immediate constraints of the situation at hand.
-Embedded interviews provided insight into the practicalities of work in
-the moment, from the perspective of practitioners themselves (Flick
-1997, 2000; Witzel 2000). They are also useful for comparing
-participants' responses with observational records to interrogate how
-and why participants' observed actions may differ from the rationales
-elucidated from embedded interviews. The fact that embedded interviews
-occurred while observing work practices makes it difficult to
-distinguish these interactions from their broader contexts, and it is
-therefore impractical to quantify how much data were collected in this
-way. Embedded interviews focused on how participants identify problems
-or challenges in their work, and to determine ways to resolve them; how
-certain people gain recognition as domain experts or authorities with
-specialized knowledge; how specialists relate their contributions to the
-contributions of others; and how specialists relate their situated
-perspectives to centralized knowledge repositories.
+Embedded\paragraphnumber{[17]} interviews comprise conversational
+inquiries with participants in the context of their work; they are meant
+to account for participants' perspectives regarding how and why they
+acted as they did, given the immediate constraints of the situation at
+hand. Embedded interviews provide insight into the practicalities of
+work in the moment from the practitioners' perspective (Flick 1997,
+2000; Witzel 2000). They are also useful for comparing participants'
+responses with observational records to interrogate how and why
+participants' observed actions may differ from the rationales elucidated
+from embedded interviews. The fact that embedded interviews occurred
+while observing work practices makes it difficult to distinguish these
+interactions from their broader contexts, and it is therefore
+impractical to quantify how much data were collected in this way.
+Embedded interviews focused on how participants identified problems or
+challenges in their work and found ways to resolve them; how certain
+people gain recognition as domain experts or authorities with
+specialized knowledge; and how specialists related their contributions
+to the contributions of others and their situated perspectives to
+centralized knowledge repositories.
 
-Retrospective\paragraphnumber{[19]} interviews comprised longer
-sem-structured interviews outside of work settings with select
-participants to contextualize data collected by other means and to
-determine participants' views on more general or relatively unobservable
-aspects of archaeological research (such as planning, publishing,
-collaboration, etc). Participants were selected for interviews based on
-the potential to triangulate different perspectives on objects, themes
-or situations whose significance was emerging throughout the research
-(Morse and Clark 2019). I conducted 13 interviews during this case; some
-included more than one participant, and some participants sat for more
-than one interview. Retrospective interviews helped me gain insight into
-how participants situate themselves as members of and in relation to
-research communities, which may be characterized by different regimes of
-value and by different methodological protocols or argumentation
-strategies. They were meant to highlight participants' perspectives on
-the value of various kinds of research outputs, what they value in their
-work and the work of others, the major constraints and challenges that
-they and their communities face, and how they might resolve them.
+Retrospective\paragraphnumber{[18]} interviews are longer semistructured
+interviews conducted outside work settings with select participants to
+contextualize data collected by other means and to determine their views
+on more general or relatively unobservable aspects of archaeological
+research, such as planning, publishing, collaboration, and the like. I
+selected participants to be interviewed based on the potential to
+triangulate different perspectives on objects, themes, or situations
+whose significance was emerging throughout the research (Morse and Clark
+2019). I conducted 13 retrospective interviews; some included more than
+one participant, and some participants sat for more than one interview.
+These interviews helped me gain insight into how participants situated
+themselves as members of and in relation to research communities, which
+may be characterized by different regimes of value and methodological
+protocols or argumentation strategies. They were meant to highlight
+participants' perspectives on the value of various kinds of research
+outputs, what they valued in their work and the work of others, the
+major constraints and challenges that they and their communities faced,
+and how they might resolve them.
 
-I\paragraphnumber{[20]} examined documents and media (such as forms,
-photographs, labels, databases, datasets, reports, instructional media
+I\paragraphnumber{[19]} examined documents and media (such as forms,
+photographs, labels, databases, datasets, reports, instructional media,
 and field manuals) to gain insight into institutional norms or
-expectations. See Batist (2024) and Batist (2025) for more in-depth
-analysis of how people interacted with and valued these documents. This
-involved examining documents and media as means for encapsulating and
-communicating meanings among users across space and over time. This
-helped me to understand the vectors through which participants either
-tacitly form collective experiences or directly collaborate among
-themselves (Huvila 2011, 2016; Yarrow 2008). Document analysis
-emphasized understanding how document design and media capture protocols
-anticipate certain methods; how various activities refer to recorded
-information; the reasons why team members ignore certain equipment and
-forms of documentation despite their availability; how record-keeping is
-controlled through explicit or implicit imposition of limitations or
-constraints; why certain records play a more central role than others;
-and how different archaeologists record the same objects in different
-ways.
+expectations. I examined documents and media (such as forms,
+photographs, labels, databases, datasets, reports, instructional media,
+and field manuals) to gain insight into institutional norms or
+expectations (see Batist (2025) for more in-depth analysis of how people
+interacted with and valued these documents). I approached these
+documents and media as means for encapsulating and communicating
+meanings among users across space and over time. This helped me
+understand the vectors through which participants either tacitly form
+collective experiences or directly collaborate among themselves (Huvila
+2011, 2016; Yarrow 2008). Document analysis emphasized understanding how
+document design and media capture protocols anticipated certain methods;
+how various activities referred to recorded information; the reasons why
+team members ignored certain equipment and forms of documentation,
+despite their availability; how recordkeeping was controlled through the
+explicit or implicit imposition of limitations or constraints; why
+certain records played a more central role than others; and how
+different archaeologists recorded the same objects in different ways.
 
-Finally,\paragraphnumber{[21]} my field notes comprised reflexive
-journal entries that I wrote between observational sessions or
-interviews. They also include moments from observational sessions or
-interviews that I deemed particularly important, as well as descriptive
-accounts of unrecorded activities or conversations that I have since
-deemed useful data in their own right.
+Finally,\paragraphnumber{[20]} my field notes comprise reflexive journal
+entries that I wrote between observational sessions or interviews. They
+also include moments from observational sessions or interviews that I
+deemed particularly important, as well as descriptive accounts of
+unrecorded activities or conversations that I later considered to be
+useful data in their own right.
 
-I\paragraphnumber{[22]} obtained informed consent from all individuals
+I\paragraphnumber{[21]} obtained informed consent from all individuals
 included in this study in compliance with the University of Toronto's
 Social Sciences, Humanities, and Education Research Ethics Board,
-Protocol 34526. In order to ensure that participants could speak freely
-about their personal and professional relationships while minimizing
-risk to their personal and professional reputations, I committed to
-refrain from publishing any personally identifying information. I refer
-to all participants, affiliated organizations, and mentioned individuals
-or organizations using pseudonyms. I also edited visual media to obscure
+Protocol 34526. To ensure that participants could speak freely about
+their personal and professional relationships while minimizing risk to
+their personal and professional reputations, I committed to refrain from
+publishing any personally identifying information. I referred to all
+participants, affiliated organizations, and mentioned individuals or
+organizations using pseudonyms. I also edited visual media to obscure
 participants' faces and other information that might reveal their
-identities, and took care to edit or avoid using direct quotations that
+identities and took care to edit or avoid using direct quotations that
 were cited in other published work that follows a more permissive
 protocol regarding the dissemination of participants' identifying
 information.
 
 \subsection{Analysis}\label{analysis}
 
-I\paragraphnumber{[23]} analyzed recorded observations and interviews,
+I\paragraphnumber{[22]} analyzed recorded observations and interviews
 and interrogated the roles and affordances of various tools and
-documents, using qualitative data analysis methods. More specifically, I
+documents using qualitative data analysis methods. More specifically, I
 draw from the ``constellation of methods'' that Charmaz (2014: 14-15)
-associated with grounded theory, namely coding and memoing. Coding
+associated with grounded theory, namely coding and memo-writing. Coding
 involves defining what data are about in terms (or codes) that are
-relevant to the theoretical frameworks that inform my research, and
+relevant to the theoretical frameworks that inform research, as well as
 identifying instances of these concepts (codings) as they appear
-throughout the text (Charmaz 2014: 43). Memoing entails more open-ended
-exploration and reflection upon latent ideas in order to crystallize
-them into new avenues to pursue, and constitutes a relatively flexible
+throughout the text (Charmaz 2014: 43). Memo-writing entails more
+open-ended exploration of and reflection on latent ideas to crystallize
+them into new avenues to pursue; it constitutes a relatively flexible
 way of engaging with data and serves as fertile ground for honing new
 ideas (Charmaz 2014: 72). By creating memos that relate and elaborate
 series of encoded observations and that situate observed experiences in
 relation to broader theoretical frameworks, I was able to form more
 robust and thematic arguments about the phenomena of interest while
 remaining firmly grounded in the empirical data. See Batist (2024: 9-10)
-for a more comprehensive overview of the analytical methods employed for
-the project from which this paper emerges.
+for a more comprehensive overview of the analytical methods used in the
+project from which this article emerges.
 
-Codes\paragraphnumber{[24]} were generated through iterative analysis of
+Codes\paragraphnumber{[23]} were generated through iterative analysis of
 recorded observations, transcribed interviews and scans of documents and
 field notes. An initial ``open'' coding phase involved generating codes
-in a rather open-ended manner to identify common themes and sensitizing
+in an open-ended manner to identify common themes and sensitizing
 concepts (Bowen 2006; Charmaz 2014: 30-31). Subsequent coding was
-scaffolded by a provisional taxonomic code system, which was informed by
-a loose conceptual model, which broadly encompasses codes about specific
+scaffolded by a provisional taxonomic code system that was informed by a
+loose conceptual model, which broadly encompassed codes about specific
 activities, participants' figurations, and theoretical concepts
 concerning the collective constitution of scientific knowledge (see
 Batist 2023: Appendix B for an overview of the code system). The study
 is therefore aligned with Charmaz's (2000) constructivist approach to
 grounded theory, in that it orients the work by the analyst's prior
-understandings, rather than have the codes emerge organically.
+understandings, rather than having the codes emerge organically.
 
-I\paragraphnumber{[25]} refer to specific observations or interview
-segments throughout the rest of this text using endnotes, which are
+I\paragraphnumber{[24]} refer to specific observations or interview
+segments throughout the rest of this article using endnotes that are
 indexed in the supplementary materials.
 
 \section{Findings}\label{findings}
 
-I\paragraphnumber{[26]} focus on a string of episodes where Jane, a
-promising trench assistant working at an archaeological project, learned
-to identify, differentiate, and document parts of a stratigraphic
-sequence. I illustrate how the constitution of the archaeological
-record, and the internalization of archaeological knowledge, occurred as
-part of project frameworks and collaborative relations that were
-structured by projects' divisions of labour.
+I\paragraphnumber{[25]} focus on a string of episodes during which Jane,
+a promising trench assistant working at an archaeological project,
+learned to identify, differentiate, and document parts of a
+stratigraphic sequence. This illustrates how the constitution of the
+archaeological record and the internalization of archaeological
+knowledge occurred as part of project frameworks and collaborative
+relations that were structured by divisions of labor.
 
 \subsection{Learning to see like an
 archaeologist}\label{learning-to-see-like-an-archaeologist}
 
-As\paragraphnumber{[27]} illustrated in Figure~\ref{fig-context-change},
+As\paragraphnumber{[26]} illustrated in Figure~\ref{fig-context-change},
 Jane explained to me how she identified and differentiated a new context
 that she was beginning to expose in her trench, using a series of
 gestures paired with speech to help convey what she meant to
@@ -644,7 +652,7 @@ change using gestures and speech.}
 
 \end{figure}%
 
-Afterward,\paragraphnumber{[28]} and as illustrated in
+Afterward,\paragraphnumber{[27]} and as illustrated in
 Figure~\ref{fig-context-change-discussion}, Jane consulted with Basil,
 who supervised work in this trench, and who is also the project
 director, regarding her interpretation of the soil in
@@ -673,7 +681,7 @@ context change using gestures and speech.}
 
 \end{figure}%
 
-When\paragraphnumber{[29]} Jane explained her interpretation of the soil
+When\paragraphnumber{[28]} Jane explained her interpretation of the soil
 to her supervisor, he then responded with tentative agreement, paired
 with his own gestures and intonations that subtly communicated his
 agreement or disagreement. The conversation between Jane and Basil
@@ -682,7 +690,7 @@ independent framework as a common reference point. In effect, Basil
 attempted to align Jane's emerging perspective with a professional
 outlook on the sediment's character.
 
-As\paragraphnumber{[30]} Jane stated in a subsequent interview
+As\paragraphnumber{[29]} Jane stated in a subsequent interview
 Figure~\ref{fig-training-eye}, she initially found it difficult to
 ``train her eye to see what they're seeing'', and ``they'' seems to
 refer to more senior and specialized archaeologists, including her
@@ -716,7 +724,7 @@ significant elicitations elucidated above.}
 
 \end{figure}%
 
-Jane's\paragraphnumber{[31]} internalization of the broader conceptual
+Jane's\paragraphnumber{[30]} internalization of the broader conceptual
 framework accomplished a few important things: (a) it aligned her own
 vision as part of a collectively-held way of perceiving the world, which
 is led by authoritative actors who exhibit greater creative control; (b)
@@ -735,7 +743,7 @@ the aggregative lens.
 
 \subsection{Shedding the body}\label{shedding-the-body}
 
-I\paragraphnumber{[32]} should note that Jane did not actually object to
+I\paragraphnumber{[31]} should note that Jane did not actually object to
 the reduction of her situated experience in favour of more generic forms
 of representing the stratigraphy. In fact, this conformed with a pattern
 of behaviour --- which was enacted by all the fieldworkers I spoke with
@@ -747,7 +755,7 @@ This conformed with the expectation that the things an excavator
 uncovers will gradually reveal themselves, and that she should passively
 follow what is occurring in the earth before her.
 
-To\paragraphnumber{[33]} help accomplish this, fieldworkers modified the
+To\paragraphnumber{[32]} help accomplish this, fieldworkers modified the
 environments in which they worked. For instance, some fieldworkers
 focused better while listening to music or while blocking out social
 distractions.\textsuperscript{\hyperref[sec-A7]{A7},\hyperref[sec-A8]{A8}}
@@ -763,7 +771,7 @@ recalled what he characterized as ``old fashioned'' archaeological
 fieldwork practices, which dictate that ``the only sound you should hear
 is trowel on stone.''\textsuperscript{\hyperref[sec-A8]{A8}}
 
-Having\paragraphnumber{[34]} all the necessary tools at hand was another
+Having\paragraphnumber{[33]} all the necessary tools at hand was another
 way to facilitate uninterrupted focus during
 fieldwork.\textsuperscript{\hyperref[sec-A10]{A10}} This helped
 eliminate peripheral sensory distractions when getting up or reaching
@@ -774,7 +782,7 @@ underscored by my unrecorded but common observations of supervisors
 having to force assistants to take breaks, drink water, apply sunscreen,
 and remind them that they have bodies worth cherishing and protecting.
 
-In\paragraphnumber{[35]} some cases, fieldworkers found certain kinds of
+In\paragraphnumber{[34]} some cases, fieldworkers found certain kinds of
 externally derived information useful as they excavated. For instance,
 knowing about similar stratigraphy in nearby trenches enabled excavators
 to work at a quicker pace, since it this provided a general
@@ -803,7 +811,7 @@ characterize soil samples. However, this would require a more
 comprehensive partnership between specialists and fieldworkers,
 broadening the extreme focus that fieldworkers honed for themselves.
 
-In\paragraphnumber{[36]} general then, I observed aspects of fieldwork
+In\paragraphnumber{[35]} general then, I observed aspects of fieldwork
 practice that both complement and contradict efforts to enhance
 reflexivity in fieldwork. The professed desire not to overthink while
 excavating pushes back against impulses to provide more information to
@@ -824,7 +832,7 @@ a distance''. This means of engagement feels more natural to them, as if
 unmuddied by reflexive thought, and the fieldworkers I spoke with
 perceived this as a strength.
 
-At\paragraphnumber{[37]} the same time, the fieldworkers I spoke with
+At\paragraphnumber{[36]} the same time, the fieldworkers I spoke with
 were very aware that all observation is subjective and that all records
 carry biases imposed by the practical circumstances of their creation;
 they were deeply involved in navigating these practical circumstances
@@ -834,7 +842,7 @@ of a broader systemic framework, which is informed by a (flawed)
 conception of the nature of archaeological data and of what constitutes
 proper or legitimate archaeological reasoning (Batist 2025).
 
-In\paragraphnumber{[38]} other words, fieldworkers' efforts to shed
+In\paragraphnumber{[37]} other words, fieldworkers' efforts to shed
 their embodied experiences was a strategy for coping with an ``epistemic
 anxiety'', whereby archaeologists must grapple with a tension between
 the drive to produce confident records and their intuitive understanding
@@ -849,7 +857,7 @@ overcome this challenge, they attempted to enforce standards, workflows
 and rulesets among fieldworkers so that they could obtain greater
 control over the data (Batist 2024).
 
-It\paragraphnumber{[39]} should also be emphasized that this is a
+It\paragraphnumber{[38]} should also be emphasized that this is a
 systemic issue, and does not reflect individual archaeologists' skills
 and abilities. This is evident by the remarkable consistency across
 responses by and observations of all the archaeologists I engaged with
@@ -867,7 +875,7 @@ and actions that contributed their creation.
 \subsection{Leaving traces in the subsequent
 record}\label{leaving-traces-in-the-subsequent-record}
 
-Turning\paragraphnumber{[40]} back to the specific observations of
+Turning\paragraphnumber{[39]} back to the specific observations of
 archaeological fieldwork, Basil's prediction that the context would not
 change came to fruition. However, the tentative decision to proceed as
 if a change in context was imminent left residual traces on recording
@@ -916,7 +924,7 @@ of a lithostratigraphic unit.}
 
 \end{figure}%
 
-In\paragraphnumber{[41]} particular, the tentativity and ambiguity that
+In\paragraphnumber{[40]} particular, the tentativity and ambiguity that
 Jane and Basil experienced while excavating this trench was one of its
 notable properties, as elicited in the final trench report (see
 Figure~\ref{fig-context-report}). Additionally, the report described how
@@ -936,7 +944,7 @@ journals (cf. Batist 2024), the language documenting such tentativity in
 the report remained largely impersonal and observations were de-situated
 and disembodied.
 
-It\paragraphnumber{[42]} is notable that situated experiences were
+It\paragraphnumber{[41]} is notable that situated experiences were
 recorded in the report-writing phase, and only by those acting in
 authoritative roles. This parallels how field journals --- which are
 also records of situated experiences --- are exclusively maintained by
@@ -952,7 +960,7 @@ warranted recognition of their limitations, which fieldworkers believed
 would enable undisciplined data collection
 behaviour.\textsuperscript{\hyperref[sec-A20]{A20}}
 
-In\paragraphnumber{[43]} other words, the constitution of archaeological
+In\paragraphnumber{[42]} other words, the constitution of archaeological
 records involved temporarily suspending disbelief regarding the
 stability of archaeological observations among fieldworkers, and then
 re-integration of storied accounts about the record's origins by
@@ -967,126 +975,124 @@ site, and even an entire region.
 
 \section{Discussion and Conclusion}\label{discussion-and-conclusion}
 
-This\paragraphnumber{[44]} paper's findings demonstrate how the
+This\paragraphnumber{[43]} article's findings demonstrate how the
 production of stable and concrete archaeological records involves
-characterizing the phenomena of interest in nominal terms, while
+characterizing the phenomena of interest in nominal terms while
 downplaying the situated and embodied experiences that informed the
-records' creation. More specifically, it documents a tendency toward
-enforcing formally-defined records in support of analytical tasks down
-the line, which present fieldwork as a means to an end, and fieldworkers
-as instruments that can be wielded to support future analytic
-endeavours. It shows how these values are instilled through the social
-and material experiences in which fieldwork is embedded, which inform
-fieldworkers about how their labour, and the outcomes of their labour,
-contribute to collective efforts. In other words, it reveals how the
-management of archaeological data and of archaeological labour are
-inherently intertwined, and draws attention to some mechanisms through
-which certain voices are rendered more visible than others when
-constituting the archaeological record.
+records' creation. More specifically, it documents a tendency to enforce
+formally defined records in support of analytical tasks down the line,
+which present fieldwork as a means to an end and fieldworkers as
+instruments that can be wielded to support future analytic endeavors. It
+shows how these values are instilled through the social and material
+experiences in which fieldwork is embedded, which inform fieldworkers
+about how their labor and the outcomes contribute to collective efforts.
+In other words, it reveals how the management of archaeological data and
+of archaeological labor is inherently intertwined and draws attention to
+some mechanisms through which certain voices are rendered more visible
+than others when constituting the archaeological record.
 
-Moreover,\paragraphnumber{[45]} the fieldworkers I observed and spoke
+Moreover,\paragraphnumber{[44]} the fieldworkers I observed and spoke
 with played into the roles they were assigned, even though this meant
-having less creative agency. In fact, they generally valued their
+they had less creative agency. In fact, they generally valued their
 contributions as sensory devices, which is linked to the notion that
-they were capable of seeing things as they really are --- as material
+they were capable of seeing things as they really are: as material
 entities that have seemingly not yet been ascribed stable meaning. As
 such, fieldworkers actively contributed to honing the illusion of their
 objectivity, which enhanced their value as members of the project and as
 domain specialists with their own unique cognitive skills. At the same
-time, it was also clear that fieldworkers knew, on an intuitive level,
-that any claim of objectivity is overstated (as per complementary work
-published in Batist 2024: 12). However, their positions as responsive
-rather than creative actors ensured that they are not responsible for
-resolving this tension (cf. Batist 2025).
+time, it was also clear that they knew, on an intuitive level, that any
+claim of objectivity is overstated (as per complementary work published
+in Batist 2024: 12). However, their positions as responsive rather than
+creative actors ensured that they were not responsible for resolving
+this tension (cf. Batist 2025).
 
-These\paragraphnumber{[46]} findings complement other empirical research
+These\paragraphnumber{[45]} findings complement other empirical research
 examining archaeological data management as collective interpretive
 action. For instance, Batist et al. (2021) and Batist (2025) note that
 rote fieldwork practices tend to be assigned to relatively junior
-project personnel, who become ensnared in workflows which discipline
+project personnel, who become ensnared in workflows that discipline
 their actions. Similarly, Morgan and Wright (2018), who compare analog
 and digital field drawing techniques, reveal how the act of transcribing
-archaeological deposits on a blank surface produces greater
-understanding in the minds of students than participating as a cog in a
-broader digital apparatus, owing to different degrees of creative
+archaeological deposits on a blank surface increases the understanding
+of students more than when they participate as a cog in a broader
+digital apparatus, because of the different degrees of creative
 interpretive agency that each method affords them. Moreover, Yarrow
-(2008), who examines the meaning, materiality and agency in
+(2008), who examines the meaning, materiality, and agency in
 archaeological recording practices, draws attention to expressions of
 resignation among fieldworkers who were more aware that the information
-they record does not hold special meaning, based on their prior
-understanding of how these records would actually be used down the line.
-Thorpe (2012), Zorzin (2010), Edgeworth (1991) and Watson (2019)
-highlight similar perspectives in their critical investigations of
-agentic relationships and knowledge production in commercial
-archaeology.
+they recorded did not hold special meaning, based on their prior
+understanding of how these records would actually be used later. Thorpe
+(2012), Zorzin (2010), Edgeworth (1991) and Watson (2019) highlight
+similar perspectives in their critical investigations of agentic
+relationships and knowledge production in commercial archaeology.
 
-This\paragraphnumber{[47]} paper has clear implications for thinking
+This\paragraphnumber{[46]} paper has clear implications for thinking
 about data documentation and the potential for data to be re-used in
 secondary research contexts, at greater distance from their contexts of
 creation. Surveys and experiments by Faniel et al. (2013: 299-301),
 Atici et al. (2013: 676-677), Kansa and Whitcher Kansa (2013: 90-91) and
 Chapman and Wylie (2016: 213), which investigated the needs of data
-re-users, highlighted their desires to communicate directly with
+reusers, highlighted their desires to communicate directly with
 datasets' creators to ascertain the subtext hidden between the lines of
 their formal documentation. This aligns with investigations of attempts
 to enhance archaeological documentation by Huvila, Börjesson, and Sköld
-(2022), Austin et al. (2024) and Opitz et al. (2021), which suggest that
-such efforts should be directed by specific contexts of re-use. A common
+(2022), Austin et al. (2024) and Opitz et al. (2021), who suggest that
+such efforts should be directed by specific contexts of reuse. A common
 thread across these investigations on either end of the archive is that
 effective data-sharing must involve some discursive relationship between
-those who produce and re-use data, thereby bridging the epistemic
+those who produce and reuse data, thereby bridging the epistemic
 distance imposed by layers of abstraction (Huggett 2022a). Strategies
-for enhancing data's re-use potential across the continuum of
+for enhancing data's reuse potential across the continuum of
 archaeological practice thereby embody Dallas' (2015) notion of curation
 as simultaneous acts of reconciliation and anticipation, whereby
 meanings are negotiated in relation to prior and future objectives and
 circumstances.
 
-However,\paragraphnumber{[48]} the systemic drive to produce certain
+However,\paragraphnumber{[47]} the systemic drive to produce certain
 kinds of information outcomes based on confident and stable data sources
 is not fully compatible with this need to acknowledge the complex and
 storied histories of data. This tension between distinct notions of
 data, as concrete and disembodied records in one sense, and as situated
 products of decisions, actions and circumstances in another, produces an
-epistemic anxiety that archaeologists must cope with. It is unclear how,
-or even if, this epistemic tension can be resolved, but the drive to
+epistemic anxiety that archaeologists must cope with. It is unclear how
+or even whether this epistemic tension can be resolved, but the drive to
 achieve a state of objectivity in fieldwork, which is facilitated by
-systemic distributions of agency, persists --- in spite of this
-outcome's impossibility --- as one coping mechanism.
+systemic distributions of agency, persists --- despite its impossibility
+--- as one coping mechanism.
 
-To\paragraphnumber{[49]} be clear, the instrumentalisation of
-archaeological labour is often necessary in order to derive concrete and
-confident records that are suitable for analytical methods which comply
-with modern scientific quality standards. Moreover, information commons,
-such as the pool of knowledge accumulated throughout an archaeological
-project, do not necessarily have to be egalitarian, and are always
-governed by norms and expectations concerning who may contribute to and
-extract from communal resources, and in what ways these interactions
-should occur. But rather than lean in to the illusion of archaeological
-objectivity, which is a value built in to most contemporary data
-management systems, it may be prudent to try an alternative approach
-that fosters a commensal attitude toward data; namely, one which more
-fully recognizes data work occurring throughout the continuum of
-archaeological practice, including in domains that are not typically
-recognized for their capacity to work with data, such as fieldwork.
+To\paragraphnumber{[48]} be clear, the instrumentalization of
+archaeological labor is often necessary to derive concrete and confident
+records that are suitable for analytical methods that comply with modern
+scientific quality standards. Moreover, information commons, such as the
+pool of knowledge accumulated throughout an archaeological project, do
+not necessarily have to be egalitarian: they are always governed by
+norms and expectations concerning who may contribute to and extract from
+communal resources, and in what ways these interactions should occur.
+But rather than lean in to the illusion of archaeological objectivity,
+which is a value built in to most contemporary data management systems,
+it may be prudent to try an alternative approach that fosters a
+commensal attitude toward data; namely, one that more fully recognizes
+data work occurring throughout the continuum of archaeological practice,
+including in domains that are not typically recognized for their
+capacity to work with data, such as fieldwork.
 
 \newpage
 
 \section{Supplementary Materials}\label{supplementary-materials}
 
-These\paragraphnumber{[50]} supplementary materials include a summary of
+These\paragraphnumber{[49]} supplementary materials include a summary of
 the participants' backgrounds and extracts of specific observations and
 interviews referenced throughout the paper.
 
 \subsection{Summary of Participants' Roles and
 Backgrounds}\label{summary-of-participants-roles-and-backgrounds}
 
-Here\paragraphnumber{[51]} is a list and brief description of
+Here\paragraphnumber{[50]} is a list and brief description of
 individuals mentioned throughout the paper:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0750}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9250}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0976}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9024}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -1112,13 +1118,13 @@ point he took on the role of field director. He is confident, with a
 hands-on, get-things-done attitude. \\
 \end{longtable}
 
-Here\paragraphnumber{[52]} is a list and brief description of
+Here\paragraphnumber{[51]} is a list and brief description of
 individuals mentioned throughout the referenced materials but who do not
 appear in the main section of the paper:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0750}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9250}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.0976}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.9024}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
@@ -1147,7 +1153,7 @@ Elicitations}\label{observations-and-elicitations}
 
 \subparagraph{A1}\label{sec-A1}
 
-\textbf{Jane:}\paragraphnumber{[53]} Approaching another context, I
+\textbf{Jane:}\paragraphnumber{[52]} Approaching another context, I
 think.\\
 \textbf{Zack:} Why do you think that?\\
 \textbf{Jane:} The texture is changing, and the colour is changing a
@@ -1160,7 +1166,7 @@ it's almost like if you brushed it, you would get a perfect floor.
 
 \subparagraph{A2}\label{sec-A2}
 
-\textbf{Jane:}\paragraphnumber{[54]} So, this is like still kind of a
+\textbf{Jane:}\paragraphnumber{[53]} So, this is like still kind of a
 dark, dark brown, going into the sand, but it's like really tough, like
 hard to dig through, kind of. So I think maybe it's just context
 {[}?{]}. ((gesturing towards other side of the trench)) And then this is
@@ -1201,7 +1207,7 @@ same stuff, but the consistency changed\\
 
 \subparagraph{A3}\label{sec-A3}
 
-\textbf{Zack:}\paragraphnumber{[55]} Did you feel like there are, like,
+\textbf{Zack:}\paragraphnumber{[54]} Did you feel like there are, like,
 problems, with communicating, in terms of like understanding, sort of
 the things that like Alfred was getting at? Or like, if there were any
 issues in like, uhh, comprehending something that eventually you sort of
@@ -1233,7 +1239,7 @@ knowledge. Umm, but I dunno.
 
 \subparagraph{A4}\label{sec-A4}
 
-\textbf{Lester:}\paragraphnumber{[56]} And that was the time I really
+\textbf{Lester:}\paragraphnumber{[55]} And that was the time I really
 kind of got into excavation as a concept. So I did that on my first
 year. In my second year, I {[}unclear{]} community archaeology, and then
 {[}redacted{]} field school. {[}redacted{]} field school is a big part
@@ -1244,7 +1250,7 @@ went back to the same excavation at a supervisor grade.
 
 \subparagraph{A5}\label{sec-A5}
 
-Had\paragraphnumber{[57]} a brief convo with Olivia as she was cleaning
+Had\paragraphnumber{[56]} a brief convo with Olivia as she was cleaning
 up, when the corner cam died. I really {[}.\ldots{]} by the mic. It was
 about focus, {[}awareness?{]} of one's surroundings, being in the moment
 and focusing on the task at hand. Focusing on the little things helps
@@ -1262,7 +1268,7 @@ herself and for others.
 
 \subparagraph{A6}\label{sec-A6}
 
-\textbf{Lester:}\paragraphnumber{[58]} So, our first week was tough.
+\textbf{Lester:}\paragraphnumber{[57]} So, our first week was tough.
 Very, very tough. We had a very uhh difficult trench to excavate, very
 hard layers that were very difficult to physically excavate. Uhm and I
 can dig for a certain extent, for a period of time in quite hot weather,
@@ -1288,7 +1294,7 @@ it's beneficial.
 
 \subparagraph{A7}\label{sec-A7}
 
-\textbf{Ben:}\paragraphnumber{[59]} I think just sometimes, like, I've
+\textbf{Ben:}\paragraphnumber{[58]} I think just sometimes, like, I've
 become too self-aware, and I get in my head sometimes.\\
 \textbf{Zack:} While you're digging?\\
 \textbf{Ben:} No, not while I'm digging. Because while I'm digging I'm
@@ -1296,7 +1302,7 @@ like generally busy, and I'm like, like listening to music or whatever
 
 \subparagraph{A8}\label{sec-A8}
 
-\textbf{Zack:}\paragraphnumber{[60]} And uhh, the music is a thing, it
+\textbf{Zack:}\paragraphnumber{[59]} And uhh, the music is a thing, it
 frames the mood. I'm trying to think about time and how it frames the
 day. That's a bit of an idea that I abandoned and that I want to come
 back to later on. You know, sort of, so I need to observe that earlier
@@ -1322,7 +1328,7 @@ just kind of like comes, time is like insignificant kinda thing.
 
 \subparagraph{A9}\label{sec-A9}
 
-\textbf{Basil:}\paragraphnumber{[61]} I didn't have music in our
+\textbf{Basil:}\paragraphnumber{[60]} I didn't have music in our
 trenches, and I think I initially used the excuse that our proximity to
 umm Gary's house. Although, of course Gary was only there for the last
 two weeks. I think that it might slightly annoy me if I need to be
@@ -1369,7 +1375,7 @@ about that for, for next time in terms of...
 
 \subparagraph{A10}\label{sec-A10}
 
-\textbf{Zack:}\paragraphnumber{[62]} So I have like one more section. We
+\textbf{Zack:}\paragraphnumber{[61]} So I have like one more section. We
 zoomed through this. I'm wondering about, like, the way you set up, like
 your research environments, environment or plural. I mean, do you, I've
 noticed, but maybe you don't, maybe you are less able to recognize
@@ -1390,7 +1396,7 @@ they're not laid out in order or something, but umm, yeah.
 
 \subparagraph{A11}\label{sec-A11}
 
-\textbf{Zack:}\paragraphnumber{[63]} Okay. But with regards to
+\textbf{Zack:}\paragraphnumber{[62]} Okay. But with regards to
 stratigraphy, do you take into account the other trenches and their
 stratigraphy? \textbf{Ben:} Oh, right. Yeah. Because I'm close by to
 {[}redacted trench ID{]} and a lot of the reason for opening the trench
@@ -1400,7 +1406,7 @@ the stratigraphy.
 
 \subparagraph{A12}\label{sec-A12}
 
-\textbf{Lauren:}\paragraphnumber{[64]} Exactly. Because I write it down.
+\textbf{Lauren:}\paragraphnumber{[63]} Exactly. Because I write it down.
 But still, I enjoy these interactions with people in my trench. And also
 people like, we are, like, in a luxury position on the east side, and we
 are really close with our trenches, especially Theo and I, so we can
@@ -1418,7 +1424,7 @@ Obviously, Theo has worked here last year so I've relied on his umm...
 
 \subparagraph{A13}\label{sec-A13}
 
-\textbf{Zack:}\paragraphnumber{[65]} How does the feedback you get from
+\textbf{Zack:}\paragraphnumber{[64]} How does the feedback you get from
 Jolene and Agatha and Basil and Alfred help you when you're doing it on
 your own, or when you're starting from scratch, when you're starting
 your own trench?\\
@@ -1434,7 +1440,7 @@ rather than--
 
 \subparagraph{A14}\label{sec-A14}
 
-\textbf{Ben:}\paragraphnumber{[66]} I have interacted very little with
+\textbf{Ben:}\paragraphnumber{[65]} I have interacted very little with
 Jolene. I feel that I should interact with her more, because I would
 like to know like what's going on in my trench. Umm I should probably
 talk to Agatha as well. Umm, but yeah. I've talked to, I was only here
@@ -1467,7 +1473,7 @@ knowledge you have is going to bias it, right? Like...
 
 \subparagraph{A15}\label{sec-A15}
 
-\textbf{Zack:}\paragraphnumber{[67]} What do you think of people like
+\textbf{Zack:}\paragraphnumber{[66]} What do you think of people like
 Dorothy, who aren't necessarily working with you?\\
 \textbf{Ben:} What do I think?\\
 \textbf{Zack:} Like have you asked them about their interpretation of
@@ -1487,7 +1493,7 @@ remains.
 
 \subparagraph{A16}\label{sec-A16}
 
-\textbf{Zack:}\paragraphnumber{[68]} So umm, I guess I've already got
+\textbf{Zack:}\paragraphnumber{[67]} So umm, I guess I've already got
 your bio and all that. But I'm wondering if you could reiterate your
 overall objective of your work. I mean how your work contributes to
 {[}this project{]}.\\
@@ -1502,7 +1508,7 @@ aim to finish it, but I doubt we will.
 
 \subparagraph{A17}\label{sec-A17}
 
-\textbf{Zack:}\paragraphnumber{[69]} So the third theme, and this is the
+\textbf{Zack:}\paragraphnumber{[68]} So the third theme, and this is the
 one I'm a little bit, I wasn't sure how your response would uhh, would
 play out, but are you involved at all in the preparation of data that
 will be shared externally or openly as addendums or publications, or
@@ -1532,7 +1538,7 @@ anything properly.
 
 \subparagraph{A18}\label{sec-A18}
 
-\textbf{Ben:}\paragraphnumber{[70]} Umm, I am not super academic. So
+\textbf{Ben:}\paragraphnumber{[69]} Umm, I am not super academic. So
 that's part of the reason why I'm not like super into the, the--\\
 \textbf{Zack:} The findings?\\
 \textbf{Ben:} No, no not necessarily the findings. Like I find the
@@ -1554,7 +1560,7 @@ engaging with it, or like...
 
 \subparagraph{A19}\label{sec-A19}
 
-\textbf{Zack:}\paragraphnumber{[71]} Are you familiar with the work of
+\textbf{Zack:}\paragraphnumber{[70]} Are you familiar with the work of
 the ADS?\\
 \textbf{Theo:} Yeah.\\
 \textbf{Zack:} Yeah? What do you think about it?\\
@@ -1588,7 +1594,7 @@ see if it's on ADS.
 
 \subparagraph{A20}\label{sec-A20}
 
-\textbf{Zack:}\paragraphnumber{[72]} So I'm not really, like I'm not
+\textbf{Zack:}\paragraphnumber{[71]} So I'm not really, like I'm not
 really as privy on the details of that. Can you briefly describe
 specifically what the issues were?\\
 \textbf{Theo:} It was just that it was dug poorly.\\
@@ -1943,7 +1949,7 @@ the {Logic} of {Capital} in {Heritage Management}.''}
 
 \subsection{Acknowledgments}\label{acknowledgments}
 
-I\paragraphnumber{[73]} extend warm thanks to Costis Dallas, Matt Ratto,
+I\paragraphnumber{[72]} extend warm thanks to Costis Dallas, Matt Ratto,
 Ted Banning, Jeremy Huggett and Ed Swenson for supervising my work and
 providing critical feedback as I conducted my doctoral research, which
 this paper is based upon. I am also very grateful to the anonymous
@@ -1952,11 +1958,11 @@ not have been possible without the anonymous research participants who
 allowed me to observe and interview them as they worked, and to
 articulate their actions and outlooks.
 
-Permits\paragraphnumber{[74]} were not required for this research.
+Permits\paragraphnumber{[73]} were not required for this research.
 
 \subsection{Funding}\label{funding}
 
-This\paragraphnumber{[75]} work is derived from the author's doctoral
+This\paragraphnumber{[74]} work is derived from the author's doctoral
 dissertation, \emph{Archaeological data work as continuous and
 collaborative practice} (Batist 2023), which was supported by the
 Canadian Social Sciences and Humanities Research Council Doctoral
@@ -1964,18 +1970,18 @@ Fellowship (Award ID: 752-2019-2233).
 
 \subsection{Competing Interests}\label{competing-interests}
 
-The\paragraphnumber{[76]} author states no conflicts of interest.
+The\paragraphnumber{[75]} author states no conflicts of interest.
 
 \subsection{Author Contribution}\label{author-contribution}
 
-Zachary\paragraphnumber{[77]} Batist is the sole author of this work. He
+Zachary\paragraphnumber{[76]} Batist is the sole author of this work. He
 defined the scope of the study and identified suitable cases for
 inclusion, collected and processed all data, performed analysis,
 interpreted the findings, created all the figures, and wrote the paper.
 
 \subsection{Informed Consent}\label{informed-consent}
 
-Informed\paragraphnumber{[78]} consent has been obtained from all
+Informed\paragraphnumber{[77]} consent has been obtained from all
 individuals included in this study, in compliance with the University of
 Toronto's Social Sciences, Humanities, and Education Research Ethics
 Board, Protocol 34526.
@@ -1983,12 +1989,12 @@ Board, Protocol 34526.
 \subsection{Data Availability
 Statement}\label{data-availability-statement}
 
-The\paragraphnumber{[79]} data generated and analyzed during the current
+The\paragraphnumber{[78]} data generated and analyzed during the current
 study are included in this published article's supplementary files.
 
 \subsection{Author Bio}\label{author-bio}
 
-Zachary\paragraphnumber{[80]} Batist obtained his PhD from the
+Zachary\paragraphnumber{[79]} Batist obtained his PhD from the
 University of Toronto's Faculty of Information. His research explores
 the collaborative commitments inherent throughout archaeological
 practice, especially relating to data management and the constitution of

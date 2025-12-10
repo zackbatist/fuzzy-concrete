@@ -30,10 +30,10 @@ citation:
   url: https://zackbatist.info/fuzzy-concrete
   doi: 10.1017/aap.2025.10101
   container-title: Advances in Archaeological Practice
-  volume: xx
-  issue: yy
   page-first: 1
-  page-last: 2
+  page-last: 14
+  # volume: xx
+  # issue: yy
 bibliography: fuzzy-concrete.bib
 csl: chicago-author-date.csl
 toc: true
@@ -46,6 +46,7 @@ enclosing: "[]"
 format:
   html:
     page-layout: article
+    embed-resources: true
     number-sections: false
     grid:
       body-width: 850px
@@ -77,6 +78,7 @@ format:
 
 ::: {.callout-note}
 This is a preprint of a paper accepted for publication in [Advances in Archaeological Practice](https://www.cambridge.org/core/journals/advances-in-archaeological-practice).
+There may be slight spelling and grammatical differences between these versions, but the content is largely the same.
 Please refer to the version of record when citing this work, using DOI: [10.1017/aap.2025.10101](http://doi.org/10.1017/aap.2025.10101).
 :::
 
