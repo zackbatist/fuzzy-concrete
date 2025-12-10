@@ -68,5 +68,5 @@ _site/
 
 private/
 _extensions/
-fuzzy-concrete_files/
 submission/
+# fuzzy-concrete_files/

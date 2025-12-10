@@ -46,7 +46,6 @@ enclosing: "[]"
 format:
   html:
     page-layout: article
-    embed-resources: true
     number-sections: false
     grid:
       body-width: 850px
@@ -63,6 +62,7 @@ format:
               text-align: justify;
             }
           </style>
+    # embed-resources: true
   pdf:
     documentclass: article
     keep-tex: true
