@@ -1,6 +1,6 @@
 # Findings
-I focus on a string of episodes where Jane, a promising trench assistant working at an archaeological project, learned to identify, differentiate, and document parts of a stratigraphic sequence.
-I illustrate how the constitution of the archaeological record, and the internalization of archaeological knowledge, occurred as part of project frameworks and collaborative relations that were structured by projects' divisions of labour.
+I focus on a string of episodes during which Jane, a promising trench assistant working at an archaeological project, learned to identify, differentiate, and document parts of a stratigraphic sequence.
+This illustrates how the constitution of the archaeological record and the internalization of archaeological knowledge occurred as part of project frameworks and collaborative relations that were structured by divisions of labor.
 
 ## Learning to see like an archaeologist
 As illustrated in @fig-context-change, Jane explained to me how she identified and differentiated a new context that she was beginning to expose in her trench, using a series of gestures paired with speech to help convey what she meant to say.^[A1](#sec-A1)^

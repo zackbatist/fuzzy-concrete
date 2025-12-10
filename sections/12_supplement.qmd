@@ -5,7 +5,7 @@ These supplementary materials include a summary of the participants' backgrounds
 Here is a list and brief description of individuals mentioned throughout the paper:
 
 |   |   |
-| --- | ------------------------------------- |
+| ---- | ------------------------------------- |
 | **Basil**  | Project director and faculty member at a North American university. He has extensive field experience and has consulted as a lithics specialist for various other projects, where he met many of the people who became involved with the project that he now leads. |
 | **Jane**   | One of Basil's top students, who joined the project for one season. As a very independent and competent worker, she took on supervisory responsibilities and stood out as an exemplary fieldworker. |
 | **Theo**   | Commercial archaeologist, recommended to Basil by a mutual friend. An excavator by profession, his competence often serves as an example for the rest of the crew. He became field director after a few years working as a trench supervisor. He is very laid back and has a casual attitude. |
@@ -16,7 +16,7 @@ Here is a list and brief description of individuals mentioned throughout the ref
 do not appear in the main section of the paper:
 
 |   |   |
-| --- | ------------------------------------- |
+| ---- | ------------------------------------- |
 | **Dorothy** | Senior graduate student who oversees palaeobotanical analysis, including sample collection and processing protocols. |
 | **Jolene**  | Senior graduate student who oversees the analysis of chipped stone for the project. She met Basil while working at another project. |
 | **Agatha**  | Graduate student who serves as Jolene's assistant. Her specialty is ground-stone artefacts but in this project she largely performs logistical duties. |
