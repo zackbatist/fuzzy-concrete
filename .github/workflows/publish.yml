@@ -44,12 +44,14 @@ jobs:
 
       # Render the single qmd file (this uses your LFS files)
       - name: Render Quarto document
-        run: quarto render fuzzy-concrete.qmd
+        run: |
+          quarto render fuzzy-concrete.qmd
+          cp fuzzy-concrete.html index.html
 
       # Deploy to gh-pages using the rendered output
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          publish_dir: ./
           keep_files: false
