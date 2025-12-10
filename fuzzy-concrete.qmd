@@ -1,0 +1,102 @@
+---
+title: Balancing Situated and Objective Representations in Archaeological Fieldwork
+author:
+  - name: Zachary Batist
+    id: zb
+    url: https://zackbatist.info
+    email: zachary.batist@mcgill.ca
+    corresponding: true
+    affiliations:
+      - name: McGill University
+        department: Epidemiology, Biostatistics and Occupational Health
+        city: Montreal
+        region: Québec
+        country: Canada
+    orcid: 0000-0003-0435-508X
+date: today
+abstract: |
+  Archaeology comprises both systematic and pragmatic attitudes and processes concerned with the collection and maintenance of data.
+  Thus, it needs to obtain formally defined data while also grappling with the fuzzy and uncertain nature of archaeological encounters, especially in fieldwork environments.
+  This produces an epistemic tension, as archaeologists struggle to reconcile their desire to produce concrete outcomes based on objective facts and their intuitive understanding that data are in fact products of situated decisions and actions.
+  Through observations of archaeological practices, interviews with archaeologists at work, and analysis of the documents they produced while recording objects of archaeological concern, this article describes how archaeologists cope with this tension and integrate it into their work experiences.
+keywords:
+  - data work
+  - documentation
+  - collaborative experiences
+license: CC BY
+citation:
+  type: article-journal
+  title: Balancing Situated and Objective Representations in Archaeological Fieldwork
+  url: https://zackbatist.info/fuzzy-concrete
+  doi: 10.1017/aap.2025.10101
+  container-title: Advances in Archaeological Practice
+  page-first: 1
+  page-last: 14
+  # volume: xx
+  # issue: yy
+bibliography: fuzzy-concrete.bib
+csl: chicago-author-date.csl
+toc: true
+toc-depth: 3
+toc-expand: 2
+number-sections: false
+filters:
+  - count-para.lua
+enclosing: "[]"
+format:
+  html:
+    page-layout: article
+    embed-resources: true
+    number-sections: false
+    grid:
+      body-width: 850px
+    include-in-header:
+      - text: |
+          <style type="text/css">
+          h1.hide {
+            display: none;
+          }
+          #quarto-document-content {
+              text-align: justify;
+            }
+            .abstract {
+              text-align: justify;
+            }
+          </style>
+  pdf:
+    documentclass: article
+    keep-tex: true
+    latex-clean: true
+    geometry:
+      - top = 1in
+      - bottom = 1in
+      - left = 1in
+      - right = 1in
+    colorlinks: true
+    toc: false
+    include-in-header:
+      text: |
+        \usepackage{orcidlink}
+        \usepackage{marvosym}
+    template-partials:
+      - title.tex
+---
+
+::: {.callout-note}
+This is a preprint of a paper accepted for publication in [Advances in Archaeological Practice](https://www.cambridge.org/core/journals/advances-in-archaeological-practice).
+There may be slight spelling and grammatical differences between these versions, but the content is largely the same.
+Please refer to the version of record when citing this work, using DOI: [10.1017/aap.2025.10101](http://doi.org/10.1017/aap.2025.10101).
+:::
+
+{{< include sections/01_introduction.qmd >}}
+{{< include sections/02_background.qmd >}}
+{{< include sections/03_methods-materials.qmd >}}
+{{< include sections/04_findings.qmd >}}
+{{< include sections/05_discussion-conclusion.qmd >}}
+\newpage
+{{< include sections/12_supplement.qmd >}}
+\newpage
+{{< include sections/10_references.qmd >}}
+\newpage
+{{< include sections/11_back-matter.qmd >}}
+<!-- {{< include sections/13_peer-review.qmd >}} -->
