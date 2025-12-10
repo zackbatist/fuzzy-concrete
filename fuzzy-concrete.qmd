@@ -46,7 +46,7 @@ enclosing: "[]"
 format:
   html:
     page-layout: article
-    embed-resources: true
+    embed-resources: false
     number-sections: false
     grid:
       body-width: 850px

@@ -43,27 +43,22 @@ jobs:
         run: quarto install tinytex
 
       # Render the single qmd file (this uses your LFS files)
-      # Note: embed-resources: true makes this a large self-contained HTML
       - name: Render Quarto document
         run: |
-          # Remove any LFS-tracked HTML that was checked out
           rm -f fuzzy-concrete.html
-          # Render fresh - creates large self-contained HTML with embedded resources
           quarto render fuzzy-concrete.qmd
-          # Verify we have a real HTML file, not an LFS pointer
-          if grep -q "version https://git-lfs.github.com/spec" fuzzy-concrete.html; then
-            echo "::error::Rendered file is still an LFS pointer!"
-            exit 1
-          fi
-          echo "Successfully rendered $(du -h fuzzy-concrete.html | cut -f1) HTML file"
           
-      # Prepare deployment directory with just the HTML
+      # Prepare deployment directory
       - name: Prepare deployment
         run: |
           mkdir -p _deploy
           cp fuzzy-concrete.html _deploy/index.html
+          # Copy supporting files (dereferencing any LFS)
+          if [ -d "fuzzy-concrete_files" ]; then
+            cp -rL fuzzy-concrete_files _deploy/
+          fi
           
-      # Deploy the rendered HTML
+      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
