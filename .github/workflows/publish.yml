@@ -42,12 +42,6 @@ jobs:
       - name: Install TinyTeX
         run: quarto install tinytex
 
-      # Configure git to ignore rendered output
-      - name: Configure git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
       # Render the single qmd file (this uses your LFS files)
       # Note: embed-resources: true makes this a large self-contained HTML
       - name: Render Quarto document
@@ -63,14 +57,16 @@ jobs:
           fi
           echo "Successfully rendered $(du -h fuzzy-concrete.html | cut -f1) HTML file"
           
-      # Deploy the rendered HTML directly
+      # Prepare deployment directory with just the HTML
+      - name: Prepare deployment
+        run: |
+          mkdir -p _deploy
+          cp fuzzy-concrete.html _deploy/index.html
+          
+      # Deploy the rendered HTML
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
-          publish_branch: gh-pages
-          destination_dir: ./
+          publish_dir: ./_deploy
           keep_files: false
-          # Only include the files we want to deploy
-          exclude_assets: '.git*,.github,*.qmd,*.rmd,_quarto.yml'
