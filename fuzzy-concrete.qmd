@@ -56,6 +56,12 @@ format:
           h1.hide {
             display: none;
           }
+          #quarto-document-content {
+              text-align: justify;
+            }
+            .abstract {
+              text-align: justify;
+            }
           </style>
   pdf:
     documentclass: article
