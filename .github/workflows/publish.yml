@@ -11,55 +11,45 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Checkout code and pull LFS files
-      - name: Checkout (with LFS)
+      # Checkout with LFS enabled
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           lfs: true
           fetch-depth: 0
 
-      # Cache LFS objects
-      - name: Cache Git LFS objects
-        uses: actions/cache@v4
-        with:
-          path: .git/lfs/objects
-          key: $-git-lfs-$-$
-          restore-keys: |
-            $-git-lfs-$-
-            $-git-lfs-
-
-      # Ensure LFS files are real (materialize)
-      - name: Ensure LFS files are real (materialize)
-        shell: bash
+      # Materialize LFS files
+      - name: Pull LFS files
         run: |
-          set -euo pipefail
-          git lfs install --local
-          git lfs fetch origin "${GITHUB_SHA}"
-          git lfs checkout
-          echo "LFS files tracked (pointer -> actual):"
+          git lfs install
+          git lfs pull
+
+      # Verify LFS files are materialized
+      - name: Verify LFS files
+        run: |
+          echo "LFS files tracked:"
           git lfs ls-files
-
-      # Verify no LFS pointers in source assets
-      - name: Verify no LFS pointers in source assets
-        shell: bash
-        run: |
-          set -euo pipefail
           if grep -RIl "version https://git-lfs.github.com/spec" assets 2>/dev/null; then
-            echo "::error::Found LFS pointer(s) under assets/. 'git lfs checkout' did not materialize some files." >&2
+            echo "::error::Found LFS pointer files - LFS checkout failed"
             exit 1
           fi
-          echo "No LFS pointers in raw source assets."
 
+      # Set up Quarto
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      # Install TinyTeX if needed
       - name: Install TinyTeX
         run: quarto install tinytex
 
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
+      # Render the single qmd file (this uses your LFS files)
+      - name: Render Quarto document
+        run: quarto render fuzzy-concrete.qmd
+
+      # Deploy to gh-pages using the rendered output
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          target: gh-pages
-          path: fuzzy-concrete.qmd
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          keep_files: false
