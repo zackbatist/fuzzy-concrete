@@ -61,6 +61,16 @@ jobs:
           if [ -d "fuzzy-concrete_files" ]; then
             cp -rL fuzzy-concrete_files _deploy/
           fi
+          # Copy figures directory (dereferencing LFS)
+          if [ -d "figures" ]; then
+            echo "Copying figures with LFS dereferencing..."
+            cp -rL figures _deploy/
+          fi
+          # Copy sections directory if referenced in HTML
+          if [ -d "sections" ]; then
+            echo "Copying sections..."
+            cp -rL sections _deploy/
+          fi
           
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
