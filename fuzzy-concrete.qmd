@@ -80,8 +80,8 @@ format:
         \usepackage{marvosym}
     template-partials:
       - title.tex
-  format-links:
-    - pdf
+format-links:
+  - pdf
 ---
 
 ::: {.callout-note}
