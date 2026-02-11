@@ -13,7 +13,7 @@ author:
         region: Québec
         country: Canada
     orcid: 0000-0003-0435-508X
-date: today
+# date: today
 abstract: |
   Archaeology comprises both systematic and pragmatic attitudes and processes concerned with the collection and maintenance of data.
   Thus, it needs to obtain formally defined data while also grappling with the fuzzy and uncertain nature of archaeological encounters, especially in fieldwork environments.
@@ -30,10 +30,10 @@ citation:
   url: https://zackbatist.info/fuzzy-concrete
   doi: 10.1017/aap.2025.10101
   container-title: Advances in Archaeological Practice
-  page-first: 1
-  page-last: 14
-  # volume: xx
-  # issue: yy
+  page-first: 514
+  page-last: 527
+  volume: 13
+  issue: 4
 bibliography: fuzzy-concrete.bib
 csl: chicago-author-date.csl
 toc: true
